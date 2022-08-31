@@ -1,0 +1,2659 @@
+WARNING:tensorflow:Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7fdc883782f0>) includes params argument, but params are not passed to Estimator.
+INFO:tensorflow:Using config: {'_model_dir': '../checkpoints/webqa/ner/bert_crf', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fdd5aa145f8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None), '_cluster': None}
+INFO:tensorflow:_TPUContext: eval_on_tpu True
+WARNING:tensorflow:eval_on_tpu ignored because use_tpu is False.
+INFO:tensorflow:Writing example 0 of 2424
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: train-0
+INFO:tensorflow:tokens: what character did natalie port ##man play in star wars ?
+INFO:tensorflow:input_ids: 101 2054 2839 2106 10829 3417 2386 2377 1999 2732 5233 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 1 6 7 8 1 1 1 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: train-1
+INFO:tensorflow:tokens: what state does selena gomez ?
+INFO:tensorflow:input_ids: 101 2054 2110 2515 19166 12791 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 1 6 7 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: train-2
+INFO:tensorflow:tokens: what country is the grand baha ##ma island in ?
+INFO:tensorflow:input_ids: 101 2054 2406 2003 1996 2882 13253 2863 2479 1999 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 1 1 6 7 8 1 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: train-3
+INFO:tensorflow:tokens: what character did john noble play in lord of the rings ?
+INFO:tensorflow:input_ids: 101 2054 2839 2106 2198 7015 2377 1999 2935 1997 1996 7635 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 1 6 7 1 1 1 1 1 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: train-4
+INFO:tensorflow:tokens: who does jo ##aki ##m noah play for ?
+INFO:tensorflow:input_ids: 101 2040 2515 8183 8978 2213 7240 2377 2005 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 6 8 8 7 1 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:***** Running training *****
+INFO:tensorflow:  Num examples = 2424
+INFO:tensorflow:  Batch size = 32
+INFO:tensorflow:  Num steps = 75
+WARNING:tensorflow:From /home/zhoujianping/miniconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From bert_crf.py:365: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+WARNING:tensorflow:From bert_crf.py:352: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Running train on CPU
+INFO:tensorflow:*** Features ***
+INFO:tensorflow:  name = input_ids, shape = (32, 128)
+INFO:tensorflow:  name = input_mask, shape = (32, 128)
+INFO:tensorflow:  name = label_ids, shape = (32, 128)
+INFO:tensorflow:  name = segment_ids, shape = (32, 128)
+WARNING:tensorflow:From /home/zhoujianping/QA_basedKG/bert/modeling.py:360: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /home/zhoujianping/QA_basedKG/bert/modeling.py:674: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/zhoujianping/miniconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/contrib/crf/python/ops/crf.py:213: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:  name = bert/embeddings/word_embeddings:0, shape = (30522, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/token_type_embeddings:0, shape = (2, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/position_embeddings:0, shape = (512, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/pooler/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/pooler/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = dense_37/kernel:0, shape = (768, 11)
+INFO:tensorflow:  name = dense_37/bias:0, shape = (11,)
+INFO:tensorflow:  name = crf_loss/transition:0, shape = (11, 11)
+WARNING:tensorflow:From /home/zhoujianping/miniconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/training/learning_rate_decay_v2.py:321: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2022-08-11 23:46:37.776948: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-08-11 23:46:38.027515: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0xab73760 executing computations on platform CUDA. Devices:
+2022-08-11 23:46:38.027558: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): NVIDIA GeForce GTX 1080 Ti, Compute Capability 6.1
+2022-08-11 23:46:38.031710: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2397410000 Hz
+2022-08-11 23:46:38.033665: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x29780f0 executing computations on platform Host. Devices:
+2022-08-11 23:46:38.033719: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2022-08-11 23:46:38.033980: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+name: NVIDIA GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:04:00.0
+totalMemory: 10.92GiB freeMemory: 9.88GiB
+2022-08-11 23:46:38.034017: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2022-08-11 23:46:38.038546: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-08-11 23:46:38.038586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+2022-08-11 23:46:38.038601: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+2022-08-11 23:46:38.038725: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9608 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 0 into ../checkpoints/webqa/ner/bert_crf/model.ckpt.
+2022-08-11 23:47:12.532848: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+INFO:tensorflow:Saving checkpoints for 75 into ../checkpoints/webqa/ner/bert_crf/model.ckpt.
+INFO:tensorflow:Loss for final step: 0.14872503.
+INFO:tensorflow:training_loop marked as finished
+INFO:tensorflow:Writing example 0 of 488
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: dev-0
+INFO:tensorflow:tokens: who was the founder of the colony of virginia ?
+INFO:tensorflow:input_ids: 101 2040 2001 1996 3910 1997 1996 5701 1997 3448 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 1 1 1 1 1 1 6 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: dev-1
+INFO:tensorflow:tokens: who is the state senator of kentucky ?
+INFO:tensorflow:input_ids: 101 2040 2003 1996 2110 5205 1997 5612 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 1 1 1 1 6 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: dev-2
+INFO:tensorflow:tokens: what are br ##id ##git men ##dler ' s parents names ?
+INFO:tensorflow:input_ids: 101 2054 2024 7987 3593 23806 2273 21222 1005 1055 3008 3415 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 6 8 8 7 8 8 8 1 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: dev-3
+INFO:tensorflow:tokens: what kind of paintings did fr ##ida ka ##hl ##o do ?
+INFO:tensorflow:input_ids: 101 2054 2785 1997 5265 2106 10424 8524 10556 7317 2080 2079 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 1 1 1 6 8 7 8 8 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: dev-4
+INFO:tensorflow:tokens: what movies has michael clarke duncan been in ?
+INFO:tensorflow:input_ids: 101 2054 5691 2038 2745 8359 7343 2042 1999 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 1 6 7 7 1 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:***** Running evaluation *****
+INFO:tensorflow:  Num examples = 488
+INFO:tensorflow:  Batch size = 8
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Running eval on CPU
+INFO:tensorflow:*** Features ***
+INFO:tensorflow:  name = input_ids, shape = (?, 128)
+INFO:tensorflow:  name = input_mask, shape = (?, 128)
+INFO:tensorflow:  name = label_ids, shape = (?, 128)
+INFO:tensorflow:  name = segment_ids, shape = (?, 128)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:  name = bert/embeddings/word_embeddings:0, shape = (30522, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/token_type_embeddings:0, shape = (2, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/position_embeddings:0, shape = (512, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/pooler/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/pooler/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = dense_37/kernel:0, shape = (768, 11)
+INFO:tensorflow:  name = dense_37/bias:0, shape = (11,)
+INFO:tensorflow:  name = crf_loss/transition:0, shape = (11, 11)
+WARNING:tensorflow:From /home/zhoujianping/miniconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/metrics_impl.py:259: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /home/zhoujianping/QA_basedKG/src/tf_metrics.py:130: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2022-08-11T15:48:10Z
+INFO:tensorflow:Graph was finalized.
+2022-08-11 23:48:11.104573: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2022-08-11 23:48:11.104640: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-08-11 23:48:11.104648: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+2022-08-11 23:48:11.104653: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+2022-08-11 23:48:11.104743: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9608 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+WARNING:tensorflow:From /home/zhoujianping/miniconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+INFO:tensorflow:Restoring parameters from ../checkpoints/webqa/ner/bert_crf/model.ckpt-75
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2022-08-11-15:48:29
+INFO:tensorflow:Saving dict for global step 75: eval_f = 0.11141443, eval_precision = 0.06764979, eval_recall = 0.32300377, global_step = 75, loss = 0.28319383
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 75: ../checkpoints/webqa/ner/bert_crf/model.ckpt-75
+INFO:tensorflow:evaluation_loop marked as finished
+INFO:tensorflow:***** Eval results *****
+INFO:tensorflow:  eval_f = 0.11141443
+INFO:tensorflow:  eval_precision = 0.06764979
+INFO:tensorflow:  eval_recall = 0.32300377
+INFO:tensorflow:  global_step = 75
+INFO:tensorflow:  loss = 0.28319383
+INFO:tensorflow:Writing example 0 of 1772
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: test-0
+INFO:tensorflow:tokens: what does jamaican people speak ?
+INFO:tensorflow:input_ids: 101 2054 2515 17851 2111 3713 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 6 1 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: test-1
+INFO:tensorflow:tokens: what did james k polk do before he was president ?
+INFO:tensorflow:input_ids: 101 2054 2106 2508 1047 20819 2079 2077 2002 2001 2343 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 6 7 7 1 1 1 1 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: test-2
+INFO:tensorflow:tokens: what is the oregon ducks 2012 football schedule ?
+INFO:tensorflow:input_ids: 101 2054 2003 1996 5392 14875 2262 2374 6134 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 1 6 7 1 1 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: test-3
+INFO:tensorflow:tokens: who plays ken barlow in coronation street ?
+INFO:tensorflow:input_ids: 101 2040 3248 6358 17803 1999 12773 2395 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 6 7 1 1 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:*** Example ***
+INFO:tensorflow:guid: test-4
+INFO:tensorflow:tokens: where is jam ##ar ##cus russell from ?
+INFO:tensorflow:input_ids: 101 2073 2003 9389 2906 7874 5735 2013 1029 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:input_mask: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:label_ids: 9 1 1 6 8 8 7 1 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+INFO:tensorflow:***** Running prediction*****
+INFO:tensorflow:  Num examples = 1772
+INFO:tensorflow:  Batch size = 8
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Running eval on CPU
+INFO:tensorflow:*** Features ***
+INFO:tensorflow:  name = input_ids, shape = (?, 128)
+INFO:tensorflow:  name = input_mask, shape = (?, 128)
+INFO:tensorflow:  name = label_ids, shape = (?, 128)
+INFO:tensorflow:  name = segment_ids, shape = (?, 128)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:  name = bert/embeddings/word_embeddings:0, shape = (30522, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/token_type_embeddings:0, shape = (2, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/position_embeddings:0, shape = (512, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/pooler/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/pooler/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = dense_37/kernel:0, shape = (768, 11)
+INFO:tensorflow:  name = dense_37/bias:0, shape = (11,)
+INFO:tensorflow:  name = crf_loss/transition:0, shape = (11, 11)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2022-08-11T15:48:38Z
+INFO:tensorflow:Graph was finalized.
+2022-08-11 23:48:38.804565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2022-08-11 23:48:38.804620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-08-11 23:48:38.804627: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+2022-08-11 23:48:38.804633: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+2022-08-11 23:48:38.804729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9608 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from ../checkpoints/webqa/ner/bert_crf/model.ckpt-75
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2022-08-11-15:48:50
+INFO:tensorflow:Saving dict for global step 75: eval_f = 0.115267076, eval_precision = 0.070329174, eval_recall = 0.3248488, global_step = 75, loss = 0.34594506
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 75: ../checkpoints/webqa/ner/bert_crf/model.ckpt-75
+INFO:tensorflow:evaluation_loop marked as finished
+INFO:tensorflow:***** Predict results *****
+INFO:tensorflow:  eval_f = 0.115267076
+INFO:tensorflow:  eval_precision = 0.070329174
+INFO:tensorflow:  eval_recall = 0.3248488
+INFO:tensorflow:  global_step = 75
+INFO:tensorflow:  loss = 0.34594506
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Running infer on CPU
+INFO:tensorflow:*** Features ***
+INFO:tensorflow:  name = input_ids, shape = (?, 128)
+INFO:tensorflow:  name = input_mask, shape = (?, 128)
+INFO:tensorflow:  name = label_ids, shape = (?, 128)
+INFO:tensorflow:  name = segment_ids, shape = (?, 128)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:  name = bert/embeddings/word_embeddings:0, shape = (30522, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/token_type_embeddings:0, shape = (2, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/position_embeddings:0, shape = (512, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/embeddings/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_0/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_1/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_2/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_3/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_4/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_5/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_6/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_7/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_8/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_9/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_10/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/query/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/query/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/key/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/key/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/value/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/self/value/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/attention/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/intermediate/dense/kernel:0, shape = (768, 3072), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/intermediate/dense/bias:0, shape = (3072,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/dense/kernel:0, shape = (3072, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/LayerNorm/beta:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/encoder/layer_11/output/LayerNorm/gamma:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/pooler/dense/kernel:0, shape = (768, 768), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = bert/pooler/dense/bias:0, shape = (768,), *INIT_FROM_CKPT*
+INFO:tensorflow:  name = dense_37/kernel:0, shape = (768, 11)
+INFO:tensorflow:  name = dense_37/bias:0, shape = (11,)
+INFO:tensorflow:  name = crf_loss/transition:0, shape = (11, 11)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Graph was finalized.
+2022-08-11 23:48:55.050021: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2022-08-11 23:48:55.050100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-08-11 23:48:55.050119: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+2022-08-11 23:48:55.050124: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+2022-08-11 23:48:55.050215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9608 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from ../checkpoints/webqa/ner/bert_crf/model.ckpt-75
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is jamarcus russell from ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what country did germany invade first in ww1 ?
+INFO:tensorflow:O O O B-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays bilbo baggins in the hobbit ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is my timezone in louisiana ?
+INFO:tensorflow:O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is keyshia cole dad ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when did charles goodyear invented rubber ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did france surrender to in ww2 ?
+INFO:tensorflow:O O B-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what electorate does anna bligh represent ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what timezone is sweden ?
+INFO:tensorflow:O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what highschool did harper lee go to ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what timezone is utah in ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is niall ferguson's wife ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is the galapagos islands located on a world map ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what are the songs that justin bieber wrote ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did george orwell died of ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is michael buble ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays the voice of kitt in knight rider ?
+INFO:tensorflow:O O O O O B-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what county is brentwood tennessee in ?
+INFO:tensorflow:O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what battles did stonewall jackson fight in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what language do the maasai tribe speak ?
+INFO:tensorflow:O O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what disease did patrick swayze died from ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of cancer did eva peron have ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what county is greeley colorado in ?
+INFO:tensorflow:O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who played on the jeffersons ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what songs does smokey robinson sing ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who played barbara gordon batgirl ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is jay leno from ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did armie hammer play in the social network ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did tim tebow play college football for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did anton van leeuwenhoek contribute to our knowledge of cells ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did the voice of darth vader in episode 3 ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:which country was justin bieber born in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays london tipton in suite life on deck ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team did david beckham play for in 2011 ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who wrote the jana gana mana ?
+INFO:tensorflow:O O O B-LOC I-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of cancer did gilda radner die of ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays juni cortez ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did carrie ann inaba get engaged to ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did dolly parton grow up ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is gimli's father in the hobbit ?
+INFO:tensorflow:O O B-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who led the campaign in the shenandoah valley ?
+INFO:tensorflow:O O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is eli whitney and what did he invent ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is mission san buenaventura located ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what time in hilo hawaii ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did rudolf virchow conduct his research ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did stephen hawking become famous for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was dr seuss education ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what airport do you fly into to get to destin fl ?
+INFO:tensorflow:O O O O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team does colin kaepernick play for ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did joe flacco attend college ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what artistic movement did henri matisse belong to ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is khloe kardashian's husband ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did stephen hawking study ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did bristol palin go to school ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did drew brees go to college wikianswers ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what school did ben roethlisberger go to ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what are the landlocked countries in latin america ?
+INFO:tensorflow:O O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is tyrese gibson from ?
+INFO:tensorflow:O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where are the gobi desert located on a map ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is jimmy savile ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did paul revere marry ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did fred durst do ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where was david berkowitz arrested ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what tv shows did shawnee smith play in ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what are aristotle's contributions to science ?
+INFO:tensorflow:O O B-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what year was lebron james rookie season ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did mitt romney's parents come from ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was esther's husband ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who's dating claire danes ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movies has carmen electra been in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what do christians believe about heaven hell and purgatory ?
+INFO:tensorflow:O O B-LOC O O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was carolus linnaeus ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what were amelia earhart's achievements ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did reese witherspoon get married to ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does albert pujols play for 2012 ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what has ian somerhalder acted in ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is shakira married to ?
+INFO:tensorflow:O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where was the temple of karnak built ?
+INFO:tensorflow:O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is mary mcleod bethune for kids ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is richard pryor son ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does donnie wahlberg play in the sixth sense ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did carlos boozer play for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did albert speer design ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did emperor hirohito live ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is there to do in peoria illinois ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of artist is henri matisse ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of music did claude debussy play ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team is hank baskett on 2010 ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is hammurabi and what did he do ?
+INFO:tensorflow:O O B-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays edward scissorhands ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what does joey jordison play in slipknot ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was lebron james first team ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does brian dawkins play for 2011 ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is perpignan located ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does archbishop desmond tutu live ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is giza pyramids located ?
+INFO:tensorflow:O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what instruments does justin bieber use ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who has played lex luthor ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does the zambezi river start ?
+INFO:tensorflow:O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did they find jenni rivera's body ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is jason mraz from ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what killed john bonham ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what county is texarkana arkansas in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did laura ingalls wilder wrote ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when did chipper jones get drafted ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what part did winona ryder play in star trek ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did jovan belcher kill himself ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does the zambezi river originate ?
+INFO:tensorflow:O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team did ronaldo play for in 2003 ?
+INFO:tensorflow:O O O B-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did james chadwick invent ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what position did vince lombardi play in college ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what national team does cristiano ronaldo play for ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what else did alexander graham bell invent other than the telephone ?
+INFO:tensorflow:O O O B-LOC I-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did holly madison get her breast implants ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did paula deen go to school ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what does david beckham play ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who led the mexican army at the battle of the alamo ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what has charlie hunnam been in ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what college did brett favre ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did alex chilton die ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what kind of cancer did farrah fawcett die of ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is michael j fox's wife ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is ryan seacrest radio show ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did drew barrymore go to rehab for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what instrument did robin gibb play ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who voiced darth vader ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is the zip code for nogales az ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when did michael vick start playing for the eagles ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where do kfc get their chicken from ?
+INFO:tensorflow:O O B-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did melba beals live ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where was anne boleyn executed ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of cancer did larry hagman have ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when did shays rebellion start ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what kind of disease does montel williams have ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what inventions did thomas edison invent list ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who were alexander graham bell's siblings ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does jeremy shockey play for in 2012 ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what college did deion sanders jr go to ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did tim tebow grow up ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what does the missouri river bisect ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what nationality is taylor lautner jacob black ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what timezone is the state of michigan and ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what other movies has ryan gosling been in ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what political party does julia gillard belong to ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did denise van outen married ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what college football team did john elway play for ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is isthmus of panama located on the map ?
+INFO:tensorflow:O O O O B-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did dr josef mengele do ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did robert kardashian go to college ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did the akkadian empire include ?
+INFO:tensorflow:O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does chef ina garten live ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is lamar odom doing now july 2012 ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did scott joplin play ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what school did miley cyrus ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what highschool did emily osment go to ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is thor heyerdahl ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did troy aikman play football ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who played cletus hogg ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what style of art did henri matisse do ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what timezone is tucson arizona in right now ?
+INFO:tensorflow:O O O B-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when was lucy lawless born ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what kind of leukemia did jill clayburgh have ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team did monta ellis get traded to ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what caused the embargo against cuba ?
+INFO:tensorflow:O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what pieces of music did claude debussy compose ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what kind of tennis racquet does serena williams use ?
+INFO:tensorflow:O O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is the zip code for schenectady new york ?
+INFO:tensorflow:O O O O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what drink did john pemberton create ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who makes the voice of stewie griffin ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is angelina jolie mom and dad ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what celebrities has brody jenner dated ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who are china's neighbors ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did steve mcnair died from ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is the sony ericsson company ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does michael keaton play in cars ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is the riviera casino ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did richard arkwright grow up ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what other books did louis sachar write ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does the voice for darth vader ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did thomas malthus do ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what musical instruments does justin bieber play ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was john f kennedy's family ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did pamela courson die from ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did dr jack kevorkian do ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what country does justin bieber come from ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was frida kahlo influenced by ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what year did the baltimore ravens win superbowl ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team does cristiano ronaldo play for 2011 ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did theodor schwann study ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was dr seuss's real name ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what country sponsored ferdinand magellan ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who will plaxico burress play for in 2011 ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what types of art did andy warhol do ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did louis sachar grow up ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays marshall eriksen ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is ancient phoenician ?
+INFO:tensorflow:O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is sir james dyson ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who voiced darth vader in the original star wars movies ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what high school did maya angelou go to ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is the zip code for azle texas ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who would play luke skywalker ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what awards gary paulsen won ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what superbowl did the baltimore ravens win ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was the cause of death for huell howser ?
+INFO:tensorflow:O O O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what time zone is greensburg indiana ?
+INFO:tensorflow:O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did joseph's family live ?
+INFO:tensorflow:O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where was osama bin laden killed ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is anne hathaway parents ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was van halen first album ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was pink floyd's first album ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did the yoruba originated from ?
+INFO:tensorflow:O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when is the last time the denver broncos won the superbowl ?
+INFO:tensorflow:O O O O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what part did jeff conaway play in grease ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is jacob latimore ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what happened to dunkirk during ww2 ?
+INFO:tensorflow:O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was scottie pippen good at ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when was the last time the dallas cowboys won the superbowl ?
+INFO:tensorflow:O O O O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what country is nicki minaj from ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movies did christopher plummer play in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movies is omar epps in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what district does nancy pelosi represent ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did bruce jenner win gold medal for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did kim kardashian come from ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what town did justin bieber grew up in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is michael kors best known for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what happened at benghazi ?
+INFO:tensorflow:O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did steve spurrier play pro football for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what has angelina jolie accomplished ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was wesley snipes ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does sherrod brown live ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did cristiano ronaldo play for in 2010 ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is the zip code for morgantown wv ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is jacksonville fl timezone ?
+INFO:tensorflow:O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does amy stiller play in dodgeball ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does mila kunis play on family guy ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who played denver in four christmases ?
+INFO:tensorflow:O O B-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when did gordon brown resigns ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does darth vaders voice ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what are the names of michael jackson's 3 children ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is lamar odom playing for this year ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where were the great pyramids of giza built ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did george washington carver go to collage ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was demi lovato dating ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did viggo mortensen play in lord of the rings ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movies queen latifah is in ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team does david beckham play for in 2012 ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did tom landry play for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is lawton ok zip code ?
+INFO:tensorflow:O O B-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is the capital city of spain wiki answers ?
+INFO:tensorflow:O O O O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when did mark mcgwire retired ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who played samantha stephens in bewitched ?
+INFO:tensorflow:O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is the scottish house in skyfall ?
+INFO:tensorflow:O O O B-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did coretta scott king died from ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does ronaldinho play for now 2011 ?
+INFO:tensorflow:O O B-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what galileo galilei was famous for ?
+INFO:tensorflow:O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did johnny depp play in corpse bride ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is the zip code for jonesboro ar ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is the voice of kitt ?
+INFO:tensorflow:O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is eminem's real full name ?
+INFO:tensorflow:O O B-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is amy grant's first husband ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of art does claude monet do ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what guitar did kurt cobain ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did darth vaders voice ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what sarah dessen books are movies ?
+INFO:tensorflow:O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is the current time in kauai hawaii ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did dmitri mendeleev discover in 1869 ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where was farrah fawcett buried ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was george washington's legacy ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what club does cristiano ronaldo play for in 2010 ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who influenced samuel taylor coleridge ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what does kim kardashian work as ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who played carlton lassiter on psych ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did mark zuckerberg study ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is monta ellis career high points ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what has shannen doherty played in ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what college did joakim noah ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team will michael vick play for in 2011 ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what kourtney kardashian boyfriends name ?
+INFO:tensorflow:O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what timezone is elizabethtown kentucky ?
+INFO:tensorflow:O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what year was albert pujols rookie year ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was sir isaac newton's inventions ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what football team is michael vick on ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what banjo does scott avett play ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is angelina jolie ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is nineveh city ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays eowyn in lord of the rings ?
+INFO:tensorflow:O O B-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what to do in cancun during spring break ?
+INFO:tensorflow:O O O O B-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of cancer did eva peron die from ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did terrell owens play for in 2010 ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did the battle of passchendaele happen ?
+INFO:tensorflow:O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team is cristiano ronaldo play for ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did jay moriarty die ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what drugs lindsay lohan abuse ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when did carolina panthers go to superbowl ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is michael kors real name ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did kate gosselin grew up ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was scottie pippen known for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is the euphrates and tigris river located on a map ?
+INFO:tensorflow:O O O O O B-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what other movies is josh hutcherson in ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what art did wassily kandinsky do ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was antoni gaudi inspired by ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who were demeter's siblings ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is shakira from ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did tom hanks play in apollo 13 ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is utah's state capitol ?
+INFO:tensorflow:O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team did peyton manning's dad play for ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is berkshire hathaway invested in ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is glastonbury england ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does kellan lutz play in prom night ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what time zone is toronto gmt ?
+INFO:tensorflow:O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who played darth vader at the end of return of the jedi ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what inspired michelangelo buonarroti ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what does monsanto own ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did woody harrelson play on cheers ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what colleges did mitt romney attend ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is ibrahim afellay from ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what do they think happened to natalee holloway ?
+INFO:tensorflow:O O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what to do with kids in asheville nc ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is dirk nowitzki wife ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team is raul ibanez on ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does michelle pfeiffer live now ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was laura ingalls wilder famous for ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is nick lachey married to ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was gregor mendel contribution ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of guitar does johnny depp play ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who played carmen cortez in spy kids ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what school did mark zuckerberg attend ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of art does marc chagall do ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does airtran airways fly ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did thomas paine die ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who helped eminem started his career ?
+INFO:tensorflow:O O B-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does kroy biermann play football for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when is the last time the pittsburgh steelers won a superbowl ?
+INFO:tensorflow:O O O O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movies does logan lerman play in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where to go in ibiza for families ?
+INFO:tensorflow:O O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what planet did luke skywalker came from ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did john steinbeck go to college ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did niels bohr discover about the atomic structure ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what books did louis sachar wrote ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is newt gingrich's wife's name ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of music did antonio vivaldi play ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is jake gyllenhaal married to ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did rick santorum attend high school ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did antoine lavoisier die ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what season did lana lang leave smallville ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is john cena married to ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did bobby darin die of ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what cancer did patrick swayze ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is my timezone in pennsylvania ?
+INFO:tensorflow:O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what products and\/or services does google offer customers ?
+INFO:tensorflow:O O O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what all movies has taylor lautner been in ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays spike spiegel ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does chris hemsworth have a baby with ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was france allied with in ww2 ?
+INFO:tensorflow:O O B-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is the mts iceplex in winnipeg ?
+INFO:tensorflow:O O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what are all the songs justin bieber wrote ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did buster posey go to high school ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what new movies is robert pattinson in ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what countries speak english natively ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who won fedex cup 2012 ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of art did raphael sanzio create ?
+INFO:tensorflow:O O O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did shannon hoon die from ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when did tony romo got drafted ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did mary wollstonecraft fight for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what country is dyson made ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was dr seuss real name ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did gloria steinem founded ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where to eat crawfish in beaumont ?
+INFO:tensorflow:O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what boarding school did mark zuckerberg go to ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what are bigos ?
+INFO:tensorflow:O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where are ike and tina turner's children ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was the voice of darth vader in the original star wars movie ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did andy irons die from ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is tatyana ali parents ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did leif ericson grow up ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what language do the maasai speak ?
+INFO:tensorflow:O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where was terry waite born ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did ben stiller date ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is electrolux based ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is houston timezone ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did ferdinand magellan do ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does david beckham play for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays lex luthor on smallville ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was married to jane wyman ?
+INFO:tensorflow:O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what timezone is phoenix az in right now ?
+INFO:tensorflow:O O O B-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did theodor schwann get his education ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movies has liam hemsworth played in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is the voice of eric cartman on south park ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is angelina jolies brother ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:through which countries of the sahel does the niger river flow ?
+INFO:tensorflow:O O O O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did werner heisenberg discover ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what city is acadia university in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what countries does tomtom western europe include ?
+INFO:tensorflow:O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did the second battle of ypres occur ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did michael crabtree do ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays ziva david on ncis ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what country does rafael nadal play for ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was judi dench married to ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does michael oher play for in 2010 ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is midlothian scotland ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is mitt romney's family from ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what are john terry's children called ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who fought in the battle of vicksburg ?
+INFO:tensorflow:O O O O B-LOC I-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what kind of writing is nikolai gogol famous for ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what position did lebron james play ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was wayne gretzky's first team ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is in paul ryan's family ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did lincoln steffens wrote ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what schools did anders celsius attend ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what country did gregor mendel live in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where laura ingalls wilder lived ?
+INFO:tensorflow:O B-LOC I-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what's my timezone in oklahoma ?
+INFO:tensorflow:O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did the blackfoot indians speak ?
+INFO:tensorflow:O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does alyson stoner play in camp rock ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what does a dream deferred by langston hughes ?
+INFO:tensorflow:O O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movies did david carradine play in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what language did the ancient babylonians speak ?
+INFO:tensorflow:O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what kind of painter was wassily kandinsky ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what timezone is sweden gmt ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was franklin d roosevelt's job before president ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did robert downey jr go to jail ?
+INFO:tensorflow:O O B-LOC I-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what voices does seth macfarlane play on family guy ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who played darth vader in the first movie ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what's there to see in atlanta ?
+INFO:tensorflow:O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did elliot stabler do ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did rob kardashian go to school ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what year was allen iverson mvp ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what county is utica ny in ?
+INFO:tensorflow:O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did charles babbage discover ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movies has miley cyrus been in ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what wnba team is diana taurasi on ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did diego velazquez die ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did warren buffett invest in ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what events lead to the battle of antietam ?
+INFO:tensorflow:O O O O O B-LOC I-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when did kaley cuoco join charmed ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what position did vince lombardi play ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was the cause of death for laci peterson ?
+INFO:tensorflow:O O O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team is kris humphries play for ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was tycho brahe theory ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was the last movie sean connery was in ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what materials did eduardo paolozzi use in his work ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did joe biden study in college ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:which island is kailua on ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did whoopi goldberg won a grammy for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does owen schmitt play for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what are the names of michael jackson's kids ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movies have robert pattinson in them ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays bob kelso in scrubs ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of breast cancer did sheryl crow have ?
+INFO:tensorflow:O O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does fabio capello come from ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what influenced john steinbeck to start writing ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:in which state was the battle of antietam fought ?
+INFO:tensorflow:O O O O O B-LOC I-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:which ocean does the zambezi river flow into ?
+INFO:tensorflow:O O O O B-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team did david beckham play for before la galaxy ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where was the palace of knossos located ?
+INFO:tensorflow:O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does jeb bush live ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what timezone is virginia in ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was gregor mendel and what did he contribute to science ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where to stay near asheville ?
+INFO:tensorflow:O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what county is clearwater fl in ?
+INFO:tensorflow:O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what highschool did khloe kardashian go to ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what show does tamera mowry play on ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays jim halpert ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays lola bunny on the looney tunes show ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what children's books did suzanne collins wrote ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where to stay in bermuda tripadvisor ?
+INFO:tensorflow:O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when did maria sharapova start playing tennis ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did harriet tubman live after the civil war ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did andreas vesalius die ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what other movies is liam hemsworth in ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what season did jason priestley leave 90210 ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where are you if you're in khartoum ?
+INFO:tensorflow:O O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what year did mitt romney first run for president ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what team does lamar odom play for 2013 ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does christine gregoire represent ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who did heidi klum date before seal ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is the spratly islands located ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is the holy book in taoism ?
+INFO:tensorflow:O O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is the name of justin bieber brother ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is cher's son's name ?
+INFO:tensorflow:O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when will oscar pistorius compete ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what college did kevjumba ?
+INFO:tensorflow:O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is the kakadu national park located ?
+INFO:tensorflow:O O O B-LOC I-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what did kate winslet get an oscar for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did pavlova originate ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does kris humphries play for in the nba ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did sir ernest shackleton come from ?
+INFO:tensorflow:O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what does pixar produce ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movies has taylor lautner ?
+INFO:tensorflow:O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what happened to justin bieber 2012 ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is lake waynoka ohio ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is the zip code for moorpark ca ?
+INFO:tensorflow:O O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is isthmus of panama located ?
+INFO:tensorflow:O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is wellsville missouri ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is mallorca ?
+INFO:tensorflow:O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is julia gillard famous for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what does annie leibovitz do ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what time does target in alhambra close ?
+INFO:tensorflow:O O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what were marco polo's goals ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:when will muharram start 2011 ?
+INFO:tensorflow:O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is chowchilla located ?
+INFO:tensorflow:O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was the cause of death for sage stallone ?
+INFO:tensorflow:O O O O O O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where are brembo brakes from ?
+INFO:tensorflow:O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was robert hooke's contributions to science ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what school did burne hogarth establish ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was dr seuss ?
+INFO:tensorflow:O O B-LOC I-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what football teams did emmitt smith play for ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who does zach galifianakis play in the hangover ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what was gregor mendel known for ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what type of poetry does john donne write ?
+INFO:tensorflow:O O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what does a american rottweiler look like ?
+INFO:tensorflow:O O O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where did the arizona diamondbacks play ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where are riddell helmets manufactured ?
+INFO:tensorflow:O O B-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where is christina aguilera from ?
+INFO:tensorflow:O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what timezone is minnesota in ?
+INFO:tensorflow:O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does frida kahlo live now ?
+INFO:tensorflow:O O B-LOC I-LOC O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:where does the band metallica live ?
+INFO:tensorflow:O O O O B-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who is the 2011 heisman trophy winner ?
+INFO:tensorflow:O O O O B-LOC I-LOC O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what is michael buble's style of music ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was the owner of kfc ?
+INFO:tensorflow:O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who plays stewie griffin on family guy ?
+INFO:tensorflow:O O B-LOC I-LOC O O O O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:who was the voice of simba ?
+INFO:tensorflow:O O O O O B-LOC O
+INFO:tensorflow:list index out of range
+INFO:tensorflow:what movie is angelina jolie directing ?
+INFO:tensorflow:O O O B-LOC I-LOC O O
+INFO:tensorflow:prediction_loop marked as finished
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+label示例：O O O B-LOC I-LOC O O O O O
+label示例：O O O O O O O O B-LOC O
+label示例：O O B-LOC O O O
+processed 9831 tokens with 1249 phrases; found: 1266 phrases; correct: 1194.
+accuracy:  99.00%; precision:  94.31%; recall:  95.60%; FB1:  94.95
+              LOC: precision:  94.31%; recall:  95.60%; FB1:  94.95  1266
+

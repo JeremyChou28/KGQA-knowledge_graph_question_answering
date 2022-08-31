@@ -1,0 +1,242 @@
+what does jamaican people speak?	jamaica	/location/country/languages_spoken	Jamaican Creole English Language	jamaican
+who plays ken barlow in coronation street?	ken barlow	/fictional_universe/fictional_character/character_created_by	Tony Warren	kenbarlow,street
+what else did ben franklin invent?	benjamin franklin	/law/inventor/inventions	Lightning rod	benfranklin
+what is the best sandals resort in st lucia?	saint lucia	/location/country/first_level_divisions	Micoud Quarter	stlucia
+what countries are part of the uk?	united kingdom	/location/country/administrative_divisions	Scotland	uk
+what did st augustine do?	st augustin	/people/person/profession	Physician	staugustine
+what channel is the usa pageant on?	united states	/location/country/internet_tld	us	usapageant
+where did andy murray started playing tennis?	andrew murray	/sports/tournament_event_competitor/events_competed_in	United Kingdom	andymurray
+what is the australian dollar called?	austraila	/location/country/currency_used	Australian dollar	australian
+who did cam newton sign with?	cameron newton	/sports/pro_athlete/teams	Carolina Panthers	camnewton
+what county is frederick md in?	frederick	/location/capital_of_administrative_division/capital_of	Frederick County	frederickmd
+who did george w. bush run against for the second term?	george w bush	george w bush	Al Gore	georgew.bush
+where was rihanna born and raised?	riannah	/music/artist/origin	Saint Michael Parish	rihanna
+what did the islamic people believe in?	islam	/religion/religion/practices	Zakāt	islamicpeople
+who will play mr gray in the film?	grey	grey	Karen Mulder	gray
+what did peter tchaikovsky do?	peter tjajkovskij	/common/topic/notable_for	Composer	petertchaikovsky
+who was vice president when jfk was president?	john f kennedy	/government/government_office_category/officeholders	Lyndon B. Johnson	jfk
+what is serbian language called?	serbia	/location/country/official_language	Serbian language	serbian
+what language does egyptian people speak?	egypt	/location/country/languages_spoken	Modern Standard Arabic	egyptian
+what are abraham sons names?	ibrahim	/people/person/children	Zimran	abraham
+who is the state governor of tennessee?	tennesee	/government/government_office_or_title/office_holders	Bill Haslam	tennessee
+who was the italian leader in ww1?	italy	/government/governmental_jurisdiction/governing_officials	Benito Mussolini	italian
+who is emma stone father?	emily stone	/people/person/parents	Jeff Stone	emmastone
+who was the leader of the us during wwii?	united states	/military/military_combatant/military_commanders	Gerald Ford	us
+where did the iroquois indians come from?	iroquois	/people/ethnicity/geographic_distribution	Québec	iroquoisindians
+where is tyrese gibson from?	tyrese	/people/person/place_of_birth	Watts	gibson
+what type of government does the us follow?	united states	/location/country/form_of_government	Presidential system	us
+where were the seneca indians located?	seneca nation	/people/ethnicity/geographic_distribution	New York	senecaindians
+what is william taft known for?	william howard taft	/government/politician/government_positions_held	President of the United States	williamtaft
+where to exchange euros in new york city?	new york	/location/location/nearby_airports	John F. Kennedy International Airport	newyorkcity
+what countries does the panama canal go through?	panama	panama	Panama Canal Zone	panamacanal
+where do american bulldogs originate from?	american bulldog	/biology/animal_breed/place_of_origin	United States of America	americanbulldogs
+where did flemish people come from?	vlaams language	/language/human_language/main_country	Belgium	flemish
+what state new york city belong to?	new york	/book/book_subject/works	New York	newyorkcity
+what type of government does usa follow?	united states	/location/country/form_of_government	Federal republic	usa
+what countries included in the uk?	united kingdom	/location/country/administrative_divisions	Scotland	uk
+which of the following does australia export the most?	austraila	/location/statistical_region/major_exports	Energy	australia
+what does australia use for currency?	austraila	/location/country/currency_used	Australian dollar	australia
+what type of sports do japanese play?	japan	/sports/sports_team_location/teams	Japan national football team	japanese
+when does jewish new year start?	jew	/people/ethnicity/languages_spoken	Yiddish Language	jewish
+who did queen elizabeth 1 executed?	elizabeth i of england	elizabeth i of england	queen elizabeth i of england she executed mary queen of scots	elizabeth1
+what time zone is anaheim california?	anaheim	/location/location/time_zones	Pacific Time Zone	anaheimcalifornia
+who is the head coach of inter milan?	fc internazionale milano	/soccer/football_team/manager	Andrea Stramaccioni	intermilan
+where does the shannon river start and end?	river shannon	/geography/river/origin	Shannon Pot	shannonriver
+where is the ufc headquarters?	ultimate fighting championship	/organization/organization/headquarters	Las Vegas	ufc
+when did the jews stop making animal sacrifices?	jew	/people/ethnicity/languages_spoken	Yiddish Language	jews
+what do people in australia speak?	austraila	/location/country/languages_spoken	Lojban	australia
+what did gerald r ford die from?	gerald ford	/people/deceased_person/cause_of_death	Cardiovascular disease	geraldrford
+who did john kennedy have affairs with?	john f kennedy	john f kennedy	william averell harriman appointed by john fitzgerald kennedy	johnkennedy
+what do australians call bigfoot?	australian people	/people/ethnicity/people	Waleed Aly	australians
+what airport is near arlington tx?	arlington texas	/location/location/nearby_airports	Arlington Municipal Airport	arlingtontx
+what type of government does the us constitution set up?	united states	/location/country/form_of_government	Presidential system	us
+what bible do catholics follow?	catholicism	/religion/religion/texts	Book of Nehemiah	catholics
+what language do british speak?	briton	/people/ethnicity/languages_spoken	Scottish Gaelic language	british
+what high school did lil wayne graduate from?	d carter	/people/person/education	Mcmain Magnet Secondary School	lilwayne
+what movies has john williams score?	john willams	/film/music_contributor/film	A.I. Artificial Intelligence	johnwilliams
+how deep is lake merritt oakland?	lake merritt	/location/location/containedby	Oakland	merrittoakland
+when was the last time the toronto maple leafs were in the stanley cup finals?	toronto maple leafs	/sports/sports_team/championships	1967 Stanley Cup Finals	torontomapleleafs,cup
+what was the capital city of the east roman empire?	byzantine empire	/location/country/capital	Constantinople	roman
+who is the coach of the sf giants?	san francisco giants	/baseball/baseball_team/current_coaches	Tim Flannery	sfgiants
+where can you go on eco holidays in the uk?	united kingdom	/location/statistical_region/life_expectancy	World Bank, World Development Indicators, Life Expectancy	uk
+who was the first president of the afl?	american football league	/organization/organization/founders	Bud Adams	afl
+what did queen victoria say about the suffragettes?	victoria of the united kingdom	/people/person/quotations	I am every day more convinced that we women, if we are to be good women, feminine and amiable and domestic, are not fitted to reign; at least it is they that drive themselves to the work which it entails.	queenvictoria
+what is the zip code for midland tx?	midland	/location/citytown/postal_codes	79702	midlandtx
+what language does australians speak?	australian people	/people/ethnicity/languages_spoken	Greek Language	australians
+where to go fishing in roanoke va?	roanoke colony	/location/location/events	Rainbow Bluff Expedition	roanokeva
+what did president carter do in office?	jimmy carter	jimmy carter	Social development	presidentcarter
+what time is it in texas houston right now?	houston	/location/location/time_zones	Central Time Zone	texas
+what is new york city airport?	new york	/location/location/nearby_airports	Flushing Airport	newyorkcity
+what countries do the united nations help?	united staff	/organization/membership_organization/members	Afghanistan	unitednations
+who plays blaine in batman?	david blaine	/tv/tv_personality/tv_regular_appearances	Him/Herself	batman
+what language does australia use?	austraila	/location/country/languages_spoken	English Language	australia
+what did the ancient romans speak?	roman empire	/fictional_universe/fictional_setting/languages	Latin Language	romans
+what type of government does australia have?	austraila	/location/country/form_of_government	Parliamentary system	australia
+where did al qaeda attack?	al-qaeda	/military/military_combatant/military_conflicts	Iraq War	alqaeda
+what does egfr african american mean on a blood test?	epidermal growth factor receptor	/common/topic/notable_for	Protein	africanamerican
+what language do most australians speak?	australian people	/people/ethnicity/languages_spoken	Greek Language	australians
+what time does registration open portland state?	portland	/fictional_universe/fictional_setting/fictional_characters_born_here	Zora Lancaster	portlandstate
+where is harley davidson made?	harley-davidson	/organization/organization/phone_number	United States of America	harleydavidson
+what did african americans do during the revolutionary war?	african american	african american	Continental Army Regiment	africanamericans
+what language do most italians speak?	italian people	/people/ethnicity/languages_spoken	Italian Language	italians
+when is saint george day celebrated?	st georges day	/time/holiday/day_of_year	April 23	georgeday
+when was abe lincoln president?	abraham lincoln	abraham lincoln	Abraham Lincoln 1865 presidential inauguration	abelincoln
+what is william taft famous for?	william howard taft	/government/politician/government_positions_held	President of the United States	williamtaft
+what language does algerian people speak?	algeria	/location/country/languages_spoken	Northern Berber languages	algerian
+what russian language called?	russia	/location/country/languages_spoken	Yiddish Language	russian
+what currency does australia use 2012?	austraila	/location/country/currency_used	Australian dollar	australia
+where do flemish come from?	vlaams language	/language/human_language/main_country	Belgium	flemish
+where was st peter killed?	saint peter	/people/deceased_person/place_of_death	Rome	stpeter
+what college did deion sanders jr go to?	deion sanders	/people/person/education	Florida State University	sandersjr
+what nationality is taylor lautner jacob black?	taylor lautner	/people/person/nationality	United States of America	jacobblack
+what language do colombian people speak?	colombia	/location/country/languages_spoken	Wiwa language	colombian
+what year did the bulls get rodman?	dennis rodman	/basketball/basketball_player/player_statistics	1995–96 NBA season	bulls
+who was saint paul the apostle?	paul of tarsus	/people/person/profession	Tentmaker	paultheapostle
+where did vince scully go to college?	vin scully	/people/person/education	Fordham University	vincescully
+what countries don need a visa for usa?	united states	/location/country/internet_tld	us	usa
+what are egyptian money called?	egypt	/location/country/currency_used	Egyptian pound	egyptian
+what form of government is the uk?	united kingdom	/location/country/form_of_government	Parliamentary system	uk
+when was the last time the ny knicks won a playoff game?	new york knicks	/sports/sports_team/championships	1973 NBA Finals	nyknicks
+when is st joseph birthday?	solemnity of saint joseph	/time/holiday/day_of_year	March 19	stjoseph
+who is the prime minister of jamaica west indies?	jamaica	/government/government_office_or_title/office_holders	Portia Simpson-Miller	jamaicawestindies
+when did juventus win the champions league?	juventus fc	/sports/sports_team/championships	1996 UEFA Champions League Final	juventus,league
+what is the capital of australia victoria state?	victoria	/location/administrative_division/capital	Melbourne	australiavictoria
+what timezone is tucson arizona in right now?	tucson	/location/location/time_zones	Mountain Time Zone	tucsonarizona
+what was augustus caesar famous for?	augustus	/people/person/profession	Roman emperor	augustuscaesar
+what was bonnie prince charlie full name?	charles edward stuart	/fictional_universe/person_in_fiction/representations_in_fiction	Charles Edward Stuart	bonnieprincecharlie
+what is malaysian currency?	malaysia	/location/country/currency_used	Malaysian ringgit	malaysian
+what county is houston tx in?	houston	/location/hud_county_place/county	Montgomery County	houstontx
+what is the holy book of the buddhist religion?	buddhism	/religion/religion/texts	Amitabha Sutra	buddhist
+what is the dominant religion in the us?	united states	/location/statistical_region/religions	Christianity	us
+what states share a border with tennessee?	tennesee	/location/location/adjoin_s	Virginia	tennessee
+what war did the us lose the most soldiers?	united states	/military/military_combatant/military_commanders	Vietnam War	us
+where is harley davidson corporate headquarters?	harley-davidson	/organization/organization/headquarters	Milwaukee	harleydavidson
+where is belgium germany?	belgium	/location/location/containedby	Western Europe	belgium,germany
+who are the virginia senators 2013?	virginia	/government/political_district/representatives	Mark Warner	virginiasenators
+what did vera ellen die from?	vera-ellen	/people/deceased_person/cause_of_death	Cancer	veraellen
+where do most illegal immigrants in the us come from?	united states	/location/location/adjoin_s	Mexico	us
+what countries were part of the spanish empire?	spanish	/language/human_language/countries_spoken_in	Honduras	spanishempire
+who do islamic people pray to?	islam	/religion/religion/deities	Allah	islamic
+what date did sally pearson won gold?	sally mclellan	/olympics/olympic_athlete/country	2008 Summer Olympics	sallypearson
+what percent of americans have college degree?	american people of the united states	/book/book_subject/works	Why Race Mattered in Barack Obama's Re-election	americans
+what caused the cuban rebellion in 1868?	cuba	/location/location/events	Ten Years' War	cuban
+what countries are in the uk yahoo?	united kingdom	/location/country/administrative_divisions	Scotland	uk
+what year did super mario bros 2 come out?	mario bros	/cvg/computer_videogame/processors_supported	Zilog Z80	supermariobros
+where did the israel palestine conflict start?	israeli-palestinian conflict	/time/event/includes_event	1936–39 Arab revolt in Palestine	israelpalestine
+what language did the sioux indians speak?	sioux	/people/ethnicity/languages_spoken	Sioux language	siouxindians
+what did napoleon bonaparte do as emperor?	napoleon i of france	napoleon i of france	After graduating from military school in 1785, Napoleon became a Second-Lieutenant of Artillery in the regiment of La Fere, garrisoned at Valence, in southern France where he studied military tactics and strategy and the philosophical works of Voltaire and Rousseau.	napoleonbonaparte
+where did george herbert walker bush go to college?	george h w bush	/people/person/education	Yale University	georgeherbertwalkerbush
+who plays charlie in the santa clause movies?	charlie-o	/sports/mascot/team	Kansas City Athletics	santaclause
+what was napoleon bonaparte accomplishments?	napoleon i of france	/military/military_commander/military_commands	Battle of Landshut	napoleonbonaparte
+what are italians classified as?	italian people	/people/ethnicity/included_in_group	Latin European peoples	italians
+where did the australian floods take place?	austraila	/location/country/administrative_divisions	Queensland	australian
+when is nrl grand final day?	national rugby league	/sports/sports_league/championship	NRL Grand Final	nrl
+what language do the russian speak?	russia	/location/country/languages_spoken	Yiddish Language	russian
+what language do australia people speak?	austraila	/location/country/languages_spoken	Lojban	australia
+where did abraham and his descendants live?	ibrahim	/people/deceased_person/place_of_death	Canaan	abraham
+who played amy squirrel in bad teacher?	bad teacher	/film/film/starring	Lucy Punch	amysquirrel
+what kind of music did franz liszt compose?	listz	/music/artist/genre	Opera	franzliszt
+where is victoria british columbia?	victoria canada	/location/location/containedby	Canada	victoria,britishcolumbia
+what radio station is npr on in nyc?	national public radio	/broadcast/radio_network/affiliates	WNYC	nyc
+what countries makes up the uk?	united kingdom	/location/country/administrative_divisions	Scotland	uk
+who played samantha stephens in bewitched?	bewitched	/award/award_nominated_work/award_nominations	Elizabeth Montgomery	samanthastephens
+where do i vote milwaukee wisconsin?	milwaukee	/location/location/containedby	United States of America	milwaukeewisconsin
+who owns mazda canada?	mazda	mazda	Ford Motor Company	mazdacanada
+what is jamie spears baby name?	jamie lynn spears	/people/person/sibling_s	Bryan Spears	jamiespears
+who did australia fight in the first world war?	austraila	/military/military_combatant/military_conflicts	United Kingdom	australia
+what cancer did jackie kennedy die of?	jacqueline kennedy onassis	/people/deceased_person/cause_of_death	Lymphoma	jackiekennedy
+what percent of people are overweight in the uk?	united kingdom	/location/country/internet_tld	uk	uk
+what countries require travel visas for us citizens?	united states	/location/country/internet_tld	us	us
+what nationality is rihanna?	riannah	/music/artist/origin	Barbados	rihanna
+what form of government does australia use?	austraila	/location/country/form_of_government	Parliamentary system	australia
+what to see in christchurch new zealand?	christchurch	/location/location/contains	Lincoln	christchurch,zealand
+what are the colors of the ny giants?	new york giants	/sports/sports_team/colors	Blue	ny
+when did the burma cyclone happen?	myanmar	/meteorology/cyclone_affected_area/cyclones	1999 Odisha cyclone	burma
+who was president after franklin d. roosevelt?	franklin d roosevelt	/government/us_president/vice_president	Harry S. Truman	franklind.
+where did jennifer arnold go to medical school?	the little couple	/tv/tv_program/country_of_origin	United States of America	jenniferarnold
+what country do maltese come from?	malta	malta	Region of Malta	maltese
+what college did john nash go to?	john forbes nash	/people/person/education	Carnegie Mellon University	johnnash
+what language do maltese speak?	malta	/location/country/official_language	Maltese Language	maltese
+what all did ben franklin invent?	benjamin franklin	/law/inventor/inventions	Lightning rod	benfranklin
+who are the u s senators of pennsylvania?	pennsylvania	/government/political_district/representatives	James Buchanan	us,pennsylvania
+when were south australian women given the right to vote?	south australia	/location/location/adjoin_s	Queensland	southaustralian
+what school did john henry thompson go to?	john henry poynting	/people/person/education	Victoria University of Manchester	johnhenrythompson
+what did john hancock do for the american revolution?	john hancock	john hancock	Articles of Confederation	johnhancock,americanrevolution
+what did franz liszt do to earn a living?	listz	/people/person/profession	Priest	franzliszt
+what is the zip code for princeton nj?	princeton university	/location/citytown/postal_codes	08544	princetonnj
+who played darth vader at the end of return of the jedi?	darth vader	/film/film_character/portrayed_in_films	James Earl Jones	jedi
+what did james polk do before he was president?	james k polk	/organization/organization_founder/organizations_founded	United States Naval Academy	jamespolk
+who was canadian prime minister in 1993?	canada	/government/government_office_or_title/office_holders	Brian Mulroney	canadian
+what percentage of cases does the us supreme court take?	supreme court of the united states	/location/location/containedby	United States of America	us,court
+who was ulysses s. grant?	ulysses s grant	ulysses s grant	Lieutenant-General	ulyssess.grant
+who is meredith gray married to in real life?	dr meredith grey	dr meredith grey	Dr. Derek Shepherd	meredithgray
+what year did jimmy the rev sullivan die?	the rev	/music/group_member/membership	1999	jimmy,sullivan
+who owns chrysler corporation 2011?	chrysler	/organization/organization/acquired_by	Chrysler Group LLC	chryslercorporation
+what language do people from the uk speak?	united kingdom	/location/country/languages_spoken	Scottish Gaelic language	uk
+who did ben franklin marry?	benjamin franklin	/people/person/spouse_s	Deborah Read	benfranklin
+where was the assyrian homeland?	assyria	/location/location/containedby	Middle East	assyrian
+what character did billy d williams play in star wars?	billy dee williams	/film/actor/film	Lando Calrissian	billydwilliams
+where was barack hussein obama sr born?	barack obama	/people/person/place_of_birth	Honolulu	barackhusseinobamasr
+where is the home stadium of the new england patriots?	england	/location/country/internet_tld	uk	newenglandpatriots
+who invented islamic religion?	islam	/religion/religion/founding_figures	Muhammad	islamic
+what jamaican money called?	jamaica	jamaica	United States dollar	jamaican
+what time in china hong kong?	hong kong	hong kong	UTC+8	china,hongkong
+where is the thames river source?	river thames	/geography/river/origin	Thames Head	thamesriver
+where did kim jong il die?	kim jong-il	/people/deceased_person/place_of_death	Pyongyang	kimjongil
+what is armenian currency?	armenia	/location/country/currency_used	Armenian dram	armenian
+where do the appalachian mountains run?	appalachia	/location/location/containedby	Eastern United States	appalachianmountains
+what are malaysian coins called?	malaysia	/location/country/currency_used	Malaysian ringgit	malaysian
+what to visit in london city?	london	/travel/travel_destination/tourist_attractions	Regent's Park	londoncity
+where are ike and tina turner's children?	tina turner	/people/person/children	Ronnie Turner	ike
+where do the appalachian mountains run through?	appalachia	/location/location/containedby	Eastern United States	appalachianmountains
+what countries does the arctic circle run through?	arctic	arctic	North Greenland	arcticcircle
+where is mt st helens located?	mount st helens	/location/location/containedby	Skamania County	mtsthelens
+what county is st paul minnesota in?	saint paul	/location/capital_of_administrative_division/capital_of	Ramsey County	stpaul
+when was the last time the la kings won a playoff series?	los angeles kings	/sports/sports_team/championships	2012 Stanley Cup Finals	lakings
+what is carlos pena jr nationality?	carlos pena	/people/person/nationality	Dominican Republic	carlospenajr
+what timezone is phoenix az in right now?	phoenix	/location/location/time_zones	Mountain Time Zone	phoenixaz
+where is holy roman empire located?	roman empire	/location/location/partially_contained_by	Europe	holyromanempire
+where did the second battle of ypres occur?	ypres	/location/location/containedby	Belgium	battleof
+what is the islamic belief?	islam	/religion/religion/beliefs	God in Islam	islamic
+where are the sahara desert located?	sahara	/location/location/containedby	North Africa	saharadesert
+what is rihanna mum called?	riannah	/people/person/parents	Monica Braithwaite	rihanna
+where was huey newton killed?	huey p newton	/people/deceased_person/place_of_death	Oakland	hueynewton
+where are the timezones in the usa?	united states	/location/location/time_zones	Pacific Time Zone	usa
+what does gm make?	general motors	general motors	Automobile	gm
+what do people speak in uk?	united kingdom	/location/country/languages_spoken	Scottish Gaelic language	uk
+where was rihanna raised?	riannah	/music/artist/origin	Saint Michael Parish	rihanna
+where does lil wayne go to school?	d carter	/people/person/education	University of Houston	lilwayne
+what language do they speak in colombia south america?	colombia	/location/country/languages_spoken	Spanish Language	colombia,america
+what does ss stand for in hitler's army?	adolf hitler	/organization/organization_founder/organizations_founded	Schutzstaffel	ss,army
+who plays sheldon cooper mother on the big bang theory?	sheldon cooper	/award/award_nominated_work/award_nominations	Jim Parsons	sheldoncooper,bang
+what rihanna new album called 2012?	riannah	/music/artist/album	Unapologetic	rihanna
+what was the japanese war called?	japan	/military/military_combatant/military_commanders	World War II	japanese
+what is the state name of new york city?	new york	/common/topic/alias	New York	newyorkcity
+where did sally pearson go to primary school?	sally mclellan	/people/person/education	Helensvale State High School	sallypearson
+what inventions were made by ben franklin?	benjamin franklin	/law/inventor/inventions	Lightning rod	benfranklin
+what songs did franz liszt compose?	listz	/music/composer/compositions	La lugubre gondola	franzliszt
+where did the russian japanese war happen?	russo-japanese war	/military/military_conflict/locations	Yellow Sea	russianjapanese
+what year did the la kings win the cup?	los angeles kings	/sports/sports_team/championships	2012 Stanley Cup Finals	lakings
+what body of water does st lawrence river flow into?	saint lawrence river	/geography/river/mouth	Gulf of Saint Lawrence	stlawrenceriver
+who plays king julian madagascar?	madagascar 2005	/film/film/starring	Sacha Baron Cohen	julianmadagascar
+who is rick scott?	richard lynn scott	/people/person/profession	Investor	rickscott
+when did the libyan conflict start?	libya	/location/country/national_anthem	2011	libyan
+what is newcastle metro?	tyne and wear metro	tyne and wear metro	Tyne and Wear	newcastle
+who do islamic people follow?	islam	/religion/religion/deities	Allah	islamic
+who was in the israeli palestinian conflict?	israeli-palestinian conflict	/military/military_conflict/combatants	Israel	israelipalestinian
+who founded the afl?	american football league	/organization/organization/founders	Bud Adams	afl
+what does british colony mean?	briton	/people/ethnicity/includes_groups	British American	britishcolony
+who won the michigan ohio state game 2012?	michigan-ohio state rivalry	/education/educational_institution/sports_teams	Ohio State Buckeyes football	michiganohio
+where was the prophet mohammed from?	muhammad	/people/person/place_of_birth	Mecca	mohammed
+what language do ukrainian people speak?	ukraine	/location/country/languages_spoken	Russian Language	ukrainian
+what kind of language do egyptian speak?	egypt	/location/country/languages_spoken	Modern Standard Arabic	egyptian
+what was the government like in virginia colony?	virginia	/government/governmental_jurisdiction/government	Government of Virginia	virginiacolony
+what language do bosnian muslims speak?	bosnians	/people/ethnicity/languages_spoken	Bosnian language	bosnianmuslims
+what college did john nash teach at?	john forbes nash	/people/person/education	Princeton University	johnnash
+who plays timon's voice in the lion king?	timon and pumbaa	/film/film_character/portrayed_in_films	Nathan Lane	lion
+what party was abe lincoln part of?	abraham lincoln	/government/politician/party	Illinois Republican Party	abelincoln
+where is dwayne johnson ethnicity?	the rock 1972	/people/person/ethnicity	African American	johnson
+where are the nato headquarters located?	north atlantic treaty organization	/organization/membership_organization/members	Netherlands	nato
+what are the 7 sacraments of the catholic church?	catholicism	/religion/religion/practices	Holy Orders	catholicchurch
+what team did david beckham play for before la galaxy?	david beckham	/soccer/football_player/loans	Preston North End F.C.	lagalaxy
+when was father chris riley born?	christopher riley	christopher riley	1967	chrisriley

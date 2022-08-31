@@ -1,0 +1,2414 @@
+0	who is aidan davis?	/location/country/official_language	0
+1	who plays lois griffin in family guy?	/government/politician/government_positions_held	0
+2	what kourtney kardashian baby girls name?	/people/person/children	1
+3	who is the leader of france 2012?	/book/periodical_editor/periodicals_edited	0
+4	who were we fighting in the gulf war?	/music/composition/composer	0
+5	who is timothy hutton married to?	/people/person/spouse_s	1
+6	who influenced arthur conan doyle?	/government/politician/government_positions_held	0
+7	who was the queen of the iceni tribe?	/award/award_winner/awards_won	0
+8	who plays edward scissorhands?	/location/location/containedby	0
+9	what language does romanian people speak?	/book/periodical_editor/periodicals_edited	0
+10	where is hong kong china?	/book/book/characters	0
+11	what is the currency in the dominican republic 2010?	/award/award_winner/awards_won	0
+12	where to stay in chicago tourist?	/location/location/containedby	0
+13	what money does spain use?	/soccer/football_player/goals_scored	0
+14	what type of music does ella fitzgerald sing?	/award/award_winner/awards_won	0
+15	when does jewish new year start?	/organization/organization/parent	0
+16	what type of music did claude debussy play?	/music/composition/composer	0
+17	what did richard arkwright contribute to the industrial revolution?	/book/periodical_editor/periodicals_edited	0
+18	what clubs has peter crouch played for?	/sports/pro_athlete/teams	1
+19	what teams did george steinbrenner own?	/book/book/characters	0
+20	what did nikola tesla invented that is of use today?	/location/location/containedby	0
+21	what type of government does iraq have 2012?	/award/award_winner/awards_won	0
+22	who should play harley quinn?	/location/country/official_language	0
+23	where did the battle of passchendaele happen?	/military/military_conflict/locations	1
+24	what is there to do for fun in kansas city?	/music/artist/concert_tours	0
+25	what can you visit in london?	/book/book/characters	0
+26	who has tom brady played for?	/american_football/football_player/games	1
+27	what college did maya moore go to?	/organization/organization/parent	0
+28	who are the colorado eagles?	/book/book/characters	0
+29	what should you see in london?	/award/award_winner/awards_won	0
+30	who succeeded william mckinley as president?	/award/award_winner/awards_won	0
+31	where is louisville ne?	/location/location/containedby	1
+32	what type of aircraft does virgin america use?	/location/country/official_language	0
+33	where did robbie hummel go to high school?	/people/person/education	1
+34	which college did barack obama attend?	/award/award_winner/awards_won	0
+35	who does hank baskett play for now nov 2010?	/location/country/official_language	0
+36	where was the battle of verdun ww1?	/book/book/characters	0
+37	what currency does jamaica accept?	/location/country/official_language	0
+38	what was eli whitney job?	/people/person/profession	1
+39	what movies does matt damon play in?	/government/politician/government_positions_held	0
+40	who was theodore roosevelt's vice president?	/location/country/official_language	0
+41	where was anne hathaway born?	/government/politician/government_positions_held	0
+42	who does the islamic worship?	/religion/religion/deities	1
+43	what victory was andrew jackson most famous for?	/music/artist/concert_tours	0
+44	what style of music does michael jackson perform?	/music/artist/genre	1
+45	where are the florida marlins from?	/government/politician/government_positions_held	0
+46	what sports do people in france play?	/book/book/characters	0
+47	who is sherri shepherd's new husband?	/people/person/spouse_s	1
+48	how many languages do they speak in switzerland?	/music/composition/composer	0
+49	what languages are there in japan?	/location/location/containedby	0
+50	what time is the melbourne cup?	/government/politician/government_positions_held	0
+51	where did the florida marlins?	/government/politician/government_positions_held	0
+52	who plays eowyn in lord of the rings?	/organization/organization/parent	0
+53	where is devon sawa now?	/people/person/place_of_birth	1
+54	what school did ben roethlisberger go to?	/location/location/containedby	0
+55	what kind of government does italy have?	/government/politician/government_positions_held	0
+56	where does dave ramsey live?	/location/location/containedby	0
+57	what is there fun to do in san diego?	/location/country/official_language	0
+58	where north dakota located?	/book/periodical_editor/periodicals_edited	0
+59	where is the french alps located?	/book/book/characters	0
+60	what is the last movie brittany murphy made?	/award/award_nominee/award_nominations	1
+61	what all does google have?	/award/award_winner/awards_won	0
+62	what language do people speak in brazil?	/organization/organization/parent	0
+63	where is burundi located on a map?	/location/location/containedby	1
+64	who did veronica lake mary?	/location/location/containedby	0
+65	where did hank marvin come from?	/people/person/place_of_birth	1
+66	where is mount jefferson located?	/award/award_winner/awards_won	0
+67	where is augusta golf masters?	/book/periodical_editor/periodicals_edited	0
+68	when is the rainy season in bangkok thailand?	/music/composition/composer	0
+69	what teams did jim harbaugh play for?	/award/award_winner/awards_won	0
+70	what do people speak in germany?	/soccer/football_player/goals_scored	0
+71	what county is bradenton fl located in?	/location/country/official_language	0
+72	what did corey haim act in?	/film/actor/film	1
+73	when was the last time the toronto maple leafs were in the stanley cup finals?	/music/composition/composer	0
+74	where great britain on the world map?	/book/book/characters	0
+75	where did richard arkwright die?	/location/country/official_language	0
+76	what religion in thailand?	/location/country/official_language	0
+77	what type of currency does brazil use?	/location/country/currency_used	1
+78	who was the first jedi master?	/award/award_winner/awards_won	0
+79	when did freddy krueger die?	/film/film_character/portrayed_in_films	1
+80	what is the money called in peru?	/government/politician/government_positions_held	0
+81	where was selena gomez really born?	/award/award_winner/awards_won	0
+82	where did drew stanton play in college?	/people/person/education	1
+83	what team does chris humphrey play for?	/location/country/official_language	0
+84	who founded new york university?	/soccer/football_player/goals_scored	0
+85	what is the hawaii time zone?	/book/periodical_editor/periodicals_edited	0
+86	what airlines hub in phoenix?	/location/country/official_language	0
+87	who influenced wolfgang amadeus mozart?	/media_common/dedicator/dedications	1
+88	what did mitch hedberg od on?	/book/book/characters	0
+89	what kind of cancer did farrah fawcett die of?	/soccer/football_player/goals_scored	0
+90	what state new york city belong to?	/music/composition/composer	0
+91	what contribution did maurice wilkins make to dna?	/award/award_winner/awards_won	1
+92	what kind of insurance does geico offer?	/location/country/official_language	0
+93	what do we call the currency of france?	/music/artist/concert_tours	0
+94	what is the zip code for minneapolis?	/location/country/official_language	0
+95	what year did baltimore ravens win super bowl?	/organization/organization/parent	0
+96	what currency does dominican republic take?	/location/country/currency_used	1
+97	who has ray allen dated?	/music/artist/concert_tours	0
+98	when did carolina hurricanes win the cup?	/government/politician/government_positions_held	0
+99	what voice does hank azaria do on the simpsons?	/tv/tv_actor/starring_roles	1
+100	what hemisphere is africa located in?	/organization/organization/parent	0
+101	what pieces of music did claude debussy compose?	/organization/organization/parent	0
+102	what year did arizona diamondbacks win the world series?	/book/periodical_editor/periodicals_edited	0
+103	what school did michael jordan go to?	/book/book/characters	0
+104	what form of government does brazil have?	/location/country/official_language	0
+105	what to do today in birmingham uk?	/book/periodical_editor/periodicals_edited	0
+106	what was the currency used in france before the euro?	/location/country/currency_formerly_used	1
+107	what movies has halle berry starred in?	/book/periodical_editor/periodicals_edited	0
+108	where were the great pyramids of giza built?	/organization/organization/parent	0
+109	what country did osama bin laden live in?	/people/person/places_lived	1
+110	what wnba team is diana taurasi on?	/music/artist/concert_tours	0
+111	what main language do they speak in brazil?	/location/country/official_language	0
+112	what jobs did john adams have before he was president?	/soccer/football_player/goals_scored	0
+113	what is illinois state flower called?	/government/politician/government_positions_held	0
+114	what are the three major rivers in south america?	/location/location/people_born_here	1
+115	what was pink floyd's first album?	/music/composition/composer	0
+116	what was scottie pippen known for?	/award/hall_of_fame_inductee/hall_of_fame_inductions	1
+117	what color is miley cyrus red hair?	/government/politician/government_positions_held	0
+118	where is mitsubishi headquarters?	/organization/organization/headquarters	1
+119	what are the names of harry potter movies in order?	/book/literary_series/works_in_this_series	1
+120	what techniques did frida kahlo use in her paintings?	/book/book/characters	0
+121	who wore the darth vader suit in revenge of the sith?	/government/politician/government_positions_held	0
+122	what happened to adolf hitler at the end of the war?	/book/book/characters	0
+123	who does lea michele dating in real life?	/award/award_nominee/award_nominations	1
+124	what position did lebron james play?	/music/composition/composer	0
+125	what are some books that mark twain wrote?	/location/location/containedby	0
+126	what standard time is texas?	/location/location/containedby	0
+127	where did robert kardashian go to college?	/music/artist/concert_tours	0
+128	who did howie long married?	/government/politician/government_positions_held	0
+129	what make of bike did steve mcqueen ride in the great escape?	/music/artist/concert_tours	0
+130	what style of art did henri matisse use?	/location/country/official_language	0
+131	what books are written by suzanne collins?	/music/composition/composer	0
+132	what college did deion sanders jr go to?	/music/composition/composer	0
+133	what system of government is used in the united states of america?	/government/politician/government_positions_held	0
+134	who is the prime minister of ethiopia?	/government/governmental_jurisdiction/governing_officials	1
+135	who is rob kardashian dating now 2012?	/book/periodical_editor/periodicals_edited	0
+136	what was lebron james rookie year?	/basketball/basketball_player/player_statistics	1
+137	what currency does the dominican republic?	/book/book/characters	0
+138	what is the second biggest state in the united states?	/organization/organization/parent	0
+139	where did eleanor roosevelt die?	/location/location/containedby	0
+140	where do the chicago cubs play?	/government/politician/government_positions_held	0
+141	what is the capital of oregon?	/government/politician/government_positions_held	0
+142	what is the name of currency used in spain?	/book/periodical_editor/periodicals_edited	0
+143	who's betty white?	/people/person/profession	1
+144	what language do they speak in indonesia?	/location/country/languages_spoken	1
+145	what timezone is denver co?	/book/book/characters	0
+146	who played bilbo baggins?	/location/country/official_language	0
+147	what team chris paul play for?	/award/award_winner/awards_won	0
+148	what 5 countries border ethiopia?	/location/country/official_language	0
+149	what characters does seth macfarlane voice?	/location/country/official_language	0
+150	what are the sights to see in madrid?	/music/composition/composer	0
+151	what famous book did adam smith wrote?	/book/periodical_editor/periodicals_edited	0
+152	what style of art did henri matisse use?	/book/periodical_editor/periodicals_edited	0
+153	what tv series did mark harmon star in?	/music/composition/composer	0
+154	what are some famous people from el salvador?	/music/artist/concert_tours	0
+155	what type of religion does argentina have?	/music/artist/concert_tours	0
+156	where did douglas macarthur die?	/award/award_winner/awards_won	0
+157	who invented facebook wikipedia?	/book/book/characters	0
+158	who did alf's voice?	/book/periodical_editor/periodicals_edited	0
+159	who owns the chrysler corporation?	/location/country/official_language	0
+160	where is pyramids of giza located?	/book/periodical_editor/periodicals_edited	0
+161	what year did the new york mets start?	/book/book/characters	0
+162	what was karl marx beliefs?	/government/politician/government_positions_held	0
+163	what continent is cayman islands located?	/music/artist/concert_tours	0
+164	what do you call russian currency?	/government/politician/government_positions_held	0
+165	who was france allied with in ww2?	/soccer/football_player/goals_scored	0
+166	what condition does michael j fox have?	/medicine/notable_person_with_medical_condition/condition	1
+167	what does tim gunn do for a living?	/book/periodical_editor/periodicals_edited	0
+168	who does john beck play for?	/book/periodical_editor/periodicals_edited	0
+169	what university did tony romo go to?	/book/book/characters	0
+170	what is tulane university's mascot?	/book/book/characters	0
+171	who was the prime minister of canada in 1998?	/location/country/official_language	0
+172	who is married to garth brooks?	/award/award_winner/awards_won	0
+173	what kind of government did the mali empire have?	/book/book/characters	0
+174	what is shakira's nationality?	/book/periodical_editor/periodicals_edited	0
+175	who plays sheldon cooper mother on the big bang theory?	/music/artist/concert_tours	0
+176	what books did agatha christie wrote?	/music/composition/composer	0
+177	what influenced roy lichtenstein artwork?	/influence/influence_node/influenced_by	1
+178	when did moscow burn?	/book/book/characters	0
+179	what kind of music does john mayer play?	/government/politician/government_positions_held	0
+180	what countries speak english primarily?	/book/periodical_editor/periodicals_edited	0
+181	where did john howard live?	/government/politician/government_positions_held	0
+182	where is harvard university?	/organization/organization/parent	0
+183	what national team does cristiano ronaldo play for?	/music/composition/composer	0
+184	where was george washington carver from?	/people/person/place_of_birth	1
+185	what type of strings does willie nelson use?	/award/award_winner/awards_won	0
+186	what city became the capital of the assyrian empire?	/location/country/official_language	0
+187	where to stay in paris france?	/award/award_winner/awards_won	0
+188	what county is san francisco?	/location/location/containedby	0
+189	what movies has taylor momsen been in?	/book/book/characters	0
+190	where is red lake ontario?	/geography/lake/basin_countries	1
+191	what caused the cuban rebellion in 1868?	/location/location/events	1
+192	what is warren g harding most known for?	/soccer/football_player/goals_scored	0
+193	what county is clearwater fl in?	/location/capital_of_administrative_division/capital_of	1
+194	what university did donald trump graduate from?	/location/country/official_language	0
+195	what is the zip code for wyoming michigan?	/music/artist/concert_tours	0
+196	what political party did john bell belong to?	/book/periodical_editor/periodicals_edited	0
+197	what inventions did thomas edison invent list?	/location/location/containedby	0
+198	who plays london tipton in suite life on deck?	/film/film_character/portrayed_in_films	1
+199	who does david james play for 2011?	/sports/pro_athlete/teams	1
+200	what does jamaica manufacturer?	/award/award_winner/awards_won	0
+201	what are the best things to do in san diego?	/book/book/characters	0
+202	where did the cuban missile crisis happen?	/award/award_winner/awards_won	0
+203	what part does seth macfarlane play in family guy?	/book/periodical_editor/periodicals_edited	0
+204	what year did tim duncan enter the nba?	/government/politician/government_positions_held	0
+205	where is johnny depp from?	/award/award_winner/awards_won	0
+206	what caused the cuban rebellion in 1868?	/music/composition/composer	0
+207	what countries does canada export wheat to?	/location/country/official_language	0
+208	what times is it in texas?	/book/book/characters	0
+209	what major landforms are located in egypt?	/government/politician/government_positions_held	0
+210	who does the islam worship?	/book/periodical_editor/periodicals_edited	0
+211	what is the name of book written by helen keller?	/award/award_winner/awards_won	0
+212	what did lucille ball die of?	/people/deceased_person/cause_of_death	1
+213	when is the last time the pittsburgh steelers won a superbowl?	/music/composition/composer	0
+214	where is atlanta texas located?	/location/hud_county_place/county	1
+215	what present day countries use english as their national language?	/award/award_winner/awards_won	0
+216	where was the first gulf war fought?	/location/location/containedby	0
+217	what major airport is near destin florida?	/book/book/characters	0
+218	what were amelia earhart's achievements?	/location/location/containedby	0
+219	what political party was henry clay?	/book/book/characters	0
+220	what did eli whitney invented?	/book/periodical_editor/periodicals_edited	0
+221	what made richard hammond famous?	/location/location/containedby	0
+222	what is the currency of sweden in 2010?	/location/location/containedby	0
+223	what is san francisco zip code?	/music/artist/concert_tours	0
+224	where was karl marx buried?	/book/book/characters	0
+225	what county is san diego ca?	/music/composition/composer	0
+226	what money is used in the ukraine?	/award/award_winner/awards_won	0
+227	with which countries does south africa trade?	/location/statistical_region/places_exported_to	1
+228	what other books did charles dickens write?	/book/author/works_written	1
+229	which country did james cook sailed for?	/people/person/nationality	1
+230	what movies gerard butler in?	/book/periodical_editor/periodicals_edited	0
+231	where is the empire of ghana?	/music/composition/composer	0
+232	who is the current ohio state senator?	/music/artist/concert_tours	0
+233	what college did peyton manning?	/government/politician/government_positions_held	0
+234	what was gregor mendel contribution?	/soccer/football_player/goals_scored	0
+235	what county is clearwater fl in?	/government/politician/government_positions_held	0
+236	where was terry waite born?	/music/artist/concert_tours	0
+237	what school did miley cyrus?	/music/composition/composer	0
+238	what is the name of book written by helen keller?	/book/periodical_editor/periodicals_edited	0
+239	what province is canada's capital located in?	/location/country/administrative_divisions	1
+240	what language do people speak in brazil wikipedia?	/government/politician/government_positions_held	0
+241	what type of money does brazil have?	/award/award_winner/awards_won	0
+242	who did stephenie meyer play in twilight?	/book/book/characters	0
+243	where did marco rubio go to college?	/people/person/education	1
+244	what airport is closest to palm springs?	/location/country/official_language	0
+245	where did robert pattinson go to acting school?	/people/person/education	1
+246	where does russia import from?	/location/location/containedby	0
+247	where to visit in orlando florida?	/travel/travel_destination/tourist_attractions	1
+248	what do people from spain speak?	/government/politician/government_positions_held	0
+249	what state did thomas jefferson live in?	/book/periodical_editor/periodicals_edited	0
+250	what city is the university of oregon state in?	/organization/organization/parent	0
+251	who is esther hicks?	/government/politician/government_positions_held	0
+252	what time does target in alhambra close?	/book/periodical_editor/periodicals_edited	0
+253	what do see in paris?	/music/composition/composer	0
+254	what team did ronaldo play for in 2003?	/location/location/containedby	0
+255	who was rudolf virchow?	/book/book/characters	0
+256	what college did kris humphries play for?	/book/book/characters	0
+257	what was one of benjamin franklin's inventions?	/location/country/official_language	0
+258	where was osama bin laden killed?	/soccer/football_player/goals_scored	0
+259	where is located university of leeds?	/award/award_winner/awards_won	0
+260	what happened after the invasion of normandy?	/government/politician/government_positions_held	0
+261	what currency do mexico use?	/award/award_winner/awards_won	0
+262	what religions are popular in france?	/soccer/football_player/goals_scored	0
+263	where did george michael go to school?	/organization/organization/parent	0
+264	what art movement did leonardo da vinci belong to?	/organization/organization/parent	0
+265	what country did john cabot sail for?	/award/award_winner/awards_won	0
+266	who is in the band bush?	/book/book/characters	0
+267	what is zip code for chicago illinois?	/government/politician/government_positions_held	0
+268	what did dmitri mendeleev discover in 1869?	/location/location/containedby	0
+269	where are you from in egyptian arabic?	/award/award_winner/awards_won	0
+270	what is the currency of sweden in 2010?	/soccer/football_player/goals_scored	0
+271	what religion in thailand?	/book/book/characters	0
+272	what form of currency does germany use?	/location/location/containedby	0
+273	what are the 7 countries that are part of central america?	/music/artist/concert_tours	0
+274	where does unesco operate?	/award/award_winner/awards_won	0
+275	which airport is closest to barcelona port?	/location/country/official_language	0
+276	what to do in paris in 1 day?	/soccer/football_player/goals_scored	0
+277	what is spoken in czech republic?	/music/artist/concert_tours	0
+278	where did madonna grew up?	/soccer/football_player/goals_scored	0
+279	what is the biggest country in europe by population?	/award/award_winner/awards_won	0
+280	where is holy roman empire located?	/soccer/football_player/goals_scored	0
+281	what style of art did vincent van gogh do?	/location/country/official_language	0
+282	where are the ruins of pompeii?	/government/politician/government_positions_held	0
+283	what is the zip code for clarksville tn?	/government/politician/government_positions_held	0
+284	what movies did madonna appear in?	/film/actor/film	1
+285	what famous book did benjamin franklin wrote?	/location/country/official_language	0
+286	what team did albert pujols play for?	/book/book/characters	0
+287	which four states touch mexico?	/location/country/official_language	0
+288	who is steve nash married to?	/people/person/spouse_s	1
+289	what are all the movies taylor swift has been in?	/music/artist/concert_tours	0
+290	what other movies has tom hardy played in?	/location/location/containedby	0
+291	what movies did christopher plummer play in?	/music/artist/concert_tours	0
+292	what did miles davis died of?	/people/deceased_person/cause_of_death	1
+293	what team did brandon roy go to?	/sports/drafted_athlete/drafted	1
+294	what to see near grand canyon?	/organization/organization/parent	0
+295	where was abraham lincoln buried?	/people/deceased_person/place_of_burial	1
+296	where is the country of armenia?	/award/award_winner/awards_won	0
+297	where did gareth southgate play?	/people/person/nationality	1
+298	what killed whitney houston?	/book/periodical_editor/periodicals_edited	0
+299	what airport is closest to palm springs?	/book/book/characters	0
+300	who is the prime minister of ethiopia now?	/location/country/official_language	0
+301	what type of government does the bahamas?	/award/award_winner/awards_won	0
+302	who did mike tomlin play for?	/american_football/football_coach/current_team_head_coached	1
+303	which team does ronaldinho play for?	/sports/pro_athlete/teams	1
+304	what country is the mekong river located in?	/geography/river/basin_countries	1
+305	what type of government does iraq have 2012?	/government/politician/government_positions_held	0
+306	what movies did david carradine play in?	/organization/organization/parent	0
+307	who started up mcdonalds?	/book/periodical_editor/periodicals_edited	0
+308	who was the members of blackstreet?	/music/musical_group/member	1
+309	what kind government does canada have?	/government/politician/government_positions_held	0
+310	where are the libyan refugees going?	/book/periodical_editor/periodicals_edited	0
+311	what movies johnny depp is in?	/film/actor/film	1
+312	what language they speak in scotland?	/location/location/containedby	0
+313	who plays stanley hudson?	/location/location/containedby	0
+314	what currency does thailand use?	/book/periodical_editor/periodicals_edited	0
+315	where is the country of armenia?	/book/book/characters	0
+316	what job did george w bush have?	/book/book/characters	0
+317	what year did johnny cash die and how old was he?	/people/deceased_person/cause_of_death	1
+318	who did carrie ann inaba get engaged to?	/music/artist/concert_tours	0
+319	who are the famous athletes in kenya?	/book/book/characters	0
+320	what are bigos?	/location/location/containedby	0
+321	who did aaron rodgers play college football 4?	/people/person/education	1
+322	what does duffy sing?	/government/politician/government_positions_held	0
+323	where did barack obama attend school?	/location/country/official_language	0
+324	where is auburn university at?	/location/location/containedby	1
+325	what language does people from denmark speak?	/book/book/characters	0
+326	what does bolivia border?	/music/composition/composer	0
+327	what state toronto located?	/book/periodical_editor/periodicals_edited	0
+328	what does jackson browne sing?	/government/politician/government_positions_held	0
+329	what language does people in thailand speak?	/location/country/official_language	0
+330	what caused the embargo against cuba?	/organization/organization/parent	0
+331	where does the columbia river start?	/organization/organization/parent	0
+332	where did robert downey jr go to jail?	/soccer/football_player/goals_scored	0
+333	what other movies has tom hardy played in?	/soccer/football_player/goals_scored	0
+334	where does mike leach coach?	/book/book/characters	0
+335	who does lea michele dating in real life?	/location/country/official_language	0
+336	where is the best place to stay in aruba?	/book/periodical_editor/periodicals_edited	0
+337	what is roshon fegan's heritage?	/book/book/characters	0
+338	what club does cristiano ronaldo play for in 2010?	/soccer/football_player/goals_scored	1
+339	what honor did agatha christie receive in 1971?	/location/location/containedby	0
+340	who is golfer dustin johnson dating?	/book/periodical_editor/periodicals_edited	0
+341	what currency does france accept?	/location/statistical_region/minimum_wage	1
+342	what county is utica ny in?	/location/capital_of_administrative_division/capital_of	1
+343	which island is kailua on?	/organization/organization/parent	0
+344	where did theodore roosevelt live before he became president?	/book/book/characters	0
+345	what form of currency does china have?	/organization/organization/parent	0
+346	what was nikola tesla known for?	/music/artist/concert_tours	0
+347	where are you if you're in khartoum?	/location/country/official_language	0
+348	where did nadia boulanger live?	/people/deceased_person/place_of_death	1
+349	when were south australian women given the right to vote?	/soccer/football_player/goals_scored	0
+350	what car companies does ford motor company own?	/book/book/characters	0
+351	what system of government is practiced in nigeria?	/music/artist/concert_tours	0
+352	what did george steinbrenner do?	/location/country/official_language	0
+353	what is osama bin laden race?	/book/periodical_editor/periodicals_edited	0
+354	where is the olympic national park located?	/book/book/characters	0
+355	who is michael buble?	/location/location/containedby	0
+356	what is the currency in egypt 2012?	/location/country/currency_used	1
+357	what is the state flower of new mexico?	/organization/organization/parent	0
+358	what are west african countries?	/location/country/official_language	0
+359	what is henry clay known for?	/award/award_winner/awards_won	0
+360	what was laura ingalls wilder famous for?	/organization/organization/parent	0
+361	who did tim tebow play college football for?	/location/location/containedby	0
+362	what is the capital city of canada on a map?	/location/country/official_language	0
+363	what schools did sir isaac newton go to?	/people/person/education	1
+364	where is the thalys train station in brussels?	/government/politician/government_positions_held	0
+365	who did heinrich himmler marry?	/government/politician/government_positions_held	0
+366	where does the potomac river flow into?	/geography/river/mouth	1
+367	what influenced william shakespeare to start writing?	/soccer/football_player/goals_scored	0
+368	where is staten island ferry?	/location/location/containedby	0
+369	what did johannes kepler accomplish?	/people/person/profession	1
+370	what are the main imports and exports of afghanistan?	/book/book/characters	0
+371	where is mount st helens volcano?	/music/artist/concert_tours	0
+372	what is the theme of scarlet letter by nathaniel hawthorne?	/soccer/football_player/goals_scored	0
+373	what degrees did barack obama get?	/soccer/football_player/goals_scored	0
+374	where is mark sanchez now?	/location/country/official_language	0
+375	what places in japan were bombed?	/soccer/football_player/goals_scored	0
+376	what team does david beckham play for in 2012?	/location/location/containedby	0
+377	what are taylor swift's albums?	/book/book/characters	0
+378	what are the most popular religions in israel?	/location/location/containedby	0
+379	what to do san jose ca?	/soccer/football_player/goals_scored	0
+380	what airport is closest to downtown toronto?	/government/politician/government_positions_held	0
+381	what position did lebron james play?	/location/location/containedby	0
+382	what is the state flag of colorado called?	/symbols/flag_referent/flag	1
+383	what country did the zulu live in?	/location/country/official_language	0
+384	when did we start war with iraq?	/location/statistical_region/gdp_growth_rate	1
+385	what language brazil use?	/book/book/characters	0
+386	where did sir john a macdonald die?	/award/award_winner/awards_won	0
+387	what currency is best to take to dominican republic?	/book/book/characters	0
+388	where did jesse james die?	/book/periodical_editor/periodicals_edited	0
+389	who has played lex luthor?	/music/artist/concert_tours	0
+390	who was michael j fox?	/location/country/official_language	0
+391	what college did magic johnson play for?	/organization/organization/parent	0
+392	what all movies has taylor lautner been in?	/film/actor/film	1
+393	what city was ronald reagan born in?	/location/country/official_language	0
+394	what team rasheed wallace?	/book/periodical_editor/periodicals_edited	0
+395	what government system does north korea have?	/location/country/official_language	0
+396	what are the main languages of nigeria?	/award/award_winner/awards_won	0
+397	who is michael buble?	/organization/organization/parent	0
+398	who does chris hemsworth have a baby with?	/music/composition/composer	0
+399	what works of art did leonardo da vinci produce?	/soccer/football_player/goals_scored	0
+400	where is fiat abarth made?	/award/award_winner/awards_won	0
+401	what year did florida marlins win the world series?	/book/book/characters	0
+402	what team is ronaldinho on?	/book/book/characters	0
+403	what does russian people speak?	/location/country/languages_spoken	1
+404	where did morgan freeman come from?	/award/award_winner/awards_won	0
+405	what is father name of salman khan?	/people/person/parents	1
+406	what is the name of airport in new york?	/location/location/containedby	0
+407	what is the currency of germany now?	/music/artist/concert_tours	0
+408	what college did deion sanders jr go to?	/organization/organization/parent	0
+409	where do most immigrants in the united states come from today?	/location/country/official_language	0
+410	what countries does the mississippi river run through?	/location/country/official_language	0
+411	what awards has morgan freeman won?	/location/country/official_language	0
+412	what are bigos?	/food/dish/type_of_dish1	1
+413	when does summer start in new england?	/government/politician/government_positions_held	0
+414	where is shakira from?	/soccer/football_player/goals_scored	0
+415	what type of government does the bahamas?	/location/country/form_of_government	1
+416	who was president in 1988 in the united states?	/music/artist/concert_tours	0
+417	what is the name of the san francisco newspaper?	/soccer/football_player/goals_scored	0
+418	what does canada export and import the most?	/location/statistical_region/major_exports	1
+419	where was martin luther king jr raised?	/music/composition/composer	0
+420	what does tim gunn do for a living?	/people/person/profession	1
+421	where does morrissey live 2010?	/government/politician/government_positions_held	0
+422	when was the last time the toronto maple leafs win the stanley cup?	/location/location/containedby	0
+423	what kind of painter was wassily kandinsky?	/soccer/football_player/goals_scored	0
+424	what language do people from greece speak?	/soccer/football_player/goals_scored	0
+425	who played alf on tv show?	/location/location/containedby	0
+426	what did randy savage died of?	/organization/organization/parent	0
+427	where did george michael go to school?	/music/composition/composer	0
+428	who has ray allen dated?	/organization/organization/parent	0
+429	what country is the mekong river located in?	/book/periodical_editor/periodicals_edited	0
+430	who did ricky martin started his career with?	/music/composition/composer	0
+431	what countries make up great britain and what are their capitals?	/book/periodical_editor/periodicals_edited	0
+432	where did russians originate?	/music/composition/composer	0
+433	where in oregon was stand by me filmed?	/book/periodical_editor/periodicals_edited	0
+434	what to see and do in san diego california?	/book/book/characters	0
+435	what books did ernest hemingway write?	/organization/organization/parent	0
+436	where is tennessee river?	/organization/organization/parent	0
+437	what 5 countries border ethiopia?	/location/location/adjoin_s	1
+438	what time is nebraska now?	/location/country/official_language	0
+439	what is houston timezone?	/music/artist/concert_tours	0
+440	what style of art did henri matisse use?	/visual_art/visual_artist/associated_periods_or_movements	1
+441	what language did they speak in ghana?	/soccer/football_player/goals_scored	0
+442	what is the national flower of hawaii?	/soccer/football_player/goals_scored	0
+443	who started southwest airlines?	/book/periodical_editor/periodicals_edited	0
+444	what kind of money should i take to jamaica?	/government/politician/government_positions_held	0
+445	what did fred durst do?	/music/artist/concert_tours	0
+446	who did scarlett johansson date?	/location/location/containedby	0
+447	what movies has chris colfer been in?	/book/periodical_editor/periodicals_edited	0
+448	what was george washington's legacy?	/music/artist/concert_tours	0
+449	which country is located directly east of belgium?	/location/location/containedby	1
+450	what school did karl benz go to?	/soccer/football_player/goals_scored	0
+451	what city was nelson mandela born in?	/government/politician/government_positions_held	0
+452	where do logan browning live?	/book/book/characters	0
+453	what do they think happened to natalee holloway?	/organization/organization/parent	0
+454	who was sworn into office when john f kennedy was assassinated?	/location/country/official_language	0
+455	what country does dubai come under?	/government/politician/government_positions_held	0
+456	what political party was adolf hitler from?	/location/country/official_language	0
+457	where did tennessee williams go to college?	/organization/organization/parent	0
+458	what money does guatemala use?	/book/book/characters	0
+459	who is the governor of indiana 2012?	/location/country/official_language	0
+460	when did conflict start in ireland?	/soccer/football_player/goals_scored	0
+461	where did kansas city royals come from?	/music/composition/composer	0
+462	what language is spoken in argentina?	/music/composition/composer	0
+463	what are the 7 countries that are part of central america?	/music/composition/composer	0
+464	what is the currency in germany in 2010?	/location/country/currency_used	1
+465	where do i vote milwaukee wisconsin?	/organization/organization/parent	0
+466	what albums did john frusciante play on?	/book/periodical_editor/periodicals_edited	0
+467	where does the zambezi river start?	/music/artist/concert_tours	0
+468	what national team does cristiano ronaldo play for?	/soccer/football_player/matches_played	1
+469	what language did jewish people speak?	/award/award_winner/awards_won	0
+470	what form of government does russia have today?	/award/award_winner/awards_won	0
+471	where was my honda motorcycle made?	/government/politician/government_positions_held	0
+472	who is the current leader of cuba today?	/award/award_winner/awards_won	0
+473	what countries speak english natively?	/location/location/containedby	0
+474	when are the australian open men's finals?	/government/politician/government_positions_held	0
+475	what awards has morgan freeman won?	/award/award_winner/awards_won	1
+476	who invented islamic religion?	/organization/organization/parent	0
+477	what school did michael jordan play for?	/book/book/characters	0
+478	what do italy people eat for breakfast?	/award/award_winner/awards_won	0
+479	what year did the golden state warriors win their first nba championship?	/music/artist/concert_tours	0
+480	what did coretta scott king died from?	/soccer/football_player/goals_scored	0
+481	where did charlton heston live?	/award/award_winner/awards_won	0
+482	where does the tsunami happened in japan?	/book/book_subject/works	1
+483	who is nicolas cage married too?	/location/location/containedby	0
+484	what language did jewish people speak?	/book/periodical_editor/periodicals_edited	0
+485	what is the capital of georgia?	/award/award_winner/awards_won	0
+486	what continent is syria located in?	/award/award_winner/awards_won	0
+487	what did kellie martin play on?	/government/politician/government_positions_held	0
+488	when is the last time chicago bulls won a championship?	/book/periodical_editor/periodicals_edited	0
+489	what type of government does italy have 2011?	/music/composition/composer	0
+490	who played marty mcfly's dad?	/location/country/official_language	0
+491	where is the mts iceplex in winnipeg?	/organization/organization/parent	0
+492	where did john muir die?	/book/book/characters	0
+493	what type of music was scott joplin noted for?	/book/book/characters	0
+494	who is the president of cuba in 2009?	/book/book/characters	0
+495	who did johnny bench play for?	/government/politician/government_positions_held	0
+496	what are bridgit mendler's parents names?	/government/politician/government_positions_held	0
+497	what is anderson cooper?	/government/politician/government_positions_held	0
+498	what did julian fellowes write?	/government/politician/government_positions_held	0
+499	where did helen keller die?	/book/book/characters	0
+500	where is the caribbean geographically located?	/location/country/official_language	0
+501	where do tasmanian devils live?	/government/politician/government_positions_held	0
+502	what form of government does afghanistan have?	/book/periodical_editor/periodicals_edited	0
+503	what is the government of spain today?	/award/award_winner/awards_won	0
+504	who plays donna noble?	/tv/tv_character/appeared_in_tv_episodes	1
+505	who won the presidential election in egypt 2012?	/music/artist/concert_tours	0
+506	where is hong kong china?	/award/award_winner/awards_won	0
+507	what did daniel tosh say that was so offensive?	/film/actor/film	1
+508	what religions are practiced in afghanistan?	/location/country/official_language	0
+509	what type of government japan have?	/organization/organization/parent	0
+510	where did russians originate?	/music/artist/concert_tours	0
+511	where was the assyrian homeland?	/soccer/football_player/goals_scored	0
+512	who is the actor that plays rico in hannah montana?	/award/award_winner/awards_won	0
+513	what team did ronaldo play for?	/award/award_winner/awards_won	0
+514	who did brett gardner play for in 2008?	/music/artist/concert_tours	0
+515	who plays bob kelso in scrubs?	/organization/organization/parent	0
+516	what political party does julia gillard belong to?	/organization/organization/parent	0
+517	when did the houston rockets win the championship?	/award/award_winner/awards_won	0
+518	where are the great pyramid of giza located?	/book/periodical_editor/periodicals_edited	0
+519	what currency is accepted in new zealand?	/music/composition/composer	0
+520	where was the roman empire centered?	/location/country/capital	1
+521	what did charles babbage create in the 1800s?	/award/award_winner/awards_won	0
+522	who was cleopatra married too?	/award/award_winner/awards_won	0
+523	where does eddie bravo teach?	/award/award_winner/awards_won	0
+524	what channel saints game?	/music/composition/composer	0
+525	what caused the embargo against cuba?	/soccer/football_player/goals_scored	0
+526	where was john f kennedy raised?	/award/award_winner/awards_won	0
+527	who did tom hanks play in apollo 13?	/location/location/containedby	0
+528	in which province is johannesburg?	/location/location/containedby	1
+529	who is kurt busch driving for now?	/government/politician/government_positions_held	0
+530	when was the last time iran invaded another country?	/book/periodical_editor/periodicals_edited	0
+531	what time does arkansas play football today?	/book/periodical_editor/periodicals_edited	0
+532	what states does the connecticut river flow through?	/government/politician/government_positions_held	0
+533	where does danny ainge live?	/book/book/characters	0
+534	what language is spoken in argentina?	/organization/organization/parent	0
+535	where did kansas city royals come from?	/sports/sports_team/location	1
+536	what currency is used in france before euro?	/location/country/currency_formerly_used	1
+537	where did japan invade to get resources?	/location/location/adjoin_s	1
+538	what to do and see in miami florida?	/government/politician/government_positions_held	0
+539	who was esther's husband?	/music/artist/concert_tours	0
+540	what movies did chris farley do?	/government/politician/government_positions_held	0
+541	what type of government does japan currently have?	/book/periodical_editor/periodicals_edited	0
+542	who will plaxico burress play for in 2011?	/music/composition/composer	0
+543	who does matt damon have kids with?	/location/country/official_language	0
+544	what education does jeff corwin have?	/government/politician/government_positions_held	0
+545	where does brian williams live?	/award/award_winner/awards_won	0
+546	what is there to do around austin texas?	/location/country/official_language	0
+547	what type of money do japanese use?	/location/country/official_language	0
+548	what country does justin bieber come from?	/organization/organization/parent	0
+549	what team did deion sanders play for in baseball?	/book/periodical_editor/periodicals_edited	0
+550	who is roger bacon inventor of?	/award/award_winner/awards_won	0
+551	what kind of language do egyptian speak?	/music/artist/concert_tours	0
+552	what are all of michael jackson albums?	/award/award_winner/awards_won	0
+553	who played elaine on doc martin?	/tv/tv_program/regular_cast	1
+554	who coached the dallas cowboys in 1996?	/book/periodical_editor/periodicals_edited	0
+555	when was the last tsunami in the atlantic ocean?	/geography/body_of_water/islands	1
+556	what school did michael jackson attend?	/location/country/official_language	0
+557	what color are the baltimore ravens?	/government/politician/government_positions_held	0
+558	who is jamie little engaged to?	/organization/organization/parent	0
+559	where do the chicago white sox play home games?	/soccer/football_player/goals_scored	0
+560	what is the capital of australia victoria state?	/location/administrative_division/capital	1
+561	what countries have territories in oceania?	/music/composition/composer	0
+562	what did whoopi goldberg won a grammy for?	/music/artist/concert_tours	0
+563	where is mount vernon texas?	/book/periodical_editor/periodicals_edited	0
+564	what job did martin luther king jr have?	/book/book/characters	0
+565	who is angelina jolie mom and dad?	/soccer/football_player/goals_scored	0
+566	what instrument does fela kuti play?	/book/periodical_editor/periodicals_edited	0
+567	what influenced william morris to be an artist?	/government/politician/government_positions_held	0
+568	what is the best currency to take to turkey?	/music/composition/composer	0
+569	where did john muir die?	/location/country/official_language	0
+570	who is the president of ecuador in 2012?	/location/country/official_language	0
+571	what are the major religions in russia?	/book/periodical_editor/periodicals_edited	0
+572	who is hammurabi and what did he do?	/organization/organization/parent	0
+573	what year was first world series?	/music/composition/composer	0
+574	who is the owner of the philadelphia eagles?	/business/employer/employees	1
+575	where can i go running in sacramento?	/music/artist/concert_tours	0
+576	where did the battle of waterloo occur?	/music/composition/composer	0
+577	when did the christchurch quake happened?	/award/award_winner/awards_won	0
+578	what airport is closer to downtown houston?	/book/periodical_editor/periodicals_edited	0
+579	who plays bilbo baggins in the hobbit?	/film/film_character/portrayed_in_films	1
+580	what highschool did harper lee go to?	/people/person/education	1
+581	what type of government system does saudi arabia have?	/book/periodical_editor/periodicals_edited	0
+582	what sea does the yangtze river flow into?	/book/book/characters	0
+583	what are the 5 countries in the united kingdom?	/award/award_winner/awards_won	0
+584	where did benjamin franklin died?	/book/periodical_editor/periodicals_edited	0
+585	what movies have robert pattinson starred in?	/book/periodical_editor/periodicals_edited	0
+586	what products does the united states export?	/music/artist/concert_tours	0
+587	who has ray allen dated?	/people/person/spouse_s	1
+588	what albums did john frusciante play on?	/government/politician/government_positions_held	0
+589	who were mary shelley?	/organization/organization/parent	0
+590	what events lead to the battle of antietam?	/time/event/included_in_event	1
+591	where did sir richard grenville explore?	/government/politician/government_positions_held	0
+592	what do the colors on mali's flag represent?	/location/country/official_language	0
+593	where does tim cook work?	/soccer/football_player/goals_scored	0
+594	who plays lex luthor on smallville?	/organization/organization/parent	0
+595	what are the three official languages of belgium?	/location/country/languages_spoken	1
+596	who played luke skywalker in star wars episode 4?	/film/film_character/portrayed_in_films	1
+597	what does anderson cooper do?	/people/person/profession	1
+598	what is the capital city of germany now?	/location/country/administrative_divisions	1
+599	what county is charlotte north carolina?	/book/periodical_editor/periodicals_edited	0
+600	what to do in panama city beach fl?	/government/politician/government_positions_held	0
+601	in what modern country is the yucatan peninsula located?	/location/country/official_language	0
+602	who do derek fisher play for?	/government/politician/government_positions_held	0
+603	what 4 states border the pacific ocean?	/award/award_winner/awards_won	0
+604	what country did giovanni da verrazano represent?	/location/country/official_language	0
+605	who plays young john winchester in supernatural?	/tv/tv_character/appeared_in_tv_episodes	1
+606	where does brian williams live?	/government/politician/government_positions_held	0
+607	what school did martin luther king jr received his doctorate degree from?	/people/person/education	1
+608	what airport do you fly into to get to cabo san lucas?	/book/periodical_editor/periodicals_edited	0
+609	who played danielle rousseau on lost?	/location/country/official_language	0
+610	where is the home stadium of the new england patriots?	/organization/organization/parent	0
+611	what is the dominican republic's capital?	/book/book/characters	0
+612	who does matt damon have kids with?	/book/periodical_editor/periodicals_edited	0
+613	what state is rick santorum from?	/book/periodical_editor/periodicals_edited	0
+614	what was the japanese war called?	/music/composition/composer	0
+615	where the queen of denmark lives?	/government/politician/government_positions_held	0
+616	who was johnny cash's first wife?	/book/periodical_editor/periodicals_edited	0
+617	where was gabriel faure born?	/people/person/nationality	1
+618	who the voice of lois griffin?	/government/politician/government_positions_held	0
+619	what happened to mike tyson?	/award/award_winner/awards_won	0
+620	what currency does brazil use?	/book/book/characters	0
+621	what country is the mekong river located in?	/government/politician/government_positions_held	0
+622	who does the voice for darth vader?	/organization/organization/parent	0
+623	where is the sistine chapel by michelangelo?	/location/country/official_language	0
+624	what kind of drugs does charlie sheen do?	/award/award_winner/awards_won	0
+625	where is alexandria located?	/government/politician/government_positions_held	0
+626	what type of art does wassily kandinsky do?	/award/award_winner/awards_won	0
+627	when was lucy lawless born?	/people/person/nationality	1
+628	what was the first name of the washington redskins?	/book/periodical_editor/periodicals_edited	0
+629	what sarah dessen books are movies?	/location/location/containedby	0
+630	who has dirk nowitzki played for?	/award/award_winner/awards_won	0
+631	what is the religion of israel people?	/location/country/official_language	0
+632	where did gary coleman live when he died?	/people/deceased_person/place_of_death	1
+633	what countries in north america continent?	/book/book/characters	0
+634	what is the space needle in toronto?	/location/location/containedby	0
+635	what should i do today in houston?	/location/country/official_language	0
+636	what is there to do in montpelier vt?	/government/politician/government_positions_held	0
+637	what teams did manny ramirez play for?	/baseball/baseball_player/batting_stats	1
+638	where christopher columbus was born?	/award/award_winner/awards_won	0
+639	where was franz ferdinand from?	/location/location/containedby	0
+640	who was andrew johnson and what did he do?	/book/periodical_editor/periodicals_edited	0
+641	who is the leader of cuba 2012?	/book/periodical_editor/periodicals_edited	0
+642	who will david beckham play for in 2013?	/government/politician/government_positions_held	0
+643	who did the voice of darth vader in star wars?	/location/country/official_language	0
+644	what does the zambezi river flow into?	/government/politician/government_positions_held	0
+645	what features do islam and christianity have in common?	/book/book/characters	0
+646	where did benjamin franklin went to school?	/soccer/football_player/goals_scored	0
+647	what was kim richards in?	/location/location/containedby	0
+648	what state did al gore represent?	/book/periodical_editor/periodicals_edited	0
+649	where do most earthquakes happen in japan?	/book/periodical_editor/periodicals_edited	0
+650	who is the governor of hawaii now?	/award/award_winner/awards_won	0
+651	what language do the cheyenne speak?	/music/composition/composer	0
+652	who is the manager of the st louis cardinals?	/location/country/official_language	0
+653	where did the arizona diamondbacks play?	/book/periodical_editor/periodicals_edited	0
+654	what is the capital city of albania?	/location/country/capital	1
+655	what are some places to visit in new york?	/award/award_winner/awards_won	0
+656	what is there to see near the grand canyon?	/travel/tourist_attraction/near_travel_destination	1
+657	what 4 teams did wayne gretzky play for?	/book/book/characters	0
+658	what kind of tennis racquet does serena williams use?	/music/artist/concert_tours	0
+659	what countries does greece share borders with?	/location/location/adjoin_s	1
+660	where did diego velazquez die?	/music/artist/concert_tours	0
+661	when was samuel pepys?	/award/award_winner/awards_won	0
+662	who is the leader of cuba 2012?	/government/politician/government_positions_held	0
+663	what books has elie wiesel written?	/location/country/official_language	0
+664	what college did john stockton go to?	/location/location/containedby	0
+665	what money do japanese use?	/location/country/currency_used	1
+666	what areas did henry hudson discover?	/award/award_winner/awards_won	0
+667	what money do they use in thailand?	/location/country/currency_used	1
+668	who does kellan lutz play in prom night?	/location/location/containedby	0
+669	what type of music did claude debussy play?	/location/location/containedby	0
+670	what is the currency in italy?	/location/country/currency_used	1
+671	what is the state of montana known for?	/music/composition/composer	0
+672	who are the main trading partners of china?	/location/country/official_language	0
+673	when did carolina hurricanes win the cup?	/award/award_winner/awards_won	0
+674	where the queen of denmark lives?	/location/country/official_language	0
+675	what famous book did benjamin franklin wrote?	/government/politician/government_positions_held	0
+676	who killed david ruffin?	/book/book/characters	0
+677	what children's books did suzanne collins wrote?	/government/politician/government_positions_held	0
+678	who won governor in connecticut 2010?	/book/book/characters	0
+679	who started up mcdonalds?	/organization/organization/founders	1
+680	what county is duluth in?	/government/politician/government_positions_held	0
+681	what 4 countries make up great britain?	/location/country/official_language	0
+682	what is john steinbeck best known for?	/book/book/characters	0
+683	where was the earthquake in chile 2010?	/government/politician/government_positions_held	0
+684	who played elle greenaway?	/award/award_winner/awards_won	0
+685	where james madison was born?	/award/award_winner/awards_won	0
+686	what date did we invade iraq?	/location/country/official_language	0
+687	who did cher have a son with?	/organization/organization/parent	0
+688	what are portuguese people considered?	/award/award_winner/awards_won	0
+689	where did robert hooke get his education?	/book/periodical_editor/periodicals_edited	0
+690	what country is george washington carver from?	/people/person/nationality	1
+691	what college did kris humphries play for?	/book/periodical_editor/periodicals_edited	0
+692	what type of art does claude monet do?	/organization/organization/parent	0
+693	where are ike and tina turner's children?	/soccer/football_player/goals_scored	0
+694	who is keyshia cole dad?	/organization/organization/parent	0
+695	who influenced michael jackson?	/influence/influence_node/influenced_by	1
+696	which barcelona airport is closest to the port?	/location/location/containedby	0
+697	what form of government was practiced in sparta?	/award/award_winner/awards_won	0
+698	who is the voice of family guys meg griffin?	/film/film_character/portrayed_in_films	1
+699	who played lois lane in superman 1?	/book/book/characters	0
+700	who will plaxico burress play for in 2011?	/location/location/containedby	0
+701	where does the potomac river flow into?	/location/country/official_language	0
+702	what type of democracy is the united states?	/location/location/containedby	0
+703	where does spencer pratt go to school?	/government/politician/government_positions_held	0
+704	what type of cancer did gilda radner die of?	/soccer/football_player/goals_scored	0
+705	who played maxie jones on general hospital?	/award/award_winner/awards_won	0
+706	what was the cause of death for sage stallone?	/book/periodical_editor/periodicals_edited	0
+707	who owns the new england patriots football team?	/book/book/characters	0
+708	what drink did john pemberton create?	/music/artist/concert_tours	0
+709	what was kim richards in?	/film/actor/film	1
+710	what is the government system of malaysia?	/music/composition/composer	0
+711	what to visit in london city?	/travel/travel_destination/tourist_attractions	1
+712	what to do for fun in houston?	/music/composition/composer	0
+713	what kind of language does colombia speak?	/location/country/languages_spoken	1
+714	who won the nobel peace prize in 2011 for physics?	/book/periodical_editor/periodicals_edited	0
+715	when did toronto blue jays become a team?	/book/book/characters	0
+716	what did sammy davis jr die of?	/government/politician/government_positions_held	0
+717	what inspired michelangelo buonarroti?	/soccer/football_player/goals_scored	0
+718	what illnesses did george washington have?	/medicine/notable_person_with_medical_condition/condition	1
+719	what other countries share a border with china?	/location/location/adjoin_s	1
+720	what part did winona ryder play in star trek?	/film/actor/film	1
+721	where does lena river begin and end?	/award/award_winner/awards_won	0
+722	what was lebron james first team?	/music/artist/concert_tours	0
+723	what films did charlie chaplin direct?	/location/country/official_language	0
+724	who is aidan quinn?	/common/topic/notable_for	1
+725	what language does fiji?	/book/periodical_editor/periodicals_edited	0
+726	when did tom brady join the patriots?	/sports/sports_team/season_record	1
+727	where did l frank baum die?	/book/book/characters	0
+728	what language do people from greece speak?	/location/country/languages_spoken	1
+729	what form of government do we have in the philippines?	/location/country/form_of_government	1
+730	where is tahiti bora bora?	/book/book/characters	0
+731	who is facebook's founder?	/book/book/characters	0
+732	what language do the cheyenne speak?	/soccer/football_player/goals_scored	0
+733	what does the devil look like in young goodman brown?	/government/politician/government_positions_held	0
+734	what products and\/or services does google offer customers?	/organization/organization/parent	0
+735	where does the st louis rams play football?	/award/award_winner/awards_won	0
+736	what club does ronaldinho play for 2012?	/government/politician/government_positions_held	0
+737	what is the political system of nigeria?	/book/periodical_editor/periodicals_edited	0
+738	what major airport is near destin florida?	/government/politician/government_positions_held	0
+739	who played forrest gump as a kid?	/government/politician/government_positions_held	0
+740	what college did kevjumba?	/award/award_winner/awards_won	0
+741	what nestle owns?	/award/award_winner/awards_won	0
+742	what does donald trump own?	/award/award_winner/awards_won	0
+743	what does the devil look like in young goodman brown?	/award/award_winner/awards_won	0
+744	what can do in new york?	/organization/organization/parent	0
+745	who did mario lopez just marry?	/people/person/spouse_s	1
+746	who owns skywest?	/award/award_winner/awards_won	0
+747	what language does east timor speak?	/organization/organization/parent	0
+748	what are bigos?	/organization/organization/parent	0
+749	who was esther's husband?	/organization/organization/parent	0
+750	what made the soviet union fall?	/music/artist/concert_tours	0
+751	what movies did adam sandler play in?	/government/politician/government_positions_held	0
+752	where did the tutsi come from?	/location/country/official_language	0
+753	what are all the countries in north africa?	/location/location/contains	1
+754	what type of political system is spain?	/book/book/characters	0
+755	where does archbishop desmond tutu live?	/people/person/nationality	1
+756	what all movies has taylor lautner been in?	/organization/organization/parent	0
+757	where did aaron rodgers go to high school?	/location/location/containedby	0
+758	what timezone is tucson arizona in right now?	/music/artist/concert_tours	0
+759	where is the main branch of bank of america?	/soccer/football_player/goals_scored	0
+760	what's there to see in atlanta?	/organization/organization/parent	0
+761	what year was first world series?	/soccer/football_player/goals_scored	0
+762	what is the currency of germany in 2010?	/award/award_winner/awards_won	0
+763	what language do people speak in the netherlands?	/music/composition/composer	0
+764	what are the sights to see in madrid?	/travel/travel_destination/tourist_attractions	1
+765	what movies did howard shore wrote the music for?	/book/periodical_editor/periodicals_edited	0
+766	what makes elvis presley famous?	/people/person/profession	1
+767	who played lois lane in superman 1?	/film/film_character/portrayed_in_films	1
+768	who voiced darth vader in revenge of the sith?	/book/periodical_editor/periodicals_edited	0
+769	where is canadian county oklahoma?	/book/book/characters	0
+770	where is mount whitney?	/award/award_winner/awards_won	0
+771	what is the language of russia s spoken?	/soccer/football_player/goals_scored	0
+772	what movies did kristen stewart act in?	/location/country/official_language	0
+773	what did egyptians speak?	/award/award_winner/awards_won	0
+774	what country did james cook come from?	/people/person/nationality	1
+775	who is on the board of facebook?	/organization/organization/parent	0
+776	what language is mainly spoken in egypt?	/organization/organization/parent	0
+777	what type of government did thomas jefferson prefer?	/location/location/containedby	0
+778	who plays jacob black in twilight?	/location/country/official_language	0
+779	what type of government does mexico use?	/government/governmental_jurisdiction/government	1
+780	what movie is josh hutcherson in?	/book/periodical_editor/periodicals_edited	0
+781	what school did robert f kennedy go to?	/music/artist/concert_tours	0
+782	where did kate middleton go to prep school?	/government/politician/government_positions_held	0
+783	which college did barack obama attend?	/location/country/official_language	0
+784	where did marco rubio go to college?	/book/book/characters	0
+785	what art movements was henri matisse involved in?	/location/country/official_language	0
+786	what countries in north america continent?	/location/country/official_language	0
+787	what political party did andrew johnson belong to?	/soccer/football_player/goals_scored	0
+788	where was john f kennedy when he got shot?	/soccer/football_player/goals_scored	0
+789	when last did real madrid win the champions league?	/book/periodical_editor/periodicals_edited	0
+790	what books did aristotle wrote?	/book/book/characters	0
+791	when does harry potter come out on dvd deathly hallows 2?	/location/country/official_language	0
+792	what countries include western europe?	/location/country/official_language	0
+793	what year did steve nash play for the mavericks?	/book/periodical_editor/periodicals_edited	0
+794	what disease does robin roberts have?	/music/composition/composer	0
+795	who has played edward quartermaine on general hospital?	/government/politician/government_positions_held	0
+796	where michael jackson from?	/location/location/containedby	0
+797	what movies are directed by steven spielberg?	/location/country/official_language	0
+798	what wars did ulysses s grant served in?	/book/periodical_editor/periodicals_edited	0
+799	what is the zip code for cordova tn?	/location/citytown/postal_codes	1
+800	what political party is jerry brown?	/music/composition/composer	0
+801	what language do they speak in colombia south america?	/location/country/languages_spoken	1
+802	where were the great pyramids of giza built?	/music/composition/composer	0
+803	what else is there in orlando besides disney?	/award/award_winner/awards_won	0
+804	what cancer did patrick swayze?	/medicine/notable_person_with_medical_condition/condition	1
+805	who is the current president of chile 2011?	/government/politician/government_positions_held	0
+806	what did warren buffett invest in?	/organization/organization/parent	0
+807	who do nate robinson play for?	/book/periodical_editor/periodicals_edited	0
+808	what were erik erikson's theories?	/book/book/characters	0
+809	when is the rainy season in bangkok thailand?	/travel/travel_destination/climate	1
+810	what should i do today in san francisco?	/organization/organization/parent	0
+811	where did jerry spinelli live as a kid?	/location/country/official_language	0
+812	what schools did barack obama attend?	/book/book/characters	0
+813	where was the first gulf war fought?	/soccer/football_player/goals_scored	0
+814	what to do in roatan bay?	/book/book/characters	0
+815	what college did michael jordan play basketball for?	/people/person/education	1
+816	who is martin luther king jr wife?	/people/person/spouse_s	1
+817	what county is charlotte north carolina?	/book/book/characters	0
+818	when did freddy krueger die?	/book/periodical_editor/periodicals_edited	0
+819	what city is acadia university in?	/organization/organization/parent	0
+820	what religion does madonna practice?	/organization/organization/parent	0
+821	where is the university of oregon state?	/book/book/characters	0
+822	where does bradley cooper live now?	/location/country/official_language	0
+823	what is the stanley cup named after?	/music/artist/concert_tours	0
+824	what are all songs by taylor swift?	/government/politician/government_positions_held	0
+825	what does annie leibovitz do?	/award/award_winner/awards_won	0
+826	what money do they have in italy?	/location/country/currency_used	1
+827	what type of currency does egypt have?	/award/award_winner/awards_won	0
+828	what to do in rome october 2012?	/music/artist/concert_tours	0
+829	what kind of government does brazil has?	/location/country/form_of_government	1
+830	what did ron howard direct?	/book/periodical_editor/periodicals_edited	0
+831	what is arlington texas zip code?	/location/country/official_language	0
+832	what is the largest nation in europe?	/location/location/containedby	0
+833	where does the tsunami happened in japan?	/government/politician/government_positions_held	0
+834	who does danneel harris play on one tree hill?	/location/country/official_language	0
+835	who is larry ellison oracle?	/award/award_winner/awards_won	0
+836	where is spanish spoken most?	/soccer/football_player/goals_scored	0
+837	what awards has louis sachar won?	/book/periodical_editor/periodicals_edited	0
+838	what did theodor schwann contribute to our understanding of cells?	/location/country/official_language	0
+839	when did kings last win stanley cup?	/award/award_winner/awards_won	0
+840	what is berkshire hathaway invested in?	/music/artist/concert_tours	0
+841	who did carrie ann inaba get engaged to?	/soccer/football_player/goals_scored	0
+842	who is the president of israel 2012?	/award/award_winner/awards_won	0
+843	what is the official state flower of arizona?	/award/award_winner/awards_won	0
+844	what is the capital of oregon?	/location/hud_county_place/place	1
+845	who is clint eastwood dating?	/government/politician/government_positions_held	0
+846	which countries are part of the united kingdom?	/book/book/characters	0
+847	where can i register to vote in urbana il?	/location/country/official_language	0
+848	where is devon sawa now?	/government/politician/government_positions_held	0
+849	what currency should i bring to italy?	/location/country/currency_used	1
+850	where is shakira from originally?	/government/politician/government_positions_held	0
+851	what movie is josh hutcherson in?	/government/politician/government_positions_held	0
+852	where does robert irvine come from?	/people/person/place_of_birth	1
+853	what did charles lindbergh became famous for in the 1920s?	/location/country/official_language	0
+854	who is the current president of colombia 2011?	/location/country/official_language	0
+855	what city does paul ryan live in?	/music/composition/composer	0
+856	what's jamaica country code?	/location/country/internet_tld	1
+857	what will happen to greece when it defaults?	/government/politician/government_positions_held	0
+858	what sports are popular in germany?	/location/location/containedby	0
+859	what language do people speak in iceland?	/award/award_winner/awards_won	0
+860	who was the real erin brockovich?	/government/politician/government_positions_held	0
+861	where is the capital city of assyrians?	/location/country/capital	1
+862	what race are arabs?	/award/award_winner/awards_won	0
+863	what type of government does mexico use?	/location/country/official_language	0
+864	what does shawn johnson do?	/book/periodical_editor/periodicals_edited	0
+865	where was tommy emmanuel born?	/book/periodical_editor/periodicals_edited	0
+866	what are the main sports in new zealand?	/book/periodical_editor/periodicals_edited	0
+867	what books did louis sachar wrote?	/soccer/football_player/goals_scored	0
+868	what language do people speak in the netherlands?	/organization/organization/parent	0
+869	what movie did angelina jolie direct?	/book/periodical_editor/periodicals_edited	0
+870	what type of business is mitt romney in?	/book/periodical_editor/periodicals_edited	0
+871	what type of money does brazil have?	/location/country/official_language	0
+872	where is shoreditch?	/location/country/official_language	0
+873	who is the newly elected governor of california?	/organization/organization/parent	0
+874	what movie did james frey write?	/location/country/official_language	0
+875	what influenced john steinbeck to start writing?	/soccer/football_player/goals_scored	0
+876	where is azerbaijan?	/location/country/official_language	0
+877	what inspired langston hughes to write poetry?	/book/book/characters	0
+878	what money is used in ukraine?	/government/politician/government_positions_held	0
+879	where does the jordan river begin?	/location/country/official_language	0
+880	what language do people speak in brazil wikipedia?	/book/book/characters	0
+881	who was kobe bryant drafted by?	/location/location/containedby	0
+882	what is the zip code for nogales az?	/music/artist/concert_tours	0
+883	what timezone is colorado in?	/award/award_winner/awards_won	0
+884	who did john paul jones fight for?	/book/book/characters	0
+885	what county is san diego ca?	/location/capital_of_administrative_division/capital_of	1
+886	where did sir ernest shackleton come from?	/award/award_winner/awards_won	0
+887	how much indiana jones movies are there?	/award/award_winner/awards_won	0
+888	what team did john madden play football for?	/location/country/official_language	0
+889	what are 2 inventions benjamin franklin is credited with creating?	/location/country/official_language	0
+890	where is murray kentucky?	/location/country/official_language	0
+891	what is thomas edison's most famous for?	/government/politician/government_positions_held	0
+892	where was farrah fawcett buried?	/music/artist/concert_tours	0
+893	what countries are around egypt?	/location/country/official_language	0
+894	what airport do you fly into to get to destin fl?	/soccer/football_player/goals_scored	0
+895	what famous people are from barbados?	/soccer/football_player/goals_scored	0
+896	who voiced darth vader?	/organization/organization/parent	0
+897	who are the main trading partners of china?	/award/award_winner/awards_won	0
+898	who is the actor that plays rico in hannah montana?	/book/periodical_editor/periodicals_edited	0
+899	what did andrew johnson die from?	/people/deceased_person/cause_of_death	1
+900	who was the president of indian national congress?	/award/award_winner/awards_won	0
+901	who does michael oher play for in 2009?	/american_football/football_player/games	1
+902	who owns wikimedia foundation?	/book/book/characters	0
+903	what state is the george washington university in?	/book/periodical_editor/periodicals_edited	0
+904	who was the real erin brockovich?	/book/periodical_editor/periodicals_edited	0
+905	where french revolution?	/language/human_language/main_country	1
+906	where did sir richard grenville explore?	/award/award_winner/awards_won	0
+907	what was jesse james killed with?	/music/composition/composer	0
+908	who all has kim kardashian dated?	/celebrities/celebrity/sexual_relationships	1
+909	where is el salvador located?	/book/periodical_editor/periodicals_edited	0
+910	what is the zip code for walnut creek?	/location/citytown/postal_codes	1
+911	what capital city of brazil?	/music/artist/concert_tours	0
+912	what kind of biome is the everglades?	/award/award_winner/awards_won	0
+913	what is the name of the currency used in italy?	/music/composition/composer	0
+914	what other jobs did benjamin franklin have?	/government/politician/government_positions_held	0
+915	where does the spanish language come from?	/government/politician/government_positions_held	0
+916	what kind of hispanic is selena gomez?	/music/composition/composer	0
+917	where is wellsville missouri?	/government/politician/government_positions_held	0
+918	where do haitian people come from?	/government/politician/government_positions_held	0
+919	who was ptolemy and what did he do?	/music/composition/composer	0
+920	in what modern country is the yucatan peninsula located?	/book/book/characters	0
+921	where george washington carver go to school?	/book/book/characters	0
+922	who has played edward quartermaine on general hospital?	/book/periodical_editor/periodicals_edited	0
+923	where is johnny depp from?	/book/periodical_editor/periodicals_edited	0
+924	what did eli whitney invented?	/government/politician/government_positions_held	0
+925	what is the name of the sacred text of islam?	/award/award_winner/awards_won	0
+926	who stars in the movie fred claus?	/government/politician/government_positions_held	0
+927	what kind of government system did ancient egypt have?	/music/composition/composer	0
+928	what did julian fellowes write?	/book/book/characters	0
+929	where did alex smith play high school football?	/award/award_winner/awards_won	0
+930	what country did john cabot sail for?	/people/person/nationality	1
+931	what did michael faraday accomplish?	/book/periodical_editor/periodicals_edited	0
+932	what inspired michael jackson to become a singer?	/influence/influence_node/influenced_by	1
+933	who inspired antonio vivaldi?	/book/periodical_editor/periodicals_edited	0
+934	what currency shall i take to croatia?	/organization/organization/parent	0
+935	what did charles lindbergh became famous for in the 1920s?	/book/periodical_editor/periodicals_edited	0
+936	who did reese witherspoon get married to?	/music/composition/composer	0
+937	who was judy collins married to?	/award/award_winner/awards_won	0
+938	what currency does the dominican republic?	/government/politician/government_positions_held	0
+939	what did bob ross die of?	/book/periodical_editor/periodicals_edited	0
+940	what is the name of the currency used in china?	/location/country/currency_used	1
+941	where did antoine lavoisier die?	/people/deceased_person/place_of_death	1
+942	what is vanderbilt university known for?	/book/periodical_editor/periodicals_edited	0
+943	what did whitney houston die of?	/award/award_winner/awards_won	0
+944	where is bob marley grave?	/government/politician/government_positions_held	0
+945	who did george wendt play on cheers?	/tv/tv_actor/starring_roles	1
+946	what are the official colors of the dallas cowboys?	/location/location/containedby	0
+947	what college did edgar allan poe go to?	/government/politician/government_positions_held	0
+948	who played cletus hogg?	/music/artist/concert_tours	0
+949	what high school did tim allen go to?	/government/politician/government_positions_held	0
+950	who played wesley crusher on star trek the next generation?	/award/award_winner/awards_won	0
+951	what happened at benghazi?	/organization/organization/parent	0
+952	what does beth tweddle compete in?	/olympics/olympic_athlete/country	1
+953	who invented dell computer?	/book/periodical_editor/periodicals_edited	0
+954	what religion does madonna practice?	/music/artist/concert_tours	0
+955	where is holy roman empire located?	/location/location/partially_contained_by	1
+956	who is john cena married to?	/soccer/football_player/goals_scored	0
+957	where do the kansas city chiefs play?	/award/award_winner/awards_won	0
+958	where did helen keller die?	/award/award_winner/awards_won	0
+959	where did michelle obama graduated from?	/music/composition/composer	0
+960	what is the local currency in the dominican republic?	/book/book/characters	0
+961	where does greek language come from?	/soccer/football_player/goals_scored	0
+962	who plays robin hood in prince of thieves?	/soccer/football_player/goals_scored	0
+963	who plays harley quinn?	/music/composition/composer	0
+964	what disease michael jackson?	/award/award_winner/awards_won	0
+965	what year was the first miss america pageant?	/location/country/official_language	0
+966	where is alexandria located?	/location/country/official_language	0
+967	what movies has miley cyrus been in?	/location/location/containedby	0
+968	what made the soviet union fall?	/location/location/containedby	0
+969	what should i visit in venice?	/government/politician/government_positions_held	0
+970	who is the governor of california 2010?	/location/country/official_language	0
+971	who did james franco play in milk?	/music/composition/composer	0
+972	what did bruce jenner win gold medal for?	/music/artist/concert_tours	0
+973	who was john f kennedy's family?	/organization/organization/parent	0
+974	who is ryan reynolds married to 2012?	/music/composition/composer	0
+975	what currency do italy have?	/location/country/official_language	0
+976	who was the voice of darth vader in the original star wars movie?	/location/location/containedby	0
+977	what date did we invade iraq?	/book/periodical_editor/periodicals_edited	0
+978	who did mike tomlin play for?	/book/book/characters	0
+979	what do they speak in cambodia?	/government/politician/government_positions_held	0
+980	what team does jeremy lin play for 2013?	/organization/organization/parent	0
+981	what continent do the falkland islands belong to?	/book/book/characters	0
+982	where is chesapeake bay bridge?	/music/artist/concert_tours	0
+983	where did saki live?	/book/book/characters	0
+984	what did andrew johnson accomplish as president?	/music/artist/concert_tours	0
+985	what mark zuckerberg?	/book/periodical_editor/periodicals_edited	0
+986	what form of government is the philippines?	/government/politician/government_positions_held	0
+987	what do people go to amsterdam for?	/book/book/characters	0
+988	what major airport is near destin florida?	/location/country/official_language	0
+989	who won 2001 fa cup?	/book/book/characters	0
+990	who is gilbert gottfried snl?	/award/award_winner/awards_won	0
+991	where is madeira?	/government/politician/government_positions_held	0
+992	what is michael buble's style of music?	/location/country/official_language	0
+993	what kind of currency to bring to mexico?	/location/country/currency_used	1
+994	where was auschwitz concentration camp located?	/organization/organization/parent	0
+995	what genre of art is the mona lisa?	/visual_art/artwork/art_genre	1
+996	where did rick santorum attend high school?	/music/composition/composer	0
+997	what system of government does guyana have?	/music/artist/concert_tours	0
+998	where did nathaniel hawthorne die?	/book/book/characters	0
+999	who do islamic people pray to?	/soccer/football_player/goals_scored	0
+1000	what did fred durst do?	/organization/organization/parent	0
+1001	who was judy garland married to?	/location/country/official_language	0
+1002	what other jobs did benjamin franklin have?	/people/person/profession	1
+1003	what to see in chicago downtown?	/government/politician/government_positions_held	0
+1004	where is amsterdam ohio?	/location/location/containedby	1
+1005	what is the name of the currency used in china?	/organization/organization/parent	0
+1006	what is the capital city of montana usa?	/location/country/official_language	0
+1007	what city is purdue university located?	/award/award_winner/awards_won	0
+1008	what inventions did robert hooke made?	/award/award_winner/awards_won	0
+1009	what currency should i take to mexico?	/organization/organization/parent	0
+1010	what was the milwaukee brewers old name?	/book/book/characters	0
+1011	what timezone is texas san antonio in?	/book/book/characters	0
+1012	who formed the american federation of labor?	/soccer/football_player/goals_scored	0
+1013	what type of equipment did dorothea lange use?	/music/composition/composer	0
+1014	what time is nebraska now?	/book/book/characters	0
+1015	what is money called in italy?	/location/location/containedby	0
+1016	what events does stephanie rice compete in?	/government/politician/government_positions_held	0
+1017	what do people go to amsterdam for?	/book/periodical_editor/periodicals_edited	0
+1018	who won governor of indiana 2012?	/location/country/official_language	0
+1019	who did the voice of kitt in knight rider?	/award/award_winner/awards_won	0
+1020	who was cleopatra married too?	/book/book/characters	0
+1021	where did france surrender ww2?	/location/location/partially_contained_by	1
+1022	where did dr seuss go to school?	/location/country/official_language	0
+1023	what are the main languages spoken in spain?	/location/country/official_language	0
+1024	what type of money do you use in cuba?	/location/country/official_language	0
+1025	where was st elizabeth ann seton born?	/book/periodical_editor/periodicals_edited	0
+1026	what's there to see in atlanta?	/music/composition/composer	0
+1027	who are the senators of hawaii 2012?	/music/composition/composer	0
+1028	who is the new governor of florida 2011?	/book/book/characters	0
+1029	who will sponsor kevin harvick in 2011?	/government/politician/government_positions_held	0
+1030	what sport is popular in italy?	/organization/organization/parent	0
+1031	what was the japanese war called?	/location/location/containedby	0
+1032	which college did barack obama attend?	/book/book/characters	0
+1033	what countries did andy warhol work?	/people/person/nationality	1
+1034	what kind of money do you use in aruba?	/book/book/characters	0
+1035	what famous people came from delaware?	/government/governmental_jurisdiction/governing_officials	1
+1036	what character did liv tyler play in lord of the rings?	/location/country/official_language	0
+1037	where is port lavaca tx?	/book/book/characters	0
+1038	what country is the mekong river located in?	/award/award_winner/awards_won	0
+1039	what influenced john steinbeck to start writing?	/music/artist/concert_tours	0
+1040	what language did the sioux indians speak?	/music/composition/composer	0
+1041	what are the holidays of islam?	/government/politician/government_positions_held	0
+1042	where is belgium at?	/book/book/characters	0
+1043	where is midlothian scotland?	/organization/organization/parent	0
+1044	what did lucille ball die of?	/book/periodical_editor/periodicals_edited	0
+1045	what is the language they speak in jamaica?	/book/book/characters	0
+1046	what county is minneapolis mn in?	/location/country/official_language	0
+1047	what currency should take to mexico?	/soccer/football_player/goals_scored	0
+1048	what political system did spain have?	/location/country/form_of_government	1
+1049	what other movies has tom hardy played in?	/film/actor/film	1
+1050	where did jerry spinelli go to college?	/book/book/characters	0
+1051	what do costa ricans speak?	/government/politician/government_positions_held	0
+1052	who plays batman in 2012?	/award/award_winner/awards_won	0
+1053	where was f scott fitzgerald education?	/award/award_winner/awards_won	0
+1054	when did the new york mets start playing baseball?	/sports/sports_team/founded	1
+1055	what timezone is new mexico currently in?	/book/periodical_editor/periodicals_edited	0
+1056	what is charlie chaplin famous for?	/common/topic/notable_for	1
+1057	who does allen iverson play for now 2010?	/location/country/official_language	0
+1058	what types of government does france have?	/government/politician/government_positions_held	0
+1059	where is the columbia university located?	/award/award_winner/awards_won	0
+1060	what is the official language of china 2010?	/location/country/official_language	0
+1061	what is the zip code of new york city?	/government/politician/government_positions_held	0
+1062	what should you see in london?	/government/politician/government_positions_held	0
+1063	who was france allied with in ww2?	/military/military_conflict/casualties	1
+1064	what was james madison's job?	/award/award_winner/awards_won	0
+1065	when was the last tsunami in the atlantic ocean?	/music/composition/composer	0
+1066	what other discoveries did isaac newton discover?	/book/book/characters	0
+1067	who plays nathan scott?	/location/country/official_language	0
+1068	what money do they have in italy?	/location/country/official_language	0
+1069	what is the best neighborhood to live in dallas?	/location/country/official_language	0
+1070	where did jeff dunham go to school?	/book/book/characters	0
+1071	what college did edgar allan poe go to?	/book/periodical_editor/periodicals_edited	0
+1072	what year did the florida marlins win their 2nd world series title?	/award/award_winner/awards_won	0
+1073	where is okemos michigan?	/book/book/characters	0
+1074	what did taylor swift do at the vmas 2012?	/book/book/characters	0
+1075	what company did henry ford work for?	/location/country/official_language	0
+1076	what language does the new zealand speak?	/book/book/characters	0
+1077	when did the detroit pistons last win the championship?	/soccer/football_player/goals_scored	0
+1078	what was franklin pierce famous for?	/soccer/football_player/goals_scored	0
+1079	what films has daniel craig been in?	/soccer/football_player/goals_scored	0
+1080	in what modern country is the yucatan peninsula located?	/government/politician/government_positions_held	0
+1081	who does jemaine clement play in despicable me?	/government/politician/government_positions_held	0
+1082	where did pixie lott go to school?	/location/country/official_language	0
+1083	who is raquel welch's daughter?	/people/person/children	1
+1084	what is james madison most famous for?	/book/periodical_editor/periodicals_edited	0
+1085	what does nick cannon play in?	/book/periodical_editor/periodicals_edited	0
+1086	where is spain located what continent?	/book/periodical_editor/periodicals_edited	0
+1087	what are some of leonardo da vinci most famous inventions?	/organization/organization/parent	0
+1088	who played george jefferson on all in the family?	/book/periodical_editor/periodicals_edited	0
+1089	what character does mila kunis play on family guy?	/book/periodical_editor/periodicals_edited	0
+1090	what university did bill clinton graduated from?	/people/person/education	1
+1091	what kind of government system did ancient egypt have?	/organization/organization/parent	0
+1092	what is currency in panama?	/award/award_winner/awards_won	0
+1093	what is the money of spain called?	/location/statistical_region/minimum_wage	1
+1094	who does michael keaton play in cars?	/organization/organization/parent	0
+1095	where does selena gomez live map?	/government/politician/government_positions_held	0
+1096	what all did michael jackson own?	/location/country/official_language	0
+1097	what is there to see in sydney australia?	/travel/travel_destination/tourist_attractions	1
+1098	what type of paintings did marc chagall do?	/book/book/characters	0
+1099	what is the first book sherlock holmes appeared in?	/award/award_winner/awards_won	0
+1100	what is capital city of ontario?	/book/book/characters	0
+1101	where did nat turner 1831 rebellion occur?	/people/person/places_lived	1
+1102	what is osama bin laden race?	/people/person/nationality	1
+1103	what international organizations is china part of?	/music/artist/concert_tours	0
+1104	where is the spratly islands located?	/award/award_winner/awards_won	0
+1105	where did hammurabi come from?	/award/award_winner/awards_won	0
+1106	what kind of language does colombia speak?	/soccer/football_player/goals_scored	0
+1107	what brand of guitar does steve vai play?	/location/country/official_language	0
+1108	what are the major imports of the united states?	/award/award_winner/awards_won	0
+1109	who did david villa play for?	/location/country/official_language	0
+1110	what team did adrian peterson play for in college?	/location/location/containedby	0
+1111	where are the texas rangers playing?	/organization/organization/parent	0
+1112	what division is cincinnati bengals in?	/book/book/characters	0
+1113	who won fedex cup 2012?	/music/artist/concert_tours	0
+1114	what to do in dubuque this weekend?	/government/politician/government_positions_held	0
+1115	who plays jay adams in lords of dogtown?	/book/periodical_editor/periodicals_edited	0
+1116	what type of government did england have during the glorious revolution?	/book/periodical_editor/periodicals_edited	0
+1117	where does the appalachian trail run through?	/book/book/characters	0
+1118	what were amelia earhart's achievements?	/organization/organization/parent	0
+1119	who did jon gosselin cheat with?	/location/country/official_language	0
+1120	what countries speak spanish wikipedia?	/language/human_language/main_country	1
+1121	who played eowyn in the lord of the rings movies?	/location/country/official_language	0
+1122	what did nick clegg study at university?	/government/politician/government_positions_held	0
+1123	what voices does seth macfarlane play on family guy?	/organization/organization/parent	0
+1124	what area of science did leonardo da vinci study?	/soccer/football_player/goals_scored	0
+1125	what school did michael jordan go to?	/award/award_winner/awards_won	0
+1126	where was greenpeace an international environmental organization founded?	/location/country/official_language	0
+1127	what has angelina jolie accomplished?	/location/location/containedby	0
+1128	what type of political system is brazil?	/music/composition/composer	0
+1129	what country does iceland belong to?	/book/periodical_editor/periodicals_edited	0
+1130	what are the best things to do in san diego?	/book/periodical_editor/periodicals_edited	0
+1131	where is puntland somalia?	/location/country/official_language	0
+1132	where is the caribbean geographically located?	/book/periodical_editor/periodicals_edited	0
+1133	when is summer in australia sydney?	/government/politician/government_positions_held	0
+1134	what form of government does north korea have?	/music/composition/composer	0
+1135	what religion are most people in pakistan?	/location/location/partially_contains	1
+1136	when did toronto blue jays become a team?	/baseball/baseball_team/team_stats	1
+1137	where to travel in africa in january?	/book/periodical_editor/periodicals_edited	0
+1138	what college did joakim noah?	/music/artist/concert_tours	0
+1139	who did armie hammer play in the social network?	/award/award_nominee/award_nominations	1
+1140	what language they speak in scotland?	/music/composition/composer	0
+1141	who is hugh hefner dating now in 2012?	/government/politician/government_positions_held	0
+1142	what to do in rome october 2012?	/soccer/football_player/goals_scored	0
+1143	who is the coach of the pittsburgh steelers 2005?	/government/politician/government_positions_held	0
+1144	who is ruling tunisia now?	/book/periodical_editor/periodicals_edited	0
+1145	what does george soros believe?	/award/award_winner/awards_won	0
+1146	what 5 countries border switzerland?	/music/composition/composer	0
+1147	what country is vatican city in?	/award/award_winner/awards_won	0
+1148	where does delaware river start?	/music/composition/composer	0
+1149	what are the major sports played in venezuela?	/government/politician/government_positions_held	0
+1150	where is rome italy located on a map?	/government/politician/government_positions_held	0
+1151	what happened during william henry harrison presidency?	/book/periodical_editor/periodicals_edited	0
+1152	what invention did henry ford invent?	/location/country/official_language	0
+1153	what did nicolas cage name his son?	/music/composition/composer	0
+1154	where is nineveh city?	/soccer/football_player/goals_scored	0
+1155	what club did santi cazorla play for?	/award/award_winner/awards_won	0
+1156	who were the major trade partners of russia?	/award/award_winner/awards_won	0
+1157	who does albert pujols play for 2012?	/music/composition/composer	0
+1158	where does the tsunami happened in japan?	/book/book/characters	0
+1159	where does avril lavigne live now?	/book/periodical_editor/periodicals_edited	0
+1160	who did denise van outen married?	/people/person/spouse_s	1
+1161	what characters does seth macfarlane play in family guy?	/award/award_winner/awards_won	0
+1162	what are the sports in spain?	/soccer/football_player/goals_scored	0
+1163	what year were the new york yankees established?	/book/book/characters	0
+1164	who are the two current senators of illinois?	/award/award_winner/awards_won	0
+1165	what was lucille ball?	/people/person/profession	1
+1166	what language group does germany belong to?	/location/country/languages_spoken	1
+1167	who is the new governor of oregon?	/government/politician/government_positions_held	0
+1168	what is duncan bannatyne?	/book/book/characters	0
+1169	what language do cyprus speak?	/book/periodical_editor/periodicals_edited	0
+1170	what language do people speak in iceland?	/book/periodical_editor/periodicals_edited	0
+1171	who played lt uhura?	/film/film_character/portrayed_in_films	1
+1172	what does united church of christ believe?	/government/politician/government_positions_held	0
+1173	what county is clearwater fl in?	/book/book/characters	0
+1174	what kind of government did benito mussolini have?	/book/book/characters	0
+1175	where do the houston rockets play basketball?	/book/book/characters	0
+1176	what is the holy book in taoism?	/location/country/official_language	0
+1177	where did dolly parton grew up?	/music/artist/origin	1
+1178	where did tennessee williams live?	/book/periodical_editor/periodicals_edited	0
+1179	where is fiat abarth made?	/book/book/characters	0
+1180	what are the major imports and exports of canada?	/location/country/official_language	0
+1181	where is louisville ne?	/book/periodical_editor/periodicals_edited	0
+1182	what team is ronaldinho on?	/location/country/official_language	0
+1183	what county is denver colorado in?	/book/periodical_editor/periodicals_edited	0
+1184	where ulysses s grant go to school?	/people/person/education	1
+1185	what kind of currency does cuba use?	/award/award_winner/awards_won	0
+1186	what is molly ringwald in?	/award/award_winner/awards_won	0
+1187	where was gabriel faure born?	/location/country/official_language	0
+1188	where did melba beals live?	/soccer/football_player/goals_scored	0
+1189	what kind of political system is canada?	/award/award_winner/awards_won	0
+1190	who voice acts peter griffin?	/location/country/official_language	0
+1191	where is the seychelles on world map?	/music/composition/composer	0
+1192	what was the cause of death for huell howser?	/location/location/containedby	0
+1193	what type of government does italy have 2011?	/location/country/form_of_government	1
+1194	who owns the toronto maple leafs?	/government/politician/government_positions_held	0
+1195	what to see in dallas tx?	/book/periodical_editor/periodicals_edited	0
+1196	what movies did miley cyrus play in?	/book/periodical_editor/periodicals_edited	0
+1197	what language do the russian speak?	/soccer/football_player/goals_scored	0
+1198	who is the voice of family guys meg griffin?	/book/periodical_editor/periodicals_edited	0
+1199	who is dirk nowitzki wife?	/organization/organization/parent	0
+1200	who was vice president with bill clinton?	/organization/organization/parent	0
+1201	what country is joseph prince from?	/book/book/characters	0
+1202	where does sam shepard live?	/location/country/official_language	0
+1203	what currency do mexico use?	/book/book/characters	0
+1204	what are some inventions that leonardo da vinci invented?	/music/artist/concert_tours	0
+1205	who married jessica simpson?	/award/award_winner/awards_won	0
+1206	where did hugo chavez go to school?	/music/artist/concert_tours	0
+1207	who is playing jason morgan on general hospital?	/award/award_winner/awards_won	0
+1208	what political party did john bell belong to?	/award/award_winner/awards_won	0
+1209	what is there fun to do in san diego?	/book/periodical_editor/periodicals_edited	0
+1210	what was alexander graham bell known for?	/location/country/official_language	0
+1211	what government type is north korea?	/book/book/characters	0
+1212	who does blake griffin play for in the nba?	/award/award_winner/awards_won	0
+1213	what art movement does vincent van gogh belong to?	/award/award_winner/awards_won	0
+1214	what to see in vietnam in two weeks?	/government/politician/government_positions_held	0
+1215	what currency is best to take to dominican republic?	/government/politician/government_positions_held	0
+1216	what time does independence center open on sundays?	/book/periodical_editor/periodicals_edited	0
+1217	what sports are played in canada?	/award/award_winner/awards_won	0
+1218	who is steven seagal sister?	/government/politician/government_positions_held	0
+1219	where was anne boleyn executed?	/music/artist/concert_tours	0
+1220	what is the capital city of west germany?	/government/politician/government_positions_held	0
+1221	when was the last time the new england patriots won the superbowl?	/book/periodical_editor/periodicals_edited	0
+1222	who did the philippines gain independence from?	/book/periodical_editor/periodicals_edited	0
+1223	what is the name of the capital of belgium?	/soccer/football_player/goals_scored	0
+1224	who is angelina jolie?	/music/artist/concert_tours	0
+1225	what county is morristown tn in?	/award/award_winner/awards_won	0
+1226	who are senators from new jersey?	/government/politician/government_positions_held	0
+1227	who did adam sandler married?	/government/politician/government_positions_held	0
+1228	what currency to take to turkey 2010?	/organization/organization/parent	0
+1229	who was michael jackson in the wiz?	/award/award_winner/awards_won	0
+1230	what influenced abraham lincoln to become president?	/location/country/official_language	0
+1231	where did wassily kandinsky work?	/book/periodical_editor/periodicals_edited	0
+1232	where did kate gosselin grew up?	/soccer/football_player/goals_scored	0
+1233	what is arkansas state capitol?	/location/administrative_division/capital	1
+1234	who plays stewie griffin's voice?	/book/book/characters	0
+1235	when do they change the time in california?	/location/location/time_zones	1
+1236	where do cherry trees grow in the united states?	/book/periodical_editor/periodicals_edited	0
+1237	what did john irving wrote?	/soccer/football_player/goals_scored	0
+1238	where was the battle of antietam creek?	/book/periodical_editor/periodicals_edited	0
+1239	who did matt barnes married?	/book/periodical_editor/periodicals_edited	0
+1240	who is the senior senator of louisiana?	/music/artist/concert_tours	0
+1241	where was franz ferdinand from?	/music/composition/composer	0
+1242	what kind of government does the united states have currently?	/organization/organization/parent	0
+1243	what is the currency of germany in 2010?	/location/country/official_language	0
+1244	who played carmen cortez in spy kids?	/organization/organization/parent	0
+1245	who did annie oakley married?	/soccer/football_player/goals_scored	0
+1246	what position did stanley matthews play?	/music/artist/concert_tours	0
+1247	what type of cancer did eva peron die from?	/organization/organization/parent	0
+1248	who did axl rose marry?	/location/country/official_language	0
+1249	who is paul revere and what did he do?	/award/award_winner/awards_won	0
+1250	where did pavlova originate?	/book/periodical_editor/periodicals_edited	0
+1251	what kind of government does mongolia?	/book/book/characters	0
+1252	where did richard arkwright grow up?	/soccer/football_player/goals_scored	0
+1253	what country does japan export to?	/government/politician/government_positions_held	0
+1254	who does chris hemsworth have a baby with?	/location/location/containedby	0
+1255	who does jeremy shockey play for in 2012?	/location/location/containedby	0
+1256	which countries share land border with vietnam?	/government/politician/government_positions_held	0
+1257	who was dan cody?	/common/topic/notable_types	1
+1258	what kind of money do the netherlands use?	/government/politician/government_positions_held	0
+1259	what time is it in lake havasu city arizona?	/government/politician/government_positions_held	0
+1260	what kind of insurance does geico offer?	/book/book/characters	0
+1261	where is tennessee river?	/music/artist/concert_tours	0
+1262	what language do they speak in northern ireland?	/book/book/characters	0
+1263	who is aidan davis?	/book/book/characters	0
+1264	where the missouri river ends?	/music/artist/concert_tours	0
+1265	who did megan fox have a baby with?	/government/politician/government_positions_held	0
+1266	which countries speak english?	/language/human_language/countries_spoken_in	1
+1267	where do the seattle seahawks play?	/sports/sports_team/arena_stadium	1
+1268	what 3 states border the pacific ocean?	/location/location/adjoin_s	1
+1269	what to do in chicago this weekend with kids?	/government/politician/government_positions_held	0
+1270	what can you visit in london?	/travel/travel_destination/tourist_attractions	1
+1271	where did jeff dunham go to school?	/government/politician/government_positions_held	0
+1272	what was the currency used in france before the euro?	/music/artist/concert_tours	0
+1273	who is the manager of the st louis cardinals?	/baseball/baseball_team/current_manager	1
+1274	what county is brentwood tennessee in?	/organization/organization/parent	0
+1275	what to do in ottawa ontario today?	/government/politician/government_positions_held	0
+1276	where is midlothian scotland?	/location/location/containedby	1
+1277	what was the cause of death for laci peterson?	/organization/organization/parent	0
+1278	who is john cabot's parents?	/people/person/parents	1
+1279	what does andy warhol do?	/location/country/official_language	0
+1280	what movies did taylor lautner star in?	/government/politician/government_positions_held	0
+1281	what did samuel de champlain?	/people/person/profession	1
+1282	what currency does jamaica accept?	/book/periodical_editor/periodicals_edited	0
+1283	where are english speakers distributed?	/organization/organization/parent	0
+1284	what type of political system does north korea have?	/location/country/form_of_government	1
+1285	what did fred goodwin do?	/location/country/official_language	0
+1286	where is burundi located on a map?	/government/politician/government_positions_held	0
+1287	where did robert boyle study?	/award/award_winner/awards_won	0
+1288	who does myles kennedy sing for?	/soccer/football_player/goals_scored	0
+1289	who are china's neighbors?	/location/location/adjoin_s	1
+1290	who rules denmark right now?	/location/location/containedby	0
+1291	where is the kakadu national park located?	/book/book/characters	0
+1292	where does jackie french live?	/book/periodical_editor/periodicals_edited	0
+1293	what year did the cleveland indians go to the world series?	/sports/sports_team/championships	1
+1294	where was the palace of knossos located?	/music/composition/composer	0
+1295	where was emperor qin shi huang born?	/award/award_winner/awards_won	0
+1296	what did albert speer design?	/music/composition/composer	0
+1297	who is the current leader of china today?	/government/governmental_jurisdiction/governing_officials	1
+1298	who is the senator of the united states 2010?	/government/governmental_body/members	1
+1299	what influenced langston hughes to write?	/book/book/characters	0
+1300	who plays karen jackson on shameless?	/tv/tv_character/appeared_in_tv_episodes	1
+1301	what to do in palo alto ca with kids?	/location/country/official_language	0
+1302	what times is it in texas?	/location/location/time_zones	1
+1303	what country christopher columbus from?	/people/person/place_of_birth	1
+1304	what state was texaco gas founded?	/location/country/official_language	0
+1305	where is the spratly islands located?	/book/periodical_editor/periodicals_edited	0
+1306	what is the president of brazil?	/government/politician/government_positions_held	0
+1307	what language did the miwok indians speak?	/book/periodical_editor/periodicals_edited	0
+1308	what language did the egyptians?	/location/country/official_language	0
+1309	where did mitt romney's parents come from?	/music/artist/concert_tours	0
+1310	where was the battle of waterloo held?	/military/military_conflict/locations	1
+1311	what war did george washington help win?	/military/military_commander/military_commands	1
+1312	what was franklin d roosevelt's job before president?	/government/politician/government_positions_held	1
+1313	what county is denver colorado in?	/government/politician/government_positions_held	0
+1314	what is the economy of china?	/government/politician/government_positions_held	0
+1315	what city is the jacksonville jaguars from?	/award/award_winner/awards_won	0
+1316	what currency is used in france before euro?	/book/book/characters	0
+1317	what do you want from me jerrod niemann lyrics meaning?	/book/book/characters	0
+1318	what religion does canada follow?	/soccer/football_player/goals_scored	0
+1319	where to exchange euros in new york city?	/music/artist/concert_tours	0
+1320	who are the senators of virginia 2013?	/music/composition/composer	0
+1321	in what country is amsterdam?	/award/award_winner/awards_won	0
+1322	what kind of money does egypt have?	/location/country/currency_used	1
+1323	what year did florida marlins win the world series?	/award/award_winner/awards_won	0
+1324	what is the currency in italy?	/soccer/football_player/goals_scored	0
+1325	what are some good books like looking for alaska?	/book/book_subject/works	1
+1326	where do the san francisco giants play home games?	/book/periodical_editor/periodicals_edited	0
+1327	what did egyptians speak?	/people/ethnicity/languages_spoken	1
+1328	who was the members of blackstreet?	/book/periodical_editor/periodicals_edited	0
+1329	what inspired michelangelo buonarroti?	/music/artist/concert_tours	0
+1330	what is the currency used in italy?	/location/country/currency_used	1
+1331	what is the parliament of nepal called?	/organization/organization/parent	0
+1332	in what years did the new york yankees win the world series?	/government/politician/government_positions_held	0
+1333	what time zone is chicago in right now?	/location/location/containedby	0
+1334	what college did albert einstein go to?	/music/artist/concert_tours	0
+1335	what did the blackfoot indians speak?	/music/artist/concert_tours	0
+1336	what sport do the toronto maple leafs play?	/sports/sports_team/sport	1
+1337	what is the name of the first harry potter novel?	/book/book/characters	0
+1338	who is henry david thoreau?	/book/periodical_editor/periodicals_edited	0
+1339	where did jay moriarty die?	/people/deceased_person/place_of_death	1
+1340	who did adam sandler married?	/award/award_winner/awards_won	0
+1341	what year was albert pujols rookie year?	/organization/organization/parent	0
+1342	where does dr. sanjay gupta practice?	/book/periodical_editor/periodicals_edited	0
+1343	where did boston terriers come from?	/book/book/characters	0
+1344	what type of monarchy did england have?	/book/periodical_editor/periodicals_edited	0
+1345	who are senators from new jersey?	/location/country/official_language	0
+1346	what language do pakistani people talk?	/government/politician/government_positions_held	0
+1347	who is kobe bryant dad?	/government/politician/government_positions_held	0
+1348	what team does plaxico burress play for?	/location/country/official_language	0
+1349	who does kroy biermann play football for?	/organization/organization/parent	0
+1350	who does michael oher play for in 2009?	/book/book/characters	0
+1351	where is the mtv headquarters?	/award/award_winner/awards_won	0
+1352	where did the sultan of the ottoman empire live?	/location/country/official_language	0
+1353	who is lleyton hewitt?	/people/person/profession	1
+1354	where do scottish people originate from?	/organization/organization/parent	0
+1355	what did michael crabtree do?	/sports/pro_athlete/teams	1
+1356	what religion was john f kennedy?	/book/book/characters	0
+1357	where was the city of david?	/people/person/place_of_birth	1
+1358	what movies did chris farley do?	/book/periodical_editor/periodicals_edited	0
+1359	what type of government does the former soviet union have?	/book/periodical_editor/periodicals_edited	0
+1360	who played young sam winchester?	/location/country/official_language	0
+1361	what do people speak in canada?	/book/periodical/language	1
+1362	who was sir walter raleigh and what did he do?	/people/person/profession	1
+1363	what kind of political system is canada?	/location/country/form_of_government	1
+1364	what years have the dallas cowboys won the superbowl?	/book/periodical_editor/periodicals_edited	0
+1365	who is playing jason morgan on general hospital?	/book/book/characters	0
+1366	where did nathaniel hawthorne die?	/book/periodical_editor/periodicals_edited	0
+1367	who are the two current illinois senators?	/government/political_district/representatives	1
+1368	what kind of disease does montel williams have?	/medicine/notable_person_with_medical_condition/condition	1
+1369	what money do i use in costa rica?	/location/location/containedby	0
+1370	what was robert burns famous for?	/organization/organization/parent	0
+1371	when did democritus discovered the atom?	/government/politician/government_positions_held	0
+1372	which countries have spanish as their main language?	/language/human_language/countries_spoken_in	1
+1373	what are the colonies of great britain?	/geography/island/island_group	1
+1374	what did nikola tesla invented that is of use today?	/music/composition/composer	0
+1375	where to travel around sydney?	/book/periodical_editor/periodicals_edited	0
+1376	what is wentworth miller in?	/location/country/official_language	0
+1377	where did the crimean war take place?	/music/composition/composer	0
+1378	what did bruce jenner win gold medal for?	/music/composition/composer	0
+1379	who was john f kennedy's family?	/people/person/children	1
+1380	what money does jamaica use?	/location/country/currency_used	1
+1381	where did kim kardashian come from?	/music/composition/composer	0
+1382	where is louisville ne?	/award/award_winner/awards_won	0
+1383	where was nicki minaj born?	/book/book/characters	0
+1384	what genre of art is the mona lisa?	/soccer/football_player/goals_scored	0
+1385	what are the basic beliefs of sikhism?	/religion/religion/beliefs	1
+1386	what political experience did abraham lincoln have?	/location/country/official_language	0
+1387	who did paul revere marry?	/soccer/football_player/goals_scored	0
+1388	what movies star adam sandler?	/award/award_winner/awards_won	0
+1389	what three continents touch the atlantic ocean?	/government/politician/government_positions_held	0
+1390	what did nick clegg study at university?	/book/book/characters	0
+1391	what is tim tebow's religion?	/location/country/official_language	0
+1392	where was benjamin franklin raised?	/location/country/official_language	0
+1393	where does kate middleton live 2012?	/music/composition/composer	0
+1394	what is the current government system in france?	/government/politician/government_positions_held	0
+1395	what two continents is turkey on?	/music/composition/composer	0
+1396	what killed john bonham?	/location/location/containedby	0
+1397	what movies gerard butler has been in?	/music/composition/composer	0
+1398	where is amsterdam ohio?	/book/book/characters	0
+1399	when did miami dolphins win super bowl?	/location/country/official_language	0
+1400	what do portuguese people speak?	/organization/organization/parent	0
+1401	where did theodore roosevelt live before he became president?	/location/country/official_language	0
+1402	what is the new york knicks starting lineup?	/award/award_winner/awards_won	0
+1403	what position does vernon davis play?	/book/book/characters	0
+1404	where do the chicago cubs play?	/location/country/official_language	0
+1405	when was tom brady first superbowl win?	/book/periodical_editor/periodicals_edited	0
+1406	what songs did duane allman sing?	/government/politician/government_positions_held	0
+1407	who is amy grant's first husband?	/music/composition/composer	0
+1408	what does the dominican republic speak?	/government/politician/government_positions_held	0
+1409	where does president barack obama live?	/location/country/official_language	0
+1410	what other countries share a border with china?	/book/book/characters	0
+1411	where are the sahara desert located?	/organization/organization/parent	0
+1412	what is the currency of sweden called?	/book/periodical_editor/periodicals_edited	0
+1413	what did doc holliday die from?	/award/award_winner/awards_won	0
+1414	who are betty white's parents?	/people/person/parents	1
+1415	where was the battle of vicksburg located?	/military/military_conflict/locations	1
+1416	what is there for kids to do in miami?	/location/country/official_language	0
+1417	who did cher have a son with?	/music/artist/concert_tours	0
+1418	what is the language used in indonesia?	/location/country/languages_spoken	1
+1419	what is there to do for fun in kansas city?	/music/composition/composer	0
+1420	what timezone is minneapolis in?	/award/award_winner/awards_won	0
+1421	who was andrew johnson and what did he do?	/location/country/official_language	0
+1422	where did leif ericson grow up?	/music/composition/composer	0
+1423	what is the newspaper in phoenix?	/book/periodical_editor/periodicals_edited	0
+1424	what nationality is zack de la rocha?	/people/person/nationality	1
+1425	who was kim kardashian's first husband?	/people/person/spouse_s	1
+1426	what continent does the amazon river flow through?	/book/book/characters	0
+1427	who did ben stiller play in megamind?	/location/country/official_language	0
+1428	what happened to pope john paul ii?	/music/artist/concert_tours	0
+1429	when did liverpool fc last win the champions league?	/music/artist/concert_tours	0
+1430	where did france surrender ww2?	/government/politician/government_positions_held	0
+1431	what would happen if the new madrid fault had an earthquake?	/book/periodical_editor/periodicals_edited	0
+1432	what are physical features of egypt?	/soccer/football_player/goals_scored	0
+1433	what money do they use in spain?	/location/statistical_region/minimum_wage	1
+1434	what season did lana lang leave smallville?	/music/artist/concert_tours	0
+1435	who is the president of ecuador in 2012?	/book/book/characters	0
+1436	what kind of currency does greece have?	/location/country/official_language	0
+1437	what sport is popular in china?	/government/politician/government_positions_held	0
+1438	what time zone am i in missouri?	/book/book/characters	0
+1439	what airport to fly into to get to clearwater florida?	/location/country/official_language	0
+1440	who is democritus and what did he discover?	/award/award_winner/awards_won	0
+1441	what area of science did sir isaac newton study?	/location/location/containedby	0
+1442	what is julia gillard famous for?	/location/country/official_language	0
+1443	what language chile speak?	/location/country/official_language	0
+1444	what type of government does russia have 2010?	/music/artist/concert_tours	0
+1445	who does kroy biermann play football for?	/location/location/containedby	0
+1446	what college did albert einstein go to?	/music/composition/composer	0
+1447	when did liverpool fc last win the champions league?	/soccer/football_team/matches	1
+1448	where do houston aeros play?	/government/politician/government_positions_held	0
+1449	who is gimli's father in the hobbit?	/fictional_universe/fictional_character/parents	1
+1450	what was one thing benjamin franklin is famous for?	/book/book/characters	0
+1451	what is the currency in the dominican republic called?	/location/country/currency_used	1
+1452	what teams did derek fisher play for in the nba?	/basketball/basketball_player/player_statistics	1
+1453	what does sirius black wand look like?	/location/country/official_language	0
+1454	when did kaley cuoco join charmed?	/music/composition/composer	0
+1455	what country did giovanni da verrazano represent?	/book/book/characters	0
+1456	what are the holidays of islam?	/award/award_winner/awards_won	0
+1457	what teams are in the american league west?	/baseball/baseball_division/teams	1
+1458	what kind of economy does china has?	/government/politician/government_positions_held	0
+1459	what else did eli whitney invent?	/book/book/characters	0
+1460	what utc time zone is arizona?	/location/country/official_language	0
+1461	what is the currency name of brazil?	/book/periodical_editor/periodicals_edited	0
+1462	what does rupert murdoch own 2012?	/award/award_winner/awards_won	0
+1463	where is the howard university located?	/award/award_winner/awards_won	0
+1464	what year was tom brady drafted?	/award/award_winner/awards_won	0
+1465	what city is the jacksonville jaguars from?	/government/politician/government_positions_held	0
+1466	what teams did robert horry won rings with?	/book/periodical_editor/periodicals_edited	0
+1467	who played lauren reed on alias?	/organization/organization/parent	0
+1468	where is spain exactly located?	/book/periodical_editor/periodicals_edited	0
+1469	who did ayrton senna drive for?	/book/periodical_editor/periodicals_edited	0
+1470	what are the mountains in peru called?	/book/periodical_editor/periodicals_edited	0
+1471	when did moscow burn?	/government/politician/government_positions_held	0
+1472	what movies has angelina jolie in?	/book/book/characters	0
+1473	what movies have adam sandler been in?	/award/award_winner/awards_won	0
+1474	where is mount whitney?	/book/periodical_editor/periodicals_edited	0
+1475	what is the capital of modern egypt?	/location/country/capital	1
+1476	who plays robin hood in prince of thieves?	/award/award_nominated_work/award_nominations	1
+1477	who won the battle of gettysburg union or confederate?	/military/military_conflict/combatants	1
+1478	what airport is close to daytona beach florida?	/location/location/nearby_airports	1
+1479	what did dr carter g woodson do?	/book/book/characters	0
+1480	what currency does the czech republic use now?	/location/country/currency_used	1
+1481	who is the senator of the united states 2010?	/location/country/official_language	0
+1482	who did reese witherspoon get married to?	/organization/organization/parent	0
+1483	where was karl marx buried?	/location/country/official_language	0
+1484	who is in charge of libya now?	/government/governmental_jurisdiction/governing_officials	1
+1485	where can i go running in sacramento?	/music/composition/composer	0
+1486	who does paul bettany play in the avengers?	/book/periodical_editor/periodicals_edited	0
+1487	who did terrell owens play for in 2010?	/soccer/football_player/goals_scored	0
+1488	where was john f kennedy when he got shot?	/organization/organization/parent	0
+1489	what instrument does ringo starr play?	/book/book/characters	0
+1490	what is chris paul's son name?	/book/book/characters	0
+1491	where is english spoken around the world?	/organization/organization/parent	0
+1492	where did venus williams come from?	/location/location/containedby	0
+1493	what type of cancer did huell howser die of?	/location/country/official_language	0
+1494	who is the senator of the state of texas?	/government/political_district/representatives	1
+1495	what was gregor mendel known for?	/government/politician/government_positions_held	0
+1496	who did france surrender to in ww2?	/location/location/adjoin_s	1
+1497	who was the prime minister of pakistan in 1999?	/location/location/containedby	0
+1498	where the queen of denmark lives?	/location/country/capital	1
+1499	what political party did john bell belong to?	/location/country/official_language	0
+1500	which countries does south africa export to?	/location/statistical_region/places_exported_to	1
+1501	what language do navajo people speak?	/music/artist/concert_tours	0
+1502	what county is brentwood tennessee in?	/music/artist/concert_tours	0
+1503	where was the first microsoft headquarters located?	/soccer/football_player/goals_scored	0
+1504	what songs do zac brown band sing?	/soccer/football_player/goals_scored	0
+1505	where are the netherlands on a world map?	/book/book/characters	0
+1506	who founded the american federation of labor afl in 1886?	/location/country/official_language	0
+1507	where was adolf hitler died?	/book/book/characters	0
+1508	who is paul revere and what did he do?	/book/periodical_editor/periodicals_edited	0
+1509	what city is the university of maryland university college in?	/government/politician/government_positions_held	0
+1510	where is johnny depp from?	/people/person/place_of_birth	1
+1511	what is julia gillard party?	/location/country/official_language	0
+1512	where did alexander graham bell die?	/soccer/football_player/goals_scored	0
+1513	who was the secretary of state when andrew jackson was president?	/government/political_appointer/appointees	1
+1514	what did jesus do for living?	/music/composition/composer	0
+1515	where did alex smith play high school football?	/government/politician/government_positions_held	0
+1516	what is the political structure of china?	/location/country/form_of_government	1
+1517	who does tim howard play for club?	/book/periodical_editor/periodicals_edited	0
+1518	what country did germany invade first in ww1?	/location/location/containedby	0
+1519	what countries are around egypt?	/book/book/characters	0
+1520	who plays bilbo baggins in the hobbit?	/location/location/containedby	0
+1521	what country did gregor mendel live in?	/music/artist/concert_tours	0
+1522	what did egyptians speak?	/government/politician/government_positions_held	0
+1523	what movies has michael clarke duncan been in?	/location/country/official_language	0
+1524	where is devon sawa now?	/location/country/official_language	0
+1525	where did the sultan of the ottoman empire live?	/government/politician/government_positions_held	0
+1526	where did the san diego chargers originate?	/award/award_winner/awards_won	0
+1527	where is mallorca?	/government/politician/government_positions_held	0
+1528	what team did kaka play for in 2009?	/sports/pro_athlete/teams	1
+1529	what district does john cornyn represent?	/book/book/characters	0
+1530	what wnba team is diana taurasi on?	/music/composition/composer	0
+1531	what currency is used in panama?	/music/artist/concert_tours	0
+1532	what type of government does germany have now?	/soccer/football_player/goals_scored	0
+1533	what is the capital of alaska state?	/location/administrative_division/capital	1
+1534	what county is the city of hampton va in?	/government/politician/government_positions_held	0
+1535	when did florida marlins join mlb?	/soccer/football_player/goals_scored	0
+1536	what were some inventions of leonardo da vinci?	/law/inventor/inventions	1
+1537	what books did emily dickinson wrote?	/government/politician/government_positions_held	0
+1538	what language do they speak in northern ireland?	/location/country/official_language	1
+1539	who plays the voice of kitt in knight rider?	/soccer/football_player/goals_scored	0
+1540	who owns the portland press herald?	/location/location/containedby	0
+1541	where do the baltimore ravens play?	/book/book/characters	0
+1542	who did corey feldman married?	/book/book/characters	0
+1543	what planet did luke skywalker came from?	/soccer/football_player/goals_scored	0
+1544	where kurdish people come from?	/book/periodical_editor/periodicals_edited	0
+1545	who has played edward quartermaine on general hospital?	/award/award_winner/awards_won	0
+1546	what currency do you use in costa rica?	/location/country/official_language	0
+1547	where does greek language come from?	/location/location/containedby	0
+1548	who are the colorado representatives?	/government/political_district/representatives	1
+1549	what three continents touch the atlantic ocean?	/book/periodical_editor/periodicals_edited	0
+1550	what wars did ulysses s grant served in?	/government/politician/government_positions_held	0
+1551	who is the current president of chile 2011?	/book/book/characters	0
+1552	what primary school did sir isaac newton go to?	/book/periodical_editor/periodicals_edited	0
+1553	what is the predominant religion in israel?	/music/composition/composer	0
+1554	where are the netherlands on a world map?	/location/country/official_language	0
+1555	when did roth ira originate?	/organization/organization/parent	0
+1556	what school did sir ernest rutherford go to?	/soccer/football_player/goals_scored	0
+1557	what movies did luke perry play in?	/location/country/official_language	0
+1558	what was the name of the original seattle baseball team?	/book/book/characters	0
+1559	what country did francis drake explored for?	/book/periodical_editor/periodicals_edited	0
+1560	who does joakim noah play for?	/government/politician/government_positions_held	0
+1561	who started pixar?	/book/book/characters	0
+1562	what religion did jesus christ follow?	/book/book/characters	0
+1563	where did michael jackson went to school?	/government/politician/government_positions_held	0
+1564	where did joe flacco attend college?	/music/composition/composer	0
+1565	what language is cyprus using?	/government/politician/government_positions_held	0
+1566	who plays hermione granger?	/book/book/characters	0
+1567	where was abraham lincoln buried?	/book/periodical_editor/periodicals_edited	0
+1568	when did the christchurch quake happened?	/book/book/characters	0
+1569	what is the zip code for inglewood california?	/location/citytown/postal_codes	1
+1570	what is the capital city of texas usa?	/book/book/characters	0
+1571	what caused the asian currency crisis?	/award/award_winner/awards_won	0
+1572	what language people speak in belgium?	/book/book/characters	0
+1573	what to see near austin?	/award/award_winner/awards_won	0
+1574	what country does justin bieber come from?	/location/location/containedby	0
+1575	where did robert boyle study?	/government/politician/government_positions_held	0
+1576	where did will smith go to high school?	/government/politician/government_positions_held	0
+1577	what are the major imports and exports of canada?	/location/statistical_region/major_exports	1
+1578	what school did wilfred owen go to?	/people/person/education	1
+1579	who plays patrick jane wife?	/award/award_winner/awards_won	0
+1580	who is the leader of france 2012?	/government/governmental_jurisdiction/governing_officials	1
+1581	who was galileo galilei?	/location/country/official_language	0
+1582	who is governor of ohio 2011?	/organization/organization/parent	0
+1583	what year did arizona cardinals go to superbowl?	/award/award_winner/awards_won	0
+1584	when did bradley cooper's dad die?	/location/country/official_language	0
+1585	what did jeff corwin major in?	/book/book/characters	0
+1586	who made the american red cross?	/book/periodical_editor/periodicals_edited	0
+1587	what is lawton ok zip code?	/music/composition/composer	0
+1588	what money do they use in thailand?	/location/country/official_language	0
+1589	what country christopher columbus from?	/book/periodical_editor/periodicals_edited	0
+1590	what art movement was pablo picasso part of?	/book/book/characters	0
+1591	what money does cuba use?	/organization/organization/parent	0
+1592	what illnesses did george washington have?	/book/book/characters	0
+1593	what war was george washington associated with?	/government/politician/government_positions_held	0
+1594	what currency do they use in switzerland?	/organization/organization/parent	0
+1595	who plays shao kahn?	/film/film_character/portrayed_in_films	1
+1596	where do cruises leave from in rome?	/travel/travel_destination/how_to_get_here	1
+1597	what kind of government did the mali empire have?	/location/country/form_of_government	1
+1598	who is khloe kardashian's husband?	/soccer/football_player/goals_scored	0
+1599	who did cristiano ronaldo play for in 2010?	/music/artist/concert_tours	0
+1600	what disease did abraham lincoln had?	/organization/organization/parent	0
+1601	where is oceania on a map?	/award/award_winner/awards_won	0
+1602	what document did james madison write?	/music/composition/composer	0
+1603	what did george orwell died of?	/music/composition/composer	0
+1604	what illness does michael j fox have?	/book/book/characters	0
+1605	what political party was adolf hitler from?	/book/periodical_editor/periodicals_edited	0
+1606	what county is kansas city kansas?	/location/capital_of_administrative_division/capital_of	1
+1607	what is the date today in perth?	/award/award_winner/awards_won	0
+1608	who did alicia keys have a baby with?	/book/book/characters	0
+1609	what was francisco vasquez de coronado known for?	/book/book/characters	0
+1610	where do haitian people come from?	/book/book_subject/works	1
+1611	who is the leader of japan?	/book/book/characters	0
+1612	what channel saints game?	/location/location/containedby	0
+1613	who runs china 2011?	/book/book/characters	0
+1614	what language does fiji?	/award/award_winner/awards_won	0
+1615	what team does diego forlan currently play for?	/government/politician/government_positions_held	0
+1616	what honor did agatha christie receive in 1971?	/organization/organization/parent	0
+1617	what to see and do in vancouver washington?	/location/location/containedby	0
+1618	what movies does taylor lautner play in?	/location/country/official_language	0
+1619	who plays the new michael myers?	/government/politician/government_positions_held	0
+1620	what currency do i bring to cuba?	/book/book/characters	0
+1621	what are the islands of oceania?	/location/location/contains	1
+1622	who did japan surrender to in ww2?	/military/military_combatant/military_commanders	1
+1623	who played carmen cortez in spy kids?	/music/artist/concert_tours	0
+1624	where did elvis presley started his career?	/government/politician/government_positions_held	0
+1625	what is the second biggest state in the united states?	/music/artist/concert_tours	0
+1626	where does manny pacquiao live?	/location/country/official_language	0
+1627	what languages do scottish people speak?	/location/country/official_language	0
+1628	what do people in the czech republic speak?	/location/country/languages_spoken	1
+1629	what kind of disease does montel williams have?	/music/composition/composer	0
+1630	what are the main languages of nigeria?	/location/country/languages_spoken	1
+1631	who taught michelangelo to sculpt?	/location/country/official_language	0
+1632	who does paul wesley play in 24?	/book/periodical_editor/periodicals_edited	0
+1633	what year did miami heat win the championship?	/book/periodical_editor/periodicals_edited	0
+1634	what style of art does andy warhol do?	/award/award_winner/awards_won	0
+1635	where did dr. martin luther king jr. go to school?	/government/politician/government_positions_held	0
+1636	what kind of tennis racquet does serena williams use?	/soccer/football_player/goals_scored	0
+1637	who is raquel welch's daughter?	/location/country/official_language	0
+1638	what currency do they use in switzerland?	/soccer/football_player/goals_scored	0
+1639	when did toronto blue jays become a team?	/award/award_winner/awards_won	0
+1640	who was emperor diocletian?	/book/book/characters	0
+1641	what part of the country is ohio in?	/music/composition/composer	0
+1642	what inventions did thomas edison invent list?	/soccer/football_player/goals_scored	0
+1643	what college football team did john elway play for?	/soccer/football_player/goals_scored	0
+1644	where is kentucky located?	/location/country/official_language	0
+1645	who is the arizona cardinals football coach?	/government/politician/government_positions_held	0
+1646	where did sir john a macdonald die?	/people/deceased_person/place_of_death	1
+1647	what do you want from me jerrod niemann lyrics meaning?	/award/award_winner/awards_won	0
+1648	what disease did abraham lincoln had?	/soccer/football_player/goals_scored	0
+1649	where is port charlotte florida located?	/location/country/official_language	0
+1650	who did veronica lake mary?	/music/artist/concert_tours	0
+1651	what was walt disney's first cartoon called?	/book/periodical_editor/periodicals_edited	0
+1652	where is mount st helens?	/book/periodical_editor/periodicals_edited	0
+1653	what products and\/or services does google offer customers?	/location/location/containedby	0
+1654	where are the florida marlins from?	/book/periodical_editor/periodicals_edited	0
+1655	what movies has taylor lautner been in 2011?	/government/politician/government_positions_held	0
+1656	where is auburn university located?	/music/artist/concert_tours	0
+1657	who did benjamin franklin get married to?	/location/location/containedby	0
+1658	what is the zip code for fort stockton texas?	/location/citytown/postal_codes	1
+1659	where to visit in paris with children?	/soccer/football_player/goals_scored	0
+1660	what kind of government does iran have today?	/award/award_winner/awards_won	0
+1661	what was karl marx beliefs?	/book/periodical_editor/periodicals_edited	0
+1662	who is the mother of prince michael jackson?	/people/person/parents	1
+1663	who does owen schmitt play for?	/organization/organization/parent	0
+1664	when was president john adams elected?	/music/artist/concert_tours	0
+1665	what kind of disease does montel williams have?	/soccer/football_player/goals_scored	0
+1666	what kind of money do you use in aruba?	/award/award_winner/awards_won	0
+1667	when was ancient egypt created?	/location/country/official_language	0
+1668	what characters does seth macfarlane play in family guy?	/book/periodical_editor/periodicals_edited	0
+1669	what ocean is around hawaii?	/organization/organization/parent	0
+1670	where is spanish spoken most?	/music/composition/composer	0
+1671	who played forrest gump as a kid?	/location/country/official_language	0
+1672	what country did giovanni da verrazano represent?	/government/politician/government_positions_held	0
+1673	who does darth vaders voice?	/location/location/containedby	0
+1674	who was tex beneke?	/award/award_winner/awards_won	0
+1675	which part of korea is communist?	/government/politician/government_positions_held	0
+1676	what country does japan export to?	/location/country/official_language	0
+1677	where is oceania on a map?	/government/politician/government_positions_held	0
+1678	who was the prime minister of canada in 1998?	/government/politician/government_positions_held	0
+1679	where was the vietnam war location?	/music/composition/composer	0
+1680	what happened at the virginia tech massacre?	/book/book/characters	0
+1681	what is san francisco zip code?	/soccer/football_player/goals_scored	0
+1682	where is tyrese gibson from?	/location/location/containedby	0
+1683	what form of government does the united states have?	/music/composition/composer	0
+1684	what did coretta scott king died from?	/people/deceased_person/cause_of_death	1
+1685	where was the battle of vicksburg located?	/award/award_winner/awards_won	0
+1686	what to do in richardson dallas?	/music/composition/composer	0
+1687	what currency should you take to thailand?	/location/country/currency_used	1
+1688	when does school start for the university of oregon?	/organization/organization/parent	0
+1689	what countries does germany share borders with?	/award/award_winner/awards_won	0
+1690	what kind of money do i bring to mexico?	/location/country/currency_used	1
+1691	what time is right now in texas?	/award/award_winner/awards_won	0
+1692	who did kimberly williams marry?	/soccer/football_player/goals_scored	0
+1693	who is niall ferguson's wife?	/music/composition/composer	0
+1694	who is sir francis bacon?	/music/composition/composer	0
+1695	what is spoken in czech republic?	/music/composition/composer	0
+1696	where was the battle of waterloo held?	/award/award_winner/awards_won	0
+1697	what currency does cyprus use?	/location/location/containedby	0
+1698	what political experience did abraham lincoln have?	/book/book/characters	0
+1699	where is the mozambique located?	/award/award_winner/awards_won	0
+1700	who was the original voice of meg griffin on family guy?	/music/artist/concert_tours	0
+1701	who did the voice of darth vader in episode 3?	/music/artist/concert_tours	0
+1702	who plays john connor?	/location/location/containedby	0
+1703	who is the leader of north korea today?	/government/governmental_jurisdiction/governing_officials	1
+1704	what countries has spanish as their official language?	/book/book/characters	0
+1705	where does danny ainge live?	/people/person/places_lived	1
+1706	where did prophet daniel died?	/book/periodical_editor/periodicals_edited	0
+1707	what year did jimmy the rev sullivan die?	/music/composition/composer	0
+1708	what mark zuckerberg?	/business/board_member/leader_of	1
+1709	where is the country of panama located?	/location/country/official_language	0
+1710	what does a american rottweiler look like?	/award/award_winner/awards_won	0
+1711	what culture lived in teotihuacan?	/location/location/containedby	1
+1712	what language people speak in belgium?	/government/politician/government_positions_held	0
+1713	what 3 states border the pacific ocean?	/book/book/characters	0
+1714	where is the city wales?	/location/location/containedby	1
+1715	what language do irish people speak?	/location/country/official_language	0
+1716	what did bruce jenner win gold for?	/location/country/official_language	0
+1717	where was jesus born and raised?	/book/book/characters	0
+1718	what type of cancer did donna summer died from?	/location/country/official_language	0
+1719	what religion does tom cruise follow?	/government/politician/government_positions_held	0
+1720	where does allen iverson live now?	/government/politician/government_positions_held	0
+1721	what team does derek fisher play for 2012?	/award/award_winner/awards_won	0
+1722	where did nick clegg go to prep school?	/people/person/education	1
+1723	who did johnny bench play for?	/location/country/official_language	0
+1724	where did jesse james die?	/book/book/characters	0
+1725	what does the devil look like in young goodman brown?	/book/periodical_editor/periodicals_edited	0
+1726	where did dolly parton grow up?	/music/composition/composer	0
+1727	what does kim kardashian work as?	/soccer/football_player/goals_scored	0
+1728	what are the top tourist attractions in rome?	/music/artist/concert_tours	0
+1729	what kind of government is mali?	/music/composition/composer	0
+1730	who played emma frost?	/award/award_winner/awards_won	0
+1731	who plays dante falconeri?	/location/country/official_language	0
+1732	what kind of books does nicholas sparks wrote?	/government/politician/government_positions_held	0
+1733	where did france colonise?	/location/country/first_level_divisions	1
+1734	where was selena gomez raised?	/location/country/official_language	0
+1735	where is the nation of greece located?	/book/book/characters	0
+1736	what characters does matt stone do?	/music/artist/concert_tours	0
+1737	what school did michael jackson go to high school?	/people/person/education	1
+1738	who is sir james dyson?	/music/artist/concert_tours	0
+1739	what to visit in denver?	/travel/travel_destination/tourist_attractions	1
+1740	what kind of language does france speak?	/location/location/containedby	0
+1741	what do they call football in spanish?	/government/politician/government_positions_held	0
+1742	who was the president of indian national congress?	/book/book/characters	0
+1743	who is playing jason morgan on general hospital?	/book/periodical_editor/periodicals_edited	0
+1744	who does david beckham play for?	/music/composition/composer	0
+1745	who founded collegehumor?	/award/award_winner/awards_won	0
+1746	what college did russell wilson go to?	/book/book/characters	0
+1747	who has played lex luthor?	/film/film_character/portrayed_in_films	1
+1748	what is roshon fegan's heritage?	/book/periodical_editor/periodicals_edited	0
+1749	what kind of currency does greece have?	/book/periodical_editor/periodicals_edited	0
+1750	what are the three major rivers in south america?	/book/periodical_editor/periodicals_edited	0
+1751	where does portuguese originate?	/book/book/characters	0
+1752	what timezone is new mexico currently in?	/book/book/characters	0
+1753	what influenced vincent van gogh work?	/book/book/characters	0
+1754	who influenced arthur conan doyle?	/award/award_winner/awards_won	0
+1755	where is the howard university located?	/book/book/characters	0
+1756	where do the japanese live?	/book/periodical_editor/periodicals_edited	0
+1757	what are the countries in the united kingdom?	/book/periodical_editor/periodicals_edited	0
+1758	what language do they speak in egyptian?	/government/politician/government_positions_held	0
+1759	what was alexander graham bell known for?	/law/inventor/inventions	1
+1760	who is robin roberts father?	/people/person/parents	1
+1761	where are brembo brakes from?	/book/periodical_editor/periodicals_edited	0
+1762	what state is george washington university located in?	/book/book/characters	0
+1763	where are english speakers distributed?	/language/human_language/main_country	1
+1764	what country borders slovakia?	/music/artist/concert_tours	0
+1765	where did the columbia river begin?	/location/location/partially_contained_by	1
+1766	what county is duluth minnesota in?	/award/award_winner/awards_won	0
+1767	what influenced andy warhol's work?	/book/book/characters	0
+1768	what type of government does japan currently have?	/award/award_winner/awards_won	0
+1769	what is steve nash nationality?	/music/artist/concert_tours	0
+1770	what is eminem's real full name?	/location/location/containedby	0
+1771	where is thomas jefferson's home?	/book/periodical_editor/periodicals_edited	0
+1772	what are the major cities in france?	/location/country/capital	1
+1773	who is reba mcentire's son?	/location/country/official_language	0
+1774	what city has the largest population in mexico?	/government/politician/government_positions_held	0
+1775	what films has gerard butler starred in?	/award/award_winner/awards_won	0
+1776	what to see in singapore at night?	/travel/travel_destination/tourist_attractions	1
+1777	who was johnny cash's first wife?	/people/person/spouse_s	1
+1778	what is president abraham lincoln known for?	/book/book/characters	0
+1779	what did patrick swayze sing?	/book/book/characters	0
+1780	what type of guitar does kirk hammett play?	/book/book/characters	0
+1781	when did freddy krueger die?	/government/politician/government_positions_held	0
+1782	where is sarajevo located?	/award/award_winner/awards_won	0
+1783	what style of art did vincent van gogh do?	/visual_art/visual_artist/associated_periods_or_movements	1
+1784	where did gareth southgate play?	/book/periodical_editor/periodicals_edited	0
+1785	what does china border?	/government/politician/government_positions_held	0
+1786	where does hudson river start?	/book/periodical_editor/periodicals_edited	0
+1787	where is st louis cardinals stadium?	/location/country/official_language	0
+1788	who did steve spurrier play pro football for?	/organization/organization/parent	0
+1789	what money do japanese use?	/book/periodical_editor/periodicals_edited	0
+1790	what countries share borders with spain?	/music/composition/composer	0
+1791	who plays the voice of lois griffin?	/book/book/characters	0
+1792	what year was first world series?	/organization/organization/parent	0
+1793	who is in the band bush?	/award/award_winner/awards_won	0
+1794	what did ron howard direct?	/award/award_winner/awards_won	0
+1795	what county is charlotte north carolina?	/location/country/official_language	0
+1796	what county is charlotte north carolina?	/award/award_winner/awards_won	0
+1797	where do scottish people originate from?	/location/location/containedby	0
+1798	where is the ottoman empire located?	/book/periodical_editor/periodicals_edited	0
+1799	who plays robin hood in prince of thieves?	/organization/organization/parent	0
+1800	what happened to jill valentine?	/soccer/football_player/goals_scored	0
+1801	what year was allen iverson mvp?	/location/location/containedby	0
+1802	who was michael jackson in the wiz?	/book/periodical_editor/periodicals_edited	0
+1803	what movie queen latifah play in?	/book/periodical_editor/periodicals_edited	0
+1804	what airport in paris?	/award/award_winner/awards_won	0
+1805	what are the major religions in russia?	/book/book/characters	0
+1806	who voices lola bunny in looney tunes?	/government/politician/government_positions_held	0
+1807	what does the zambezi river flow into?	/book/book/characters	0
+1808	what is the language called in turkey?	/book/periodical_editor/periodicals_edited	0
+1809	who is thor heyerdahl?	/people/person/profession	1
+1810	what was kim richards in?	/soccer/football_player/goals_scored	0
+1811	where did dr seuss go to school?	/government/politician/government_positions_held	0
+1812	what the zip code for seattle washington?	/music/artist/concert_tours	0
+1813	when was the last shark attack in maui?	/book/periodical_editor/periodicals_edited	0
+1814	what is afghanistan money called?	/book/book/characters	0
+1815	what are some places to visit in barcelona?	/award/award_winner/awards_won	0
+1816	what did charles dickens believe in?	/government/politician/government_positions_held	0
+1817	who does peter griffin voice?	/music/artist/concert_tours	0
+1818	what do see in paris?	/travel/travel_destination/tourist_attractions	1
+1819	what country is joseph prince from?	/award/award_winner/awards_won	0
+1820	who is the new governor of oregon?	/book/periodical_editor/periodicals_edited	0
+1821	what to do if you have one day in bangkok?	/book/book/characters	0
+1822	what highschool did bill gates graduated from?	/location/country/official_language	0
+1823	what countries fall in eastern europe?	/book/book/characters	0
+1824	where does kirk cameron live now?	/people/person/places_lived	1
+1825	what kind of cancer killed larry hagman have?	/government/politician/government_positions_held	0
+1826	who is the president of peru now?	/government/governmental_jurisdiction/governing_officials	1
+1827	what did emily dickinson die of?	/government/politician/government_positions_held	0
+1828	what are some good books like looking for alaska?	/organization/organization/parent	0
+1829	where was dwight howard born?	/award/award_winner/awards_won	0
+1830	what is michael kors real name?	/music/artist/concert_tours	0
+1831	where is tyrese gibson from?	/people/person/place_of_birth	1
+1832	what movies have robert pattinson starred in?	/government/politician/government_positions_held	0
+1833	where is the olympic national park located?	/award/award_winner/awards_won	0
+1834	what does the maine state flag look like?	/book/periodical_editor/periodicals_edited	0
+1835	who is steve nash married to?	/award/award_winner/awards_won	0
+1836	what is the last movie brittany murphy made?	/book/periodical_editor/periodicals_edited	0
+1837	what are some of the traditions of islam?	/location/location/containedby	0
+1838	who were demeter's brothers and sisters?	/book/book/characters	0
+1839	where does the jordan river begin?	/geography/river/origin	1
+1840	who was the prime minister of pakistan in 1999?	/music/artist/concert_tours	0
+1841	who plays jay adams in lords of dogtown?	/book/book/characters	0
+1842	who did russians descend from?	/government/politician/government_positions_held	0
+1843	what is the official language in mexico?	/book/periodical_editor/periodicals_edited	0
+1844	what is the state flower of arizona?	/organization/organization/parent	0
+1845	who won utah attorney general?	/organization/organization/parent	0
+1846	who is abraham maslow?	/location/country/official_language	0
+1847	what money do you use in aruba?	/book/periodical_editor/periodicals_edited	0
+1848	what language do egyptians use?	/government/politician/government_positions_held	0
+1849	what do egyptians speak?	/book/periodical_editor/periodicals_edited	0
+1850	what form of government does north korea?	/government/politician/government_positions_held	0
+1851	where did the battle of new orleans start?	/book/book/characters	0
+1852	what is language in argentina?	/award/award_winner/awards_won	0
+1853	where was alice walker born?	/government/politician/government_positions_held	0
+1854	when did sherlock holmes live?	/book/periodical_editor/periodicals_edited	0
+1855	where does kaka live?	/book/book/characters	0
+1856	what college did kevjumba?	/book/book/characters	0
+1857	who is kobe bryant dad?	/book/periodical_editor/periodicals_edited	0
+1858	who was ishmael's mom?	/book/book/characters	0
+1859	who plays the new michael myers?	/book/book/characters	0
+1860	what made richard hammond famous?	/music/artist/concert_tours	0
+1861	what is monta ellis career high points?	/soccer/football_player/goals_scored	0
+1862	where do american bulldogs originate from?	/location/location/containedby	0
+1863	what standard time is michigan?	/music/composition/composer	0
+1864	what was the first language spoken in spain?	/music/artist/concert_tours	0
+1865	where did richard arkwright die?	/book/periodical_editor/periodicals_edited	0
+1866	what province is canada's capital located in?	/government/politician/government_positions_held	0
+1867	when did chipper jones get drafted?	/organization/organization/parent	0
+1868	what is the main language spoken in mexico?	/music/composition/composer	0
+1869	what book did john steinbeck wrote about the people in the dust bowl?	/location/country/official_language	0
+1870	where is azerbaijan?	/book/book/characters	0
+1871	what did thomas malthus do?	/people/person/profession	1
+1872	how old is bruno mars and where is he from?	/people/person/place_of_birth	1
+1873	where did phil mickelson go to college?	/people/person/education	1
+1874	what college did michael jordan play basketball for?	/location/country/official_language	0
+1875	what does pixar produce?	/location/country/official_language	0
+1876	where does kirk cameron live now?	/book/periodical_editor/periodicals_edited	0
+1877	who does debbie dingle go out with?	/book/book/characters	0
+1878	what language do the assyrians speak?	/award/award_winner/awards_won	0
+1879	where is rome italy located on a map?	/book/book/characters	0
+1880	what kind of money does chile use?	/government/politician/government_positions_held	0
+1881	where did jennifer hudson go to school?	/book/book/characters	0
+1882	who has tim howard played for?	/book/periodical_editor/periodicals_edited	0
+1883	what year was first world series?	/music/artist/concert_tours	0
+1884	when did bill clinton go to college?	/organization/organization/parent	0
+1885	what kind of paintings did frida kahlo do?	/book/periodical_editor/periodicals_edited	0
+1886	what are the basic beliefs of islam religion?	/book/book/characters	0
+1887	what was one of benjamin franklin's inventions?	/book/periodical_editor/periodicals_edited	0
+1888	where did bob barker grow up?	/book/book/characters	0
+1889	who did johnny bench play for?	/book/book/characters	0
+1890	who juan ponce de leon?	/common/topic/notable_for	1
+1891	what type of paintings did marc chagall do?	/award/award_winner/awards_won	0
+1892	where is walton goggins from?	/book/book/characters	0
+1893	who was vice president with bill clinton?	/music/artist/concert_tours	0
+1894	where are google headquarters located?	/location/location/containedby	1
+1895	who are the virginia senators 2013?	/music/artist/concert_tours	0
+1896	who has the voice of stewie griffin?	/book/book/characters	0
+1897	where is auburn university located?	/organization/organization/parent	0
+1898	who formed the american federation of labor?	/music/artist/concert_tours	0
+1899	who plays patrick jane wife?	/book/periodical_editor/periodicals_edited	0
+1900	where was rod stewart born?	/award/award_winner/awards_won	0
+1901	what happened after the invasion of normandy?	/award/award_winner/awards_won	0
+1902	where is american express located?	/award/award_winner/awards_won	0
+1903	what party was thomas jefferson affiliated with?	/music/artist/concert_tours	0
+1904	what to see in downtown asheville nc?	/award/award_winner/awards_won	0
+1905	what are all the movies taylor swift has been in?	/location/location/containedby	0
+1906	where is jay leno from?	/music/artist/concert_tours	0
+1907	what college did magic johnson play for?	/people/person/education	1
+1908	which countries share borders with spain?	/government/politician/government_positions_held	0
+1909	what school did bill gates go to?	/location/country/official_language	0
+1910	what currency can you use in barbados?	/music/composition/composer	0
+1911	what movies gerard butler in?	/film/actor/film	1
+1912	who does christine gregoire represent?	/government/politician/party	1
+1913	where did dolly parton grew up?	/book/periodical_editor/periodicals_edited	0
+1914	what kind of government did the united states have after the revolution?	/soccer/football_player/goals_scored	0
+1915	what national team does cristiano ronaldo play for?	/location/location/containedby	0
+1916	where is martin cooper from?	/government/politician/government_positions_held	0
+1917	what is the currency used in italy?	/music/artist/concert_tours	0
+1918	what do most nigerians speak?	/location/country/official_language	0
+1919	what instrument did louis armstrong like to play?	/award/award_winner/awards_won	0
+1920	what musical instruments does justin bieber play?	/organization/organization/parent	0
+1921	where did kim kardashian come from?	/location/location/containedby	0
+1922	who plays london tipton in suite life on deck?	/music/artist/concert_tours	0
+1923	what region of the world is north america in?	/book/periodical_editor/periodicals_edited	0
+1924	what type of government does italy have 2011?	/organization/organization/parent	0
+1925	who was reese witherspoon married too?	/people/person/spouse_s	1
+1926	what is the state flower of arizona?	/government/governmental_jurisdiction/official_symbols	1
+1927	where did dr seuss go to school?	/award/award_winner/awards_won	0
+1928	what major landforms are located in egypt?	/location/country/official_language	0
+1929	who is golfer dustin johnson dating?	/government/politician/government_positions_held	0
+1930	who would play luke skywalker?	/music/artist/concert_tours	0
+1931	what country is the grand bahama island in?	/location/location/containedby	1
+1932	who are the two current senators of illinois?	/location/country/official_language	0
+1933	what kind of cancer did farrah fawcett die of?	/music/composition/composer	0
+1934	where did charles darwin and his wife live?	/people/person/places_lived	1
+1935	what currency does south africa have?	/book/book/characters	0
+1936	what is the major language spoken in canada?	/award/award_winner/awards_won	0
+1937	which team does ronaldinho play for?	/book/book/characters	0
+1938	what kind of money is used in israel?	/location/country/official_language	0
+1939	what movies have robert pattinson in them?	/organization/organization/parent	0
+1940	what type of political system is spain?	/location/country/form_of_government	1
+1941	what money is used in the maldives?	/book/periodical_editor/periodicals_edited	0
+1942	who played luke skywalker in star wars episode 4?	/book/periodical_editor/periodicals_edited	0
+1943	what tv shows are taped in new york city?	/book/periodical_editor/periodicals_edited	0
+1944	what does tim gunn do for a living?	/award/award_winner/awards_won	0
+1945	what movies have queen latifah played in?	/government/politician/government_positions_held	0
+1946	who did terrell owens play for in 2010?	/organization/organization/parent	0
+1947	what country was theodor schwann born in?	/book/book/characters	0
+1948	where do john lennon die?	/soccer/football_player/goals_scored	0
+1949	what landforms are found in italy?	/government/politician/government_positions_held	0
+1950	which countries are part of the united kingdom?	/location/location/containedby	1
+1951	where did paul ryan attend college?	/location/country/official_language	0
+1952	what is the name of book written by helen keller?	/government/politician/government_positions_held	0
+1953	what is claire danes famous for?	/organization/organization/parent	0
+1954	who is jennifer lawrence boyfriend 2012?	/award/award_winner/awards_won	0
+1955	who did lenny kravitz marry?	/award/award_winner/awards_won	0
+1956	which states does the connecticut river flow through?	/book/periodical_editor/periodicals_edited	0
+1957	what language do lakota indians speak?	/location/country/official_language	0
+1958	who is james dean?	/book/book/characters	0
+1959	who is the newly elected governor of california?	/soccer/football_player/goals_scored	0
+1960	what sports do people in france play?	/book/periodical_editor/periodicals_edited	0
+1961	where did thomas jefferson died?	/book/periodical_editor/periodicals_edited	0
+1962	where english is spoken in the world?	/award/award_winner/awards_won	0
+1963	who will sponsor kevin harvick in 2011?	/location/country/official_language	0
+1964	what is there to see in barcelona?	/location/country/official_language	0
+1965	who are the senators of new jersey now?	/soccer/football_player/goals_scored	0
+1966	what is the official language of the ukraine?	/government/politician/government_positions_held	0
+1967	who is the arizona cardinals football coach?	/book/periodical_editor/periodicals_edited	0
+1968	what religions are in russia?	/award/award_winner/awards_won	0
+1969	what are the sports in spain?	/location/location/containedby	0
+1970	what money do they have in italy?	/book/book/characters	0
+1971	what language did jewish people speak?	/book/book/characters	0
+1972	what currency is used in panama?	/organization/organization/parent	0
+1973	what country did john cabot sail for?	/location/country/official_language	0
+1974	what was lucille ball?	/soccer/football_player/goals_scored	0
+1975	where is walton goggins from?	/book/periodical_editor/periodicals_edited	0
+1976	what country is the name natalie from?	/people/person/nationality	1
+1977	where did tennessee williams live?	/location/country/official_language	0
+1978	where to stay in chicago tourist?	/soccer/football_player/goals_scored	0
+1979	what currency does greece use?	/book/periodical_editor/periodicals_edited	0
+1980	what make of bike did steve mcqueen ride in the great escape?	/location/location/containedby	0
+1981	what is the language used in indonesia?	/location/country/official_language	0
+1982	what are the seven nations of central america?	/organization/organization/parent	0
+1983	what year did florida marlins win the world series?	/location/country/official_language	0
+1984	where does danny ainge live?	/book/periodical_editor/periodicals_edited	0
+1985	what did larry hagman die of?	/location/country/official_language	0
+1986	what team does terrell owens play for this year?	/book/periodical_editor/periodicals_edited	0
+1987	what time zone is colorado springs co?	/location/country/official_language	0
+1988	what is new york giants?	/book/book/characters	0
+1989	what is new york giants?	/sports/sports_team/sport	1
+1990	where did jimmy hoffa live?	/book/book/characters	0
+1991	where did neil gaiman grow up?	/location/country/official_language	0
+1992	what college did matt lauer attend?	/people/person/education	1
+1993	what did martin luther do?	/people/person/profession	1
+1994	what mark zuckerberg?	/book/book/characters	0
+1995	who founded the pittsburgh steelers in 1933?	/organization/organization/parent	0
+1996	who played cletus hogg?	/film/film_character/portrayed_in_films	1
+1997	what is the only colony on the south america continent?	/organization/organization/parent	0
+1998	what famous people are from el salvador?	/soccer/football_player/goals_scored	0
+1999	where was elvis costello born?	/music/composition/composer	0
+2000	what team does diego forlan currently play for?	/book/book/characters	0
+2001	what is charlie chaplin famous for?	/music/artist/concert_tours	0
+2002	what cities should i visit in california?	/location/location/contains	1
+2003	who were ulysses s grant and robert e lee?	/award/award_winner/awards_won	0
+2004	what movies did james franco play in?	/location/country/official_language	0
+2005	what does a american rottweiler look like?	/book/book/characters	0
+2006	what is medicare a?	/business/brand/owner_s	1
+2007	who do nate robinson play for?	/award/award_winner/awards_won	0
+2008	what are the songs that justin bieber wrote?	/location/location/containedby	0
+2009	where is somalia located?	/government/politician/government_positions_held	0
+2010	what team did monta ellis get traded to?	/sports/pro_athlete/teams	1
+2011	what did steve mcnair died from?	/people/deceased_person/cause_of_death	1
+2012	who was tex beneke?	/people/person/profession	1
+2013	who played elaine on doc martin?	/government/politician/government_positions_held	0
+2014	where is spanish springs nv?	/language/human_language/region	1
+2015	what to see and do in vancouver washington?	/organization/organization/parent	0
+2016	which political party does barack obama represent?	/soccer/football_player/goals_scored	0
+2017	who is jeff probst ex wife?	/book/book/characters	0
+2018	who did rufus wainwright married?	/people/person/spouse_s	1
+2019	what does a american rottweiler look like?	/book/periodical_editor/periodicals_edited	0
+2020	what has shannen doherty played in?	/music/composition/composer	0
+2021	what team did tim tebow play for in college?	/book/periodical_editor/periodicals_edited	0
+2022	who made the american red cross?	/organization/organization/founders	1
+2023	who did jackie robinson first play for?	/baseball/baseball_player/batting_stats	1
+2024	where did benjamin franklin died?	/location/country/official_language	0
+2025	where do the appalachian mountains run?	/music/artist/concert_tours	0
+2026	what type of music was scott joplin noted for?	/common/topic/notable_for	1
+2027	where was mary todd lincoln from?	/people/person/places_lived	1
+2028	when was the last time the boston bruins went to the stanley cup?	/music/artist/concert_tours	0
+2029	what is the present form of government in iran?	/location/country/form_of_government	1
+2030	where is the university of alabama?	/award/award_winner/awards_won	0
+2031	what movies johnny depp is in?	/government/politician/government_positions_held	0
+2032	what did john howard study at university?	/award/award_winner/awards_won	0
+2033	what kind of cancer killed larry hagman have?	/location/country/official_language	0
+2034	where does the potomac river flow into?	/book/book/characters	0
+2035	who won utah attorney general?	/soccer/football_player/goals_scored	0
+2036	what countries use english as national language?	/location/country/official_language	0
+2037	what currency do i need in egypt?	/book/periodical_editor/periodicals_edited	0
+2038	who designed national flag of italy?	/soccer/football_player/goals_scored	0
+2039	who will alex smith play for in 2011?	/location/country/official_language	0
+2040	who is playing hawkeye in the avengers movie?	/book/book/characters	0
+2041	who is cameron crowe?	/government/politician/government_positions_held	0
+2042	what standard time is texas?	/location/location/time_zones	1
+2043	who is james dean?	/award/award_winner/awards_won	0
+2044	where did derek fisher go to college?	/soccer/football_player/goals_scored	0
+2045	what songs did duane allman sing?	/award/award_winner/awards_won	0
+2046	where did hammurabi come from?	/book/book/characters	0
+2047	what language do lakota indians speak?	/government/politician/government_positions_held	0
+2048	what type of cancer did huell howser die of?	/government/politician/government_positions_held	0
+2049	what do tibetan people speak?	/government/politician/government_positions_held	0
+2050	what kind of guitar did jerry garcia play?	/music/composition/composer	0
+2051	what all does google have?	/government/politician/government_positions_held	0
+2052	what wars did robert e lee served in?	/soccer/football_player/goals_scored	0
+2053	where is pyramids of giza located?	/book/book/characters	0
+2054	what kind of government did the united states have after the revolution?	/music/artist/concert_tours	0
+2055	what party did john tyler belong to?	/book/book/characters	0
+2056	what football team is michael vick on?	/music/artist/concert_tours	0
+2057	who invented facebook wikipedia?	/book/periodical_editor/periodicals_edited	0
+2058	in which province islamabad is located?	/award/award_winner/awards_won	0
+2059	what cities should i visit in california?	/government/politician/government_positions_held	0
+2060	what are the names of michael jackson movies?	/book/periodical_editor/periodicals_edited	0
+2061	what films has daniel craig been in?	/music/artist/concert_tours	0
+2062	who does allen iverson play for now 2010?	/book/periodical_editor/periodicals_edited	0
+2063	what movies has renee zellweger been in?	/location/country/official_language	0
+2064	where to get married in jacksonville nc?	/location/country/official_language	0
+2065	what countries does greece share borders with?	/music/composition/composer	0
+2066	who was niccolo machiavelli influenced by?	/book/periodical_editor/periodicals_edited	0
+2067	who does john beck play for?	/sports/pro_athlete/teams	1
+2068	who did france surrender to in ww2?	/music/composition/composer	0
+2069	what to do in bangkok in 4 days?	/travel/travel_destination/tourist_attractions	1
+2070	who does kris humphries play for in the nba?	/government/politician/government_positions_held	0
+2071	what airport do you fly into to get to destin fl?	/music/composition/composer	0
+2072	what university did tony romo go to?	/book/periodical_editor/periodicals_edited	0
+2073	what government does new zealand have?	/music/composition/composer	0
+2074	where does volga river start?	/book/periodical_editor/periodicals_edited	0
+2075	what did julian fellowes write?	/book/periodical_editor/periodicals_edited	0
+2076	what nationality is taylor lautner jacob black?	/music/artist/concert_tours	0
+2077	what business did andrew carnegie dominate?	/organization/organization/parent	0
+2078	what god does taoism believe in?	/book/book_subject/works	1
+2079	what happened to adolf hitler at the end of the war?	/people/deceased_person/cause_of_death	1
+2080	who does malcom floyd play for?	/location/country/official_language	0
+2081	who is dirk nowitzki wife?	/soccer/football_player/goals_scored	0
+2082	what all countries are in south america?	/book/periodical_editor/periodicals_edited	0
+2083	what currency does jamaica accept?	/location/country/currency_used	1
+2084	who owns chrysler corporation 2012?	/organization/organization/founders	1
+2085	where is the university of oregon state?	/book/periodical_editor/periodicals_edited	0
+2086	what did george steinbrenner do?	/award/award_winner/awards_won	0
+2087	what was william faulkner known for?	/location/country/official_language	0
+2088	what famous people are from barbados?	/music/composition/composer	0
+2089	what illness did huell howser died of?	/book/periodical_editor/periodicals_edited	0
+2090	what team did brandon roy go to?	/music/artist/concert_tours	0
+2091	what country did benito mussolini govern?	/music/composition/composer	0
+2092	where did mitt romney go to elementary school?	/people/person/education	1
+2093	what is the local language of israel?	/government/politician/government_positions_held	0
+2094	what other books did jules verne wrote?	/book/periodical_editor/periodicals_edited	0
+2095	what does united church of christ believe?	/location/country/official_language	0
+2096	what does chad michael murray play in?	/book/book/characters	0
+2097	where did pixie lott go to school?	/book/book/characters	0
+2098	who does sam bradford play for?	/location/country/official_language	0
+2099	what music did louis armstrong play?	/music/artist/genre	1
+2100	what type of government does fiji have 2010?	/book/book/characters	0
+2101	who all has dated taylor swift?	/book/book/characters	0
+2102	what to do today in atlanta with kids?	/music/composition/composer	0
+2103	what did people in the bible say about jesus?	/media_common/quotation_subject/quotations_about_this_subject	1
+2104	what team does sergio aguero play for?	/award/award_winner/awards_won	0
+2105	where did drew brees go to college wikianswers?	/location/location/containedby	0
+2106	what jobs did albert einstein have?	/award/award_winner/awards_won	0
+2107	what did alvin smith died from?	/people/deceased_person/cause_of_death	1
+2108	what type of drugs did whitney houston?	/soccer/football_player/goals_scored	0
+2109	who is the king of cambodia now?	/soccer/football_player/goals_scored	0
+2110	where has the english language evolved from?	/music/composition/composer	0
+2111	what movies did kristen stewart act in?	/book/periodical_editor/periodicals_edited	0
+2112	who won the 2000 fa cup final?	/location/location/containedby	0
+2113	what are some of the traditions of islam?	/soccer/football_player/goals_scored	0
+2114	what happened after the invasion of normandy?	/time/event/includes_event	1
+2115	who plays lorne on angel?	/award/award_nominated_work/award_nominations	1
+2116	who is kobe bryant dad?	/people/person/parents	1
+2117	what language brazil speak?	/soccer/football_player/goals_scored	0
+2118	what currency do the ukraine use?	/book/periodical_editor/periodicals_edited	0
+2119	what county is novato in?	/government/politician/government_positions_held	0
+2120	what 5 countries border switzerland?	/soccer/football_player/goals_scored	0
+2121	what are some books that mark twain wrote?	/soccer/football_player/goals_scored	0
+2122	what time does independence center open on sundays?	/award/award_winner/awards_won	0
+2123	where was theodore roosevelt buried?	/people/deceased_person/place_of_burial	1
+2124	what does david beckham play?	/sports/pro_athlete/teams	1
+2125	where is the kakadu national park located?	/award/award_winner/awards_won	0
+2126	what timezone is colorado in right now?	/government/politician/government_positions_held	0
+2127	where did morgan freeman come from?	/book/book/characters	0
+2128	what countries make up great britain and what are their capitals?	/book/book/characters	0
+2129	what party was winston churchill in politics?	/government/politician/party	1
+2130	who is the current governor of arizona 2010?	/soccer/football_player/goals_scored	0
+2131	where did willy wonka take place?	/book/periodical_editor/periodicals_edited	0
+2132	who is the newly elected governor of california?	/government/governmental_jurisdiction/governing_officials	1
+2133	who are the st louis cardinals coaches?	/baseball/baseball_team/current_coaches	1
+2134	where is lanzarote in a world map?	/book/book/characters	0
+2135	which country does south africa border 2 the north?	/location/location/adjoin_s	1
+2136	what does time warner own?	/broadcast/tv_station_owner/tv_stations	1
+2137	where is the ottoman empire located?	/location/country/official_language	0
+2138	who did veronica lake mary?	/soccer/football_player/goals_scored	0
+2139	who is the current coach of the new york knicks?	/government/politician/government_positions_held	0
+2140	what to do around krabi thailand?	/travel/travel_destination/tourist_attractions	1
+2141	where is the scottish house in skyfall?	/location/location/containedby	0
+2142	who did anne frank wrote her diary to?	/media_common/quotation_subject/quotations_about_this_subject	1
+2143	what to do in perth scotland?	/travel/travel_destination/tourist_attractions	1
+2144	what type of government was formed when italy unified?	/location/country/form_of_government	1
+2145	where did pavlova originate?	/award/award_winner/awards_won	0
+2146	when was the last time the dallas cowboys went to the super bowl?	/government/politician/government_positions_held	0
+2147	who was the vice president during george w bush?	/government/politician/government_positions_held	0
+2148	what is the only colony on the south america continent?	/location/location/contains	1
+2149	what county is san francisco?	/common/topic/image	1
+2150	who did the voice of darth vader in star wars?	/film/film_character/portrayed_in_films	1
+2151	what legal system does germany use?	/book/periodical_editor/periodicals_edited	0
+2152	what city is the state capital of washington?	/book/book/characters	0
+2153	who plays elena gilbert on vampire diaries?	/music/artist/concert_tours	0
+2154	who is the 2011 heisman trophy winner?	/book/periodical_editor/periodicals_edited	0
+2155	what money does cuba use?	/music/artist/concert_tours	0
+2156	where is santa clara university?	/book/book/characters	0
+2157	where did the arizona diamondbacks play?	/government/politician/government_positions_held	0
+2158	what language do they speak in iceland wikipedia?	/book/periodical_editor/periodicals_edited	0
+2159	what language does people in thailand speak?	/location/country/languages_spoken	1
+2160	who played bilbo baggins?	/book/periodical_editor/periodicals_edited	0
+2161	what currency is used in switzerland 2012?	/award/award_winner/awards_won	0
+2162	who owns the new england patriots football team?	/sports/professional_sports_team/owner_s	1
+2163	what to do when traveling to london?	/award/award_winner/awards_won	0
+2164	who won the fa cup in 2008?	/sports/sports_award_type/winners	1
+2165	who are the current senators from missouri?	/award/award_winner/awards_won	0
+2166	where did bob dylan live?	/location/country/official_language	0
+2167	what books did aristotle wrote?	/government/politician/government_positions_held	0
+2168	which english team won the champions league first?	/award/award_winner/awards_won	0
+2169	who does jodelle ferland play in eclipse?	/location/country/official_language	0
+2170	what type of sports do japanese play?	/soccer/football_player/goals_scored	0
+2171	what is the government of france for 2010?	/location/location/containedby	0
+2172	what college did michael jordan play basketball for?	/award/award_winner/awards_won	0
+2173	what to do in midland tx this weekend?	/award/award_winner/awards_won	0
+2174	what school did cassie bernall go to?	/book/periodical_editor/periodicals_edited	0
+2175	what shows did kellie martin star in?	/government/politician/government_positions_held	0
+2176	who was richard nixon married to?	/location/location/containedby	0
+2177	where did buster posey go to high school?	/soccer/football_player/goals_scored	0
+2178	what is the parliament of canada called?	/book/periodical_editor/periodicals_edited	0
+2179	where did the battle of passchendaele happen?	/location/location/containedby	0
+2180	what season did jason priestley leave 90210?	/award/award_winner/awards_won	0
+2181	where did george michael go to school?	/location/location/containedby	0
+2182	what is the name of the pittsburgh steelers stadium?	/book/book/characters	0
+2183	who is angelina jolie's husband?	/book/periodical_editor/periodicals_edited	0
+2184	what drugs lindsay lohan abuse?	/location/location/containedby	0
+2185	where does the zambezi river start?	/location/location/containedby	0
+2186	what does george soros own?	/government/politician/government_positions_held	0
+2187	what did corey haim act in?	/location/country/official_language	0
+2188	where do houston aeros play?	/book/periodical_editor/periodicals_edited	0
+2189	what airport do you fly into maui?	/book/book/characters	0
+2190	what school did miley cyrus?	/people/person/education	1
+2191	what color are the arizona cardinals uniforms?	/government/politician/government_positions_held	0
+2192	where was mission san rafael located?	/location/location/containedby	1
+2193	what is the government system of malaysia?	/location/country/form_of_government	1
+2194	what did jack london do for a living?	/music/composition/composer	0
+2195	what kind of cancer did bob marley died from?	/book/book/characters	0
+2196	who is jeremy sumpter?	/government/politician/government_positions_held	0
+2197	when are the australian open men's finals?	/book/book/characters	0
+2198	what country is the iberian peninsula located in?	/location/country/official_language	0
+2199	what show is jill wagner on?	/book/book/characters	0
+2200	what county is denver colorado in?	/award/award_winner/awards_won	0
+2201	who has dirk nowitzki played for?	/location/country/official_language	0
+2202	where does danish language come from?	/book/periodical_editor/periodicals_edited	0
+2203	what two countries make up the dominican republic?	/location/location/containedby	0
+2204	what important office did abraham lincoln hold?	/award/award_winner/awards_won	0
+2205	what to do in seattle during the summer?	/travel/travel_destination/tourist_attractions	1
+2206	through which countries of the sahel does the niger river flow?	/organization/organization/parent	0
+2207	what major landforms are located in egypt?	/book/periodical_editor/periodicals_edited	0
+2208	who was gregor mendel and what did he contribute to science?	/location/country/official_language	0
+2209	where did robert kardashian go to college?	/people/person/education	1
+2210	where did the seminole native americans live?	/location/country/official_language	0
+2211	which four states touch mexico?	/government/politician/government_positions_held	0
+2212	what is the name of the capital of spain?	/book/book/characters	0
+2213	what to do downtown san francisco?	/government/politician/government_positions_held	0
+2214	what kind of government does chile have today?	/book/book/characters	0
+2215	what type of strings does willie nelson use?	/music/group_member/instruments_played	1
+2216	what county is jackson michigan in?	/book/book/characters	0
+2217	what to see in montreal downtown?	/soccer/football_player/goals_scored	0
+2218	what did julia roberts won an oscar for?	/book/periodical_editor/periodicals_edited	0
+2219	what is ella fitzgerald parents name?	/soccer/football_player/goals_scored	0
+2220	what type of government did england have during the glorious revolution?	/book/book/characters	0
+2221	what city is the jacksonville jaguars from?	/book/periodical_editor/periodicals_edited	0
+2222	what to do in cancun during spring break?	/music/composition/composer	0
+2223	what team rasheed wallace?	/book/book/characters	0
+2224	what style of music did louis armstrong play?	/book/periodical_editor/periodicals_edited	0
+2225	what is the present form of government in iran?	/book/periodical_editor/periodicals_edited	0
+2226	where does jackie french live?	/people/person/nationality	1
+2227	what do singapore speak?	/award/award_winner/awards_won	0
+2228	what does beth tweddle compete in?	/location/country/official_language	0
+2229	who was judy collins married to?	/book/periodical_editor/periodicals_edited	0
+2230	who played darth vader in the original star wars movies?	/book/book/characters	0
+2231	what year was the great san francisco fire?	/book/book/characters	0
+2232	when did miami dolphins win super bowl?	/sports/sports_team/championships	1
+2233	what kind of language does france speak?	/music/composition/composer	0
+2234	what type of money do you use in cuba?	/award/award_winner/awards_won	0
+2235	where did nat turner 1831 rebellion occur?	/location/location/containedby	0
+2236	who will sponsor kevin harvick in 2011?	/book/book/characters	0
+2237	what movies does leo howard play in?	/film/actor/film	1
+2238	what were erik erikson's theories?	/education/academic/research_areas	1
+2239	what state is saint louis university in?	/location/location/containedby	1
+2240	what was sir isaac newton's inventions?	/music/artist/concert_tours	0
+2241	when did the christchurch quake happened?	/location/country/official_language	0
+2242	where did paul ryan live?	/award/award_winner/awards_won	0
+2243	what is the currency of mexico called?	/location/country/official_language	0
+2244	what did emily bronte died of?	/book/periodical_editor/periodicals_edited	0
+2245	what did alice paul accomplish?	/soccer/football_player/goals_scored	0
+2246	what is john steinbeck best known for?	/film/film_story_contributor/film_story_credits	1
+2247	when is portland marathon?	/award/award_winner/awards_won	0
+2248	who miley cyrus engaged to?	/book/periodical_editor/periodicals_edited	0
+2249	who founded the sisters of saint joseph?	/award/award_winner/awards_won	0
+2250	where did caroline kennedy go to school?	/book/periodical_editor/periodicals_edited	0
+2251	who is ronaldo playing for now?	/award/award_winner/awards_won	0
+2252	what are the new york giants home colors?	/location/country/official_language	0
+2253	who won utah attorney general?	/music/composition/composer	0
+2254	where does frida kahlo live now?	/book/book/characters	0
+2255	what language do people in czech republic speak?	/location/country/official_language	0
+2256	where to ski in andorra reviews?	/award/award_winner/awards_won	0
+2257	what year magic johnson retired?	/government/politician/government_positions_held	0
+2258	what are the major imports and exports of canada?	/award/award_winner/awards_won	0
+2259	what kourtney kardashian boyfriends name?	/organization/organization/parent	0
+2260	what movies does ryan gosling star in?	/book/periodical_editor/periodicals_edited	0
+2261	what language does peru speak?	/location/location/containedby	0
+2262	who is the governor of colorado 2009?	/government/governmental_jurisdiction/governing_officials	1
+2263	which countries share a border with russia?	/soccer/football_player/goals_scored	0
+2264	who has played lex luthor?	/location/location/containedby	0
+2265	where was the battle of verdun held?	/book/periodical_editor/periodicals_edited	0
+2266	what kind of government system does canada have?	/book/book/characters	0
+2267	what is janelle monae famous for?	/people/person/profession	1
+2268	what airport is close to daytona beach florida?	/award/award_winner/awards_won	0
+2269	what was the milwaukee brewers old name?	/sports/sports_team/previously_known_as	1
+2270	when did tom brady join the patriots?	/location/country/official_language	0
+2271	what are some inventions that leonardo da vinci invented?	/location/location/containedby	0
+2272	where is st louis cardinals stadium?	/sports/sports_team/arena_stadium	1
+2273	who was cleopatra married too?	/location/country/official_language	0
+2274	who plays john connor?	/music/artist/concert_tours	0
+2275	what is there to do in palm springs?	/book/book/characters	0
+2276	what government type is north korea?	/book/periodical_editor/periodicals_edited	0
+2277	what states does the missouri river touch?	/book/book/characters	0
+2278	who was the prime minister of pakistan in 1999?	/music/composition/composer	0
+2279	where is port lavaca tx?	/government/politician/government_positions_held	0
+2280	where is angola located?	/award/award_winner/awards_won	0
+2281	what was dr seuss education?	/organization/organization/parent	0
+2282	who plays young john winchester in supernatural?	/location/country/official_language	0
+2283	when did sherlock holmes live?	/government/politician/government_positions_held	0
+2284	what was herbert hoover best known for?	/music/composition/composer	0
+2285	what do the colors on mali's flag represent?	/book/periodical_editor/periodicals_edited	0
+2286	what religions are in russia?	/book/book/characters	0
+2287	what inspired langston hughes to write poetry?	/location/country/official_language	0
+2288	what gunfight is wyatt earp most famous for?	/award/award_winner/awards_won	0
+2289	what team did monta ellis get traded to?	/music/artist/concert_tours	0
+2290	who is the current ohio state senator?	/location/location/containedby	0
+2291	who is in charge of libya now?	/music/composition/composer	0
+2292	where is located university of leeds?	/book/book/characters	0
+2293	what other movies is liam hemsworth in?	/book/book/characters	0
+2294	what movies has carmen electra been in?	/location/location/containedby	0
+2295	what did james madison wrote?	/location/country/official_language	0
+2296	what is the main language of israel?	/book/book/characters	0
+2297	what kind of leukemia did jill clayburgh have?	/location/location/containedby	0
+2298	what is the money currency in guatemala?	/government/politician/government_positions_held	0
+2299	who did bryce dallas howard play in eclipse?	/book/periodical_editor/periodicals_edited	0
+2300	what is the rainforest in peru called?	/location/country/official_language	0
+2301	what kind of hispanic is selena gomez?	/organization/organization/parent	0
+2302	what did isaac newton explain?	/music/artist/concert_tours	0
+2303	which is the main train station in rome?	/music/composition/composer	0
+2304	what airport fly into for maui?	/book/periodical_editor/periodicals_edited	0
+2305	what was the first language spoken in spain?	/organization/organization/parent	0
+2306	who is galileo galilei and what is he famous for?	/book/periodical_editor/periodicals_edited	0
+2307	what is afghanistan money called?	/book/periodical_editor/periodicals_edited	0
+2308	who plays bob kelso in scrubs?	/music/artist/concert_tours	0
+2309	what movies did chris farley do?	/award/award_winner/awards_won	0
+2310	who do nate robinson play for?	/sports/pro_athlete/teams	1
+2311	what are the major languages spoken in greece?	/music/artist/concert_tours	0
+2312	what did corey haim really die of?	/government/politician/government_positions_held	0
+2313	which is the main train station in rome?	/soccer/football_player/goals_scored	0
+2314	what kind of language does colombia speak?	/music/artist/concert_tours	0
+2315	who was carolus linnaeus?	/music/composition/composer	0
+2316	what city was selena gomez born in?	/book/book/characters	0
+2317	where are the libyan refugees going?	/location/country/official_language	0
+2318	where is wellsville missouri?	/location/country/official_language	0
+2319	what is the university of georgia known for?	/music/artist/concert_tours	0
+2320	what state did al gore represent?	/government/politician/government_positions_held	1
+2321	what are major religions in the united states?	/book/book/characters	0
+2322	what year did arizona diamondbacks win the world series?	/sports/sports_championship/events	1
+2323	what is the main language spoken in italy?	/location/country/official_language	0
+2324	who does tim howard play for club?	/location/country/official_language	0
+2325	when does summer start in new england?	/award/award_winner/awards_won	0
+2326	where is the great pyramid of giza situated?	/book/book/characters	0
+2327	where does nick diaz fight?	/location/country/official_language	0
+2328	what type of artwork did henri matisse produce?	/visual_art/visual_artist/associated_periods_or_movements	1
+2329	who is the head coach of the indianapolis colts?	/american_football/football_team/current_head_coach	1
+2330	what movies did angelina jolie star in?	/film/actor/film	1
+2331	who plays riley finn on buffy the vampire slayer?	/award/award_winner/awards_won	0
+2332	what language do they speak in indonesia?	/government/politician/government_positions_held	0
+2333	where is singapore on a world map?	/government/politician/government_positions_held	0
+2334	what are some places to visit in barcelona?	/book/periodical_editor/periodicals_edited	0
+2335	what wars did robert e lee lead?	/book/periodical_editor/periodicals_edited	0
+2336	what movies did christopher plummer play in?	/soccer/football_player/goals_scored	0
+2337	where george washington carver go to school?	/award/award_winner/awards_won	0
+2338	who taught michelangelo to sculpt?	/government/politician/government_positions_held	0
+2339	what type of art leonardo da vinci do?	/music/composition/composer	0
+2340	where did captain james cook grow up?	/people/person/place_of_birth	1
+2341	what was the name of wright brothers plane?	/book/periodical_editor/periodicals_edited	0
+2342	when does school start in los angeles california 2011?	/book/book/characters	0
+2343	what religions are practiced in afghanistan?	/government/politician/government_positions_held	0
+2344	who played kitt in knight rider?	/book/periodical_editor/periodicals_edited	0
+2345	where did troy aikman play football?	/sports/pro_athlete/teams	1
+2346	where did neil gaiman grow up?	/award/award_winner/awards_won	0
+2347	who is willow smith mom name?	/music/artist/concert_tours	0
+2348	who created arthur?	/location/location/containedby	0
+2349	where is chris rock from?	/location/location/containedby	0
+2350	what language does the country italy speak?	/location/country/official_language	0
+2351	what is my timezone in california?	/book/periodical_editor/periodicals_edited	0
+2352	what language did the egyptians?	/people/ethnicity/languages_spoken	1
+2353	what is the official language in mexico?	/book/book/characters	0
+2354	what are the four official languages of nigeria?	/government/politician/government_positions_held	0
+2355	who is in the band bush?	/government/politician/government_positions_held	0
+2356	where herman cain stance on the issues?	/music/artist/concert_tours	0
+2357	what airport do you fly into maui?	/award/award_winner/awards_won	0
+2358	who plays simon birch?	/location/location/containedby	0
+2359	what films has daniel craig been in?	/music/composition/composer	0
+2360	which city is the oldest in pakistan?	/location/location/containedby	0
+2361	who drafted kevin garnett?	/award/award_winner/awards_won	0
+2362	what team did peyton manning's dad play for?	/soccer/football_player/goals_scored	0
+2363	what are fun things to do in seattle wa?	/book/book/characters	0
+2364	what is the language called in turkey?	/government/politician/government_positions_held	0
+2365	what is the local language of israel?	/location/country/official_language	0
+2366	where great britain on the world map?	/location/country/official_language	0
+2367	what was the colosseum in rome used for?	/location/country/official_language	0
+2368	what language do people speak in the netherlands?	/soccer/football_player/goals_scored	0
+2369	what do people from spain speak?	/award/award_winner/awards_won	0
+2370	what is george washington's legacy?	/book/periodical_editor/periodicals_edited	0
+2371	who are the u s senators of pennsylvania?	/music/artist/concert_tours	0
+2372	what gunfight is wyatt earp most famous for?	/government/politician/government_positions_held	0
+2373	what musical instruments does justin bieber play?	/location/location/containedby	0
+2374	where did jack johnson go to high school?	/book/book/characters	0
+2375	what type of art did pablo picasso paint?	/music/artist/concert_tours	0
+2376	when was the last time the boston bruins went to the stanley cup?	/sports/sports_championship/events	1
+2377	who plays sheldon cooper mother on the big bang theory?	/location/location/containedby	0
+2378	what channel is anderson cooper talk show on?	/award/award_winner/awards_won	0
+2379	what 3 states border the pacific ocean?	/award/award_winner/awards_won	0
+2380	who played danielle rousseau on lost?	/government/politician/government_positions_held	0
+2381	what timezone is minnesota in?	/location/location/time_zones	1
+2382	what nationality is jermaine paul?	/people/person/nationality	1
+2383	what country was anton van leeuwenhoek from?	/book/periodical_editor/periodicals_edited	0
+2384	what team did david beckham play for in 2011?	/location/location/containedby	0
+2385	who is nina dobrev playing in perks of being a wallflower?	/location/country/official_language	0
+2386	what did andrew johnson accomplish as president?	/music/composition/composer	0
+2387	what is considered eastern canada?	/book/book/characters	0
+2388	what is atlanta ga famous for?	/government/politician/government_positions_held	0
+2389	who does mark sanchez play for?	/award/award_winner/awards_won	0
+2390	what 4 teams did wayne gretzky play for?	/government/politician/government_positions_held	0
+2391	where is glastonbury connecticut?	/book/periodical_editor/periodicals_edited	0
+2392	where is sony headquarters?	/government/politician/government_positions_held	0
+2393	what language they speak in scotland?	/music/artist/concert_tours	0
+2394	what places can you visit in france?	/location/country/official_language	0
+2395	what language do people speak in costa rica?	/book/book/characters	0
+2396	what kind of guitar john mayer?	/soccer/football_player/goals_scored	0
+2397	what are the countries and capitals of central america?	/book/book/characters	0
+2398	what movies did david carradine play in?	/award/award_nominee/award_nominations	1
+2399	what is charlie sheen's dad's name?	/book/periodical_editor/periodicals_edited	0
+2400	what instrument does fela kuti play?	/location/country/official_language	0
+2401	what countries share borders with spain?	/location/location/adjoin_s	1
+2402	what did rob kardashian get surgery for?	/book/book/characters	0
+2403	what sport is popular in italy?	/soccer/football_player/goals_scored	0
+2404	where does jamie chung live?	/book/periodical_editor/periodicals_edited	0
+2405	where is chris rock from?	/soccer/football_player/goals_scored	0
+2406	what do you speak in singapore?	/book/periodical_editor/periodicals_edited	0
+2407	what political party is jerry brown?	/government/politician/party	1
+2408	who does amy stiller play in dodgeball?	/film/actor/film	1
+2409	what kind of government is mali?	/soccer/football_player/goals_scored	0
+2410	where did starbucks get their logo?	/soccer/football_player/goals_scored	0
+2411	what is the state of montana known for?	/soccer/football_player/goals_scored	0
+2412	what culture lived in teotihuacan?	/book/periodical_editor/periodicals_edited	0
+2413	what are bridgit mendler's parents names?	/award/award_winner/awards_won	0

@@ -1,0 +1,4244 @@
+who O
+was O
+the O
+founder O
+of O
+the O
+colony O
+of O
+virginia B-LOC
+? O
+   
+who O
+is O
+the O
+state O
+senator O
+of O
+kentucky B-LOC
+? O
+   
+what O
+are O
+bridgit B-LOC
+mendler's I-LOC
+parents O
+names O
+? O
+   
+what O
+kind O
+of O
+paintings O
+did O
+frida B-LOC
+kahlo I-LOC
+do O
+? O
+   
+what O
+movies O
+has O
+michael B-LOC
+clarke I-LOC
+duncan I-LOC
+been O
+in O
+? O
+   
+what O
+are O
+all O
+of O
+michael B-LOC
+jackson I-LOC
+albums O
+? O
+   
+who O
+is O
+ben B-LOC
+roethlisberger I-LOC
+parents O
+? O
+   
+what O
+was O
+one O
+of O
+benjamin B-LOC
+franklin's I-LOC
+inventions O
+? O
+   
+what O
+does O
+guyana B-LOC
+speak O
+? O
+   
+what O
+county O
+is O
+minneapolis B-LOC
+mn O
+in O
+? O
+   
+what O
+culture O
+lived O
+in O
+teotihuacan B-LOC
+? O
+   
+who O
+was O
+cleopatra B-LOC
+married O
+too O
+? O
+   
+when O
+was O
+gardasil B-LOC
+released O
+to O
+the O
+public O
+? O
+   
+who O
+voice O
+acts O
+peter B-LOC
+griffin I-LOC
+? O
+   
+what O
+system O
+of O
+government O
+does O
+nigeria B-LOC
+have O
+? O
+   
+what O
+timezone O
+is O
+toronto B-LOC
+gmt O
+? O
+   
+where O
+do O
+you O
+fly O
+into O
+for O
+destin B-LOC
+? O
+   
+where O
+does O
+dr. O
+sanjay B-LOC
+gupta I-LOC
+practice O
+? O
+   
+who O
+does O
+david B-LOC
+beckham I-LOC
+play O
+for O
+in O
+2012 O
+? O
+   
+what O
+has O
+ian B-LOC
+somerhalder I-LOC
+played O
+in O
+? O
+   
+what O
+influenced O
+abraham B-LOC
+lincoln I-LOC
+to O
+become O
+president O
+? O
+   
+who O
+the O
+voice O
+of O
+jack B-LOC
+skellington I-LOC
+? O
+   
+what O
+language O
+do O
+egyptians B-LOC
+use O
+? O
+   
+what O
+are O
+the O
+major O
+languages O
+in O
+italy B-LOC
+? O
+   
+where O
+is O
+the O
+thalys O
+train O
+station O
+in O
+brussels B-LOC
+? O
+   
+where O
+is O
+ann B-LOC
+romney I-LOC
+from O
+? O
+   
+who O
+do O
+nate B-LOC
+robinson I-LOC
+play O
+for O
+? O
+   
+who O
+all O
+has O
+steve B-LOC
+nash I-LOC
+played O
+for O
+? O
+   
+what O
+did O
+gerald B-LOC
+ford I-LOC
+do O
+? O
+   
+what O
+battles O
+did O
+canada B-LOC
+win O
+in O
+ww2 O
+? O
+   
+what O
+year O
+did O
+lamar B-LOC
+odom I-LOC
+play O
+for O
+the O
+clippers O
+? O
+   
+what O
+currency O
+does O
+hungary B-LOC
+have O
+? O
+   
+who O
+married O
+jessica B-LOC
+simpson I-LOC
+? O
+   
+what O
+is O
+the O
+currency O
+in O
+the O
+dominican B-LOC
+republic I-LOC
+2010 O
+? O
+   
+what O
+race O
+are O
+arabs B-LOC
+? O
+   
+who O
+was O
+niccolo B-LOC
+machiavelli I-LOC
+influenced O
+by O
+? O
+   
+where O
+is O
+bob B-LOC
+marley I-LOC
+from O
+where O
+was O
+he O
+born O
+? O
+   
+what O
+discovery O
+did O
+sir O
+isaac B-LOC
+newton I-LOC
+make O
+about O
+force O
+? O
+   
+where O
+did O
+walt B-LOC
+disney I-LOC
+live O
+before O
+he O
+died O
+? O
+   
+what O
+books O
+did O
+emily B-LOC
+dickinson I-LOC
+wrote O
+? O
+   
+in O
+which O
+state O
+did O
+the O
+santa B-LOC
+fe I-LOC
+trail O
+begin O
+? O
+   
+what O
+influenced O
+andy B-LOC
+warhol's I-LOC
+work O
+? O
+   
+what O
+did O
+the O
+habsburg B-LOC
+family O
+control O
+? O
+   
+what O
+countries O
+are O
+located O
+in O
+the O
+netherlands B-LOC
+? O
+   
+what O
+race O
+did O
+dan B-LOC
+wheldon I-LOC
+died O
+in O
+? O
+   
+who O
+is O
+henry B-LOC
+david I-LOC
+thoreau I-LOC
+? O
+   
+what O
+highschool O
+did O
+bill B-LOC
+gates I-LOC
+graduated O
+from O
+? O
+   
+who O
+played O
+danielle B-LOC
+rousseau I-LOC
+on O
+lost O
+? O
+   
+where O
+was O
+the O
+battle B-LOC
+of I-LOC
+shiloh I-LOC
+? O
+   
+when O
+did O
+the O
+new B-LOC
+york I-LOC
+mets I-LOC
+start O
+playing O
+baseball O
+? O
+   
+what O
+type O
+of O
+aircraft O
+does O
+virgin B-LOC
+america I-LOC
+use O
+? O
+   
+what O
+is O
+the O
+name O
+of O
+currency O
+used O
+in O
+spain B-LOC
+? O
+   
+who O
+played O
+bilbo B-LOC
+baggins I-LOC
+? O
+   
+who O
+ran O
+against O
+bill B-LOC
+clinton I-LOC
+for O
+president O
+? O
+   
+what O
+happened O
+at O
+the O
+virginia B-LOC
+tech I-LOC
+massacre I-LOC
+? O
+   
+where O
+does O
+turkish B-LOC
+language I-LOC
+? O
+   
+which O
+asian B-LOC
+country O
+has O
+the O
+biggest O
+population O
+? O
+   
+what O
+country O
+did O
+jacques B-LOC
+cartier I-LOC
+came O
+from O
+? O
+   
+what O
+represents O
+ghana B-LOC
+? O
+   
+who O
+does O
+jr B-LOC
+smith I-LOC
+play O
+for O
+2012 O
+? O
+   
+where O
+is O
+shoreview B-LOC
+mn O
+? O
+   
+what O
+is O
+the O
+official O
+currency O
+in O
+france B-LOC
+? O
+   
+what O
+is O
+molly B-LOC
+ringwald I-LOC
+in O
+? O
+   
+what O
+mark B-LOC
+zuckerberg I-LOC
+? O
+   
+where O
+is O
+the O
+warmest O
+weather O
+in O
+the O
+united B-LOC
+states I-LOC
+in O
+december O
+? O
+   
+what O
+political O
+experience O
+did O
+abraham B-LOC
+lincoln I-LOC
+have O
+? O
+   
+what O
+technique O
+did O
+vincent B-LOC
+van I-LOC
+gogh I-LOC
+use O
+in O
+his O
+paintings O
+? O
+   
+what O
+is O
+the O
+legislature O
+of O
+missouri B-LOC
+called O
+? O
+   
+who O
+was O
+the O
+governor O
+of O
+missouri B-LOC
+in O
+1996 O
+? O
+   
+what O
+language O
+does O
+the O
+country O
+italy B-LOC
+speak O
+? O
+   
+who's O
+betty B-LOC
+white I-LOC
+? O
+   
+what O
+kind O
+of O
+cancer O
+killed O
+larry B-LOC
+hagman I-LOC
+have O
+? O
+   
+where O
+is O
+the O
+denver B-LOC
+broncos I-LOC
+stadium O
+located O
+? O
+   
+what O
+languages O
+do O
+people O
+speak O
+in O
+switzerland B-LOC
+? O
+   
+where O
+ulysses B-LOC
+s I-LOC
+grant I-LOC
+go O
+to O
+school O
+? O
+   
+what O
+happened O
+after O
+anne B-LOC
+frank I-LOC
+died O
+? O
+   
+what O
+county O
+is O
+stockton B-LOC
+ca O
+located O
+in O
+? O
+   
+who O
+is O
+the O
+leader O
+of O
+syria B-LOC
+now O
+? O
+   
+where O
+was O
+battle B-LOC
+of I-LOC
+verdun I-LOC
+located O
+? O
+   
+who O
+plays O
+jacob B-LOC
+black I-LOC
+in O
+twilight O
+? O
+   
+when O
+did O
+ian B-LOC
+thorpe I-LOC
+become O
+famous O
+? O
+   
+where O
+did O
+mitt B-LOC
+romney I-LOC
+go O
+to O
+elementary O
+school O
+? O
+   
+what O
+year O
+magic B-LOC
+johnson I-LOC
+retired O
+? O
+   
+where O
+is O
+shakira B-LOC
+from O
+originally O
+? O
+   
+what O
+language O
+chile B-LOC
+speak O
+? O
+   
+what O
+team O
+did O
+john B-LOC
+madden I-LOC
+play O
+football O
+for O
+? O
+   
+what O
+time O
+is O
+in O
+london B-LOC
+heathrow O
+? O
+   
+what O
+secondary O
+school O
+did O
+adolf B-LOC
+hitler I-LOC
+go O
+to O
+? O
+   
+what O
+city O
+did O
+elvis B-LOC
+presley I-LOC
+grew O
+up O
+in O
+? O
+   
+what O
+is O
+the O
+zip O
+code O
+for O
+clarksville B-LOC
+tn O
+? O
+   
+where O
+is O
+the O
+university B-LOC
+of I-LOC
+alabama I-LOC
+? O
+   
+what O
+country O
+did O
+james B-LOC
+watt I-LOC
+come O
+from O
+? O
+   
+what O
+does O
+bill B-LOC
+gates I-LOC
+own O
+? O
+   
+what O
+is O
+the O
+government O
+structure O
+of O
+germany B-LOC
+? O
+   
+where O
+did O
+william B-LOC
+mckinley I-LOC
+go O
+to O
+high O
+school O
+? O
+   
+when O
+did O
+shawn B-LOC
+johnson I-LOC
+won O
+the O
+gold O
+medal O
+? O
+   
+who O
+did O
+stephenie B-LOC
+meyer I-LOC
+play O
+in O
+twilight O
+? O
+   
+what O
+school O
+did O
+sir O
+isaac B-LOC
+newton I-LOC
+go O
+to O
+? O
+   
+what O
+age O
+do O
+scottish B-LOC
+people O
+go O
+to O
+university O
+? O
+   
+who O
+played O
+wesley B-LOC
+crusher I-LOC
+on O
+star O
+trek O
+the O
+next O
+generation O
+? O
+   
+where O
+was O
+the O
+battle B-LOC
+of I-LOC
+verdun I-LOC
+ww1 O
+? O
+   
+where O
+did O
+sir O
+richard B-LOC
+grenville I-LOC
+explore O
+? O
+   
+what O
+is O
+modern O
+egyptian B-LOC
+language O
+? O
+   
+what O
+are O
+the O
+names O
+of O
+harry B-LOC
+potter I-LOC
+books O
+in O
+order O
+? O
+   
+what O
+did O
+isaac B-LOC
+newton I-LOC
+contribute O
+to O
+science O
+? O
+   
+what O
+time O
+zone O
+is O
+it O
+in O
+california B-LOC
+? O
+   
+where O
+does O
+hudson B-LOC
+river I-LOC
+start O
+? O
+   
+what O
+is O
+arlington B-LOC
+texas I-LOC
+zip O
+code O
+? O
+   
+where O
+were O
+the O
+chickasaw B-LOC
+indians O
+located O
+? O
+   
+where O
+did O
+kate B-LOC
+chopin I-LOC
+grow O
+up O
+? O
+   
+where O
+is O
+luke B-LOC
+bryan I-LOC
+from O
+? O
+   
+where O
+did O
+captain O
+james B-LOC
+cook I-LOC
+grow O
+up O
+? O
+   
+what O
+school O
+did O
+michael B-LOC
+jordan I-LOC
+play O
+for O
+? O
+   
+what O
+does O
+rupert B-LOC
+murdoch I-LOC
+own O
+2012 O
+? O
+   
+what O
+did O
+anna B-LOC
+nicole I-LOC
+smith I-LOC
+died O
+from O
+? O
+   
+what O
+is O
+the O
+money O
+called O
+in O
+spain B-LOC
+? O
+   
+when O
+was O
+the O
+civil O
+war O
+in O
+libya B-LOC
+? O
+   
+which O
+countries O
+border O
+lake B-LOC
+victoria I-LOC
+? O
+   
+what O
+place O
+did O
+thomas B-LOC
+jefferson I-LOC
+died O
+? O
+   
+who O
+is O
+steve B-LOC
+nash I-LOC
+married O
+to O
+? O
+   
+who O
+was O
+the O
+founder O
+of O
+rhode B-LOC
+island I-LOC
+? O
+   
+where O
+is O
+spanish B-LOC
+springs O
+nv O
+? O
+   
+who O
+won O
+the O
+2012 O
+snooker O
+masters B-LOC
+? O
+   
+what O
+currency O
+do O
+you O
+use O
+in O
+costa B-LOC
+rica I-LOC
+? O
+   
+what O
+is O
+the O
+official O
+language O
+of O
+the O
+ukraine B-LOC
+? O
+   
+what O
+team O
+did O
+joe B-LOC
+hart I-LOC
+play O
+for O
+before O
+man O
+city O
+? O
+   
+where O
+did O
+willy B-LOC
+wonka I-LOC
+take O
+place O
+? O
+   
+who O
+is O
+cameron B-LOC
+crowe I-LOC
+? O
+   
+what O
+does O
+tim B-LOC
+gunn I-LOC
+do O
+for O
+a O
+living O
+? O
+   
+who O
+was O
+the O
+first O
+jedi B-LOC
+master O
+? O
+   
+what O
+is O
+the O
+state O
+bird O
+and O
+flower O
+of O
+michigan B-LOC
+? O
+   
+where O
+did O
+thomas B-LOC
+jefferson I-LOC
+died O
+? O
+   
+what O
+country O
+is O
+george B-LOC
+washington I-LOC
+carver I-LOC
+from O
+? O
+   
+who O
+is O
+the O
+actor O
+that O
+plays O
+rico O
+in O
+hannah B-LOC
+montana I-LOC
+? O
+   
+where O
+can O
+i O
+register O
+to O
+vote O
+in O
+urbana B-LOC
+il O
+? O
+   
+what O
+did O
+dr O
+carter B-LOC
+g I-LOC
+woodson I-LOC
+do O
+? O
+   
+what O
+did O
+charles B-LOC
+dickens I-LOC
+believe O
+in O
+? O
+   
+in O
+what O
+timezone O
+is O
+arizona B-LOC
+? O
+   
+what O
+currency O
+do O
+i O
+take O
+to O
+turkey B-LOC
+? O
+   
+who O
+is O
+jason B-LOC
+morgan I-LOC
+married O
+to O
+in O
+real O
+life O
+? O
+   
+who O
+plays O
+dante B-LOC
+falconeri I-LOC
+? O
+   
+what O
+college O
+did O
+kris B-LOC
+humphries I-LOC
+play O
+for O
+? O
+   
+what O
+type O
+of O
+government O
+does O
+japan B-LOC
+currently O
+have O
+? O
+   
+who O
+was O
+the O
+first O
+wife O
+of O
+prophet O
+muhammad B-LOC
+? O
+   
+who O
+did O
+kevin B-LOC
+garnett I-LOC
+play O
+for O
+before O
+celtics O
+? O
+   
+where O
+is O
+st B-LOC
+louis I-LOC
+cardinals I-LOC
+stadium O
+? O
+   
+what O
+four O
+countries O
+are O
+in O
+the O
+united B-LOC
+kingdom I-LOC
+? O
+   
+what O
+airlines O
+fly O
+into O
+ontario B-LOC
+international I-LOC
+airport I-LOC
+? O
+   
+what O
+movies O
+has O
+halle B-LOC
+berry I-LOC
+starred O
+in O
+? O
+   
+what O
+school O
+did O
+michael B-LOC
+jordan I-LOC
+go O
+to O
+? O
+   
+what's O
+the O
+egyptian B-LOC
+currency O
+? O
+   
+who O
+won O
+the O
+fa B-LOC
+cup I-LOC
+in O
+2008 O
+? O
+   
+where O
+does O
+honda B-LOC
+play O
+soccer O
+? O
+   
+where O
+did O
+roger B-LOC
+moore I-LOC
+live O
+? O
+   
+who O
+did O
+plaxico B-LOC
+burress I-LOC
+sign O
+with O
+2012 O
+? O
+   
+where O
+did O
+carmen B-LOC
+electra I-LOC
+grow O
+up O
+? O
+   
+where O
+did O
+robert B-LOC
+hooke I-LOC
+get O
+his O
+education O
+? O
+   
+what O
+time O
+is O
+kansas B-LOC
+in O
+? O
+   
+what O
+is O
+osama B-LOC
+bin I-LOC
+laden I-LOC
+race O
+? O
+   
+what O
+disease O
+michael B-LOC
+jackson I-LOC
+? O
+   
+when O
+did O
+tom B-LOC
+brady I-LOC
+join O
+the O
+patriots O
+? O
+   
+what O
+battles O
+did O
+robert B-LOC
+e I-LOC
+lee I-LOC
+participate O
+in O
+? O
+   
+what O
+team O
+did O
+albert B-LOC
+pujols I-LOC
+play O
+for O
+? O
+   
+what O
+are O
+fun O
+things O
+to O
+do O
+in O
+seattle B-LOC
+wa O
+? O
+   
+who O
+played O
+hannah B-LOC
+montana I-LOC
+best O
+friend O
+? O
+   
+where O
+did O
+gary B-LOC
+coleman I-LOC
+live O
+when O
+he O
+died O
+? O
+   
+where O
+do O
+the O
+houston B-LOC
+rockets I-LOC
+play O
+basketball O
+? O
+   
+which O
+english B-LOC
+team O
+won O
+the O
+champions O
+league O
+first O
+? O
+   
+what O
+did O
+alvin B-LOC
+smith I-LOC
+died O
+from O
+? O
+   
+what O
+currency O
+in O
+dominican B-LOC
+republic I-LOC
+should O
+i O
+bring O
+? O
+   
+what O
+to O
+do O
+in O
+panama B-LOC
+city I-LOC
+beach I-LOC
+for O
+spring O
+break O
+? O
+   
+where O
+did O
+rich B-LOC
+rodriguez I-LOC
+get O
+fired O
+? O
+   
+what O
+channel O
+is O
+anderson B-LOC
+cooper I-LOC
+talk O
+show O
+on O
+? O
+   
+what O
+type O
+of O
+money O
+does O
+jamaica B-LOC
+use O
+? O
+   
+who O
+is O
+lamar B-LOC
+odom I-LOC
+married O
+too O
+? O
+   
+what O
+wars O
+did O
+robert B-LOC
+e I-LOC
+lee I-LOC
+lead O
+? O
+   
+in O
+what O
+years O
+did O
+the O
+new B-LOC
+york I-LOC
+yankees I-LOC
+win O
+the O
+world O
+series O
+? O
+   
+what O
+is O
+time O
+zone O
+in O
+new B-LOC
+orleans I-LOC
+? O
+   
+where O
+is O
+alex B-LOC
+smith I-LOC
+from O
+? O
+   
+who O
+are O
+the O
+main O
+trading O
+partners O
+of O
+china B-LOC
+? O
+   
+what O
+to O
+do O
+in O
+new B-LOC
+orleans I-LOC
+with O
+kids O
+? O
+   
+what O
+is O
+my O
+timezone O
+in O
+california B-LOC
+? O
+   
+who O
+started O
+up O
+mcdonalds B-LOC
+? O
+   
+what O
+is O
+the O
+most O
+practiced O
+religion O
+in O
+the O
+united B-LOC
+states I-LOC
+? O
+   
+who O
+has O
+britney B-LOC
+spears I-LOC
+married O
+? O
+   
+what O
+to O
+do O
+in O
+panama B-LOC
+city I-LOC
+beach I-LOC
+in O
+february O
+? O
+   
+what O
+did O
+robin B-LOC
+gibb I-LOC
+died O
+from O
+? O
+   
+what O
+did O
+robert B-LOC
+hooke I-LOC
+discover O
+? O
+   
+what O
+airport O
+fly O
+into O
+for O
+maui B-LOC
+? O
+   
+what O
+language O
+do O
+argentina B-LOC
+use O
+? O
+   
+what O
+did O
+george B-LOC
+washington I-LOC
+carver I-LOC
+make O
+with O
+peanuts O
+? O
+   
+what O
+is O
+the O
+dominican B-LOC
+republic's I-LOC
+capital O
+? O
+   
+what O
+are O
+the O
+major O
+religions O
+in O
+poland B-LOC
+? O
+   
+what O
+times O
+is O
+it O
+in O
+texas B-LOC
+? O
+   
+what O
+kind O
+of O
+music O
+did O
+michael B-LOC
+jackson I-LOC
+sing O
+? O
+   
+who O
+was O
+the O
+real O
+erin B-LOC
+brockovich I-LOC
+? O
+   
+what O
+country O
+volvo B-LOC
+cars O
+made O
+? O
+   
+what O
+does O
+anderson B-LOC
+cooper I-LOC
+do O
+? O
+   
+where O
+did O
+dmitri B-LOC
+mendeleev I-LOC
+teach O
+? O
+   
+who O
+is O
+the O
+head O
+coach O
+of O
+the O
+chicago B-LOC
+blackhawks I-LOC
+? O
+   
+what O
+are O
+the O
+major O
+sports O
+played O
+in O
+venezuela B-LOC
+? O
+   
+who O
+did O
+alicia B-LOC
+keys I-LOC
+have O
+a O
+baby O
+with O
+? O
+   
+what O
+college O
+chris B-LOC
+paul I-LOC
+go O
+to O
+? O
+   
+what O
+are O
+major O
+religions O
+in O
+the O
+united B-LOC
+states I-LOC
+? O
+   
+what O
+kind O
+of O
+language O
+does O
+switzerland B-LOC
+speak O
+? O
+   
+where O
+is O
+jack B-LOC
+daniel I-LOC
+buried O
+? O
+   
+where O
+was O
+f B-LOC
+scott I-LOC
+fitzgerald I-LOC
+education O
+? O
+   
+where O
+to O
+go O
+in O
+phnom B-LOC
+penh I-LOC
+cambodia O
+? O
+   
+who O
+is O
+francis B-LOC
+bacon I-LOC
+and O
+what O
+did O
+he O
+do O
+? O
+   
+what O
+university O
+did O
+tony B-LOC
+romo I-LOC
+go O
+to O
+? O
+   
+what O
+is O
+state O
+animal O
+of O
+illinois B-LOC
+? O
+   
+who O
+was O
+vladimir B-LOC
+lenin I-LOC
+and O
+why O
+was O
+he O
+important O
+? O
+   
+what O
+college O
+did O
+steve B-LOC
+jobs I-LOC
+attend O
+? O
+   
+what O
+team O
+did O
+magic B-LOC
+johnson I-LOC
+play O
+for O
+? O
+   
+who O
+does O
+the O
+voice O
+of O
+kitt B-LOC
+in O
+knight O
+rider O
+? O
+   
+what O
+are O
+historical O
+places O
+in O
+new B-LOC
+york I-LOC
+? O
+   
+when O
+did O
+miami B-LOC
+dolphins I-LOC
+win O
+super O
+bowl O
+? O
+   
+where O
+did O
+lauren B-LOC
+conrad I-LOC
+live O
+? O
+   
+how O
+much O
+indiana B-LOC
+jones I-LOC
+movies O
+are O
+there O
+? O
+   
+what O
+time O
+zone O
+is O
+maryville B-LOC
+tn O
+? O
+   
+what O
+kind O
+of O
+fish O
+do O
+you O
+catch O
+in O
+florida B-LOC
+? O
+   
+where O
+to O
+live O
+near O
+seattle B-LOC
+wa O
+? O
+   
+what O
+did O
+jerry B-LOC
+sandusky I-LOC
+do O
+to O
+the O
+children O
+? O
+   
+what O
+country O
+is O
+barack B-LOC
+obama I-LOC
+from O
+? O
+   
+what O
+job O
+did O
+george B-LOC
+w I-LOC
+bush I-LOC
+have O
+? O
+   
+who O
+won O
+governor O
+in O
+connecticut B-LOC
+2010 O
+? O
+   
+where O
+was O
+the O
+vietnam B-LOC
+war I-LOC
+located O
+? O
+   
+what O
+was O
+antonio B-LOC
+vivaldi I-LOC
+known O
+for O
+? O
+   
+where O
+did O
+george B-LOC
+harrison I-LOC
+live O
+before O
+he O
+died O
+? O
+   
+what O
+time O
+is O
+it O
+in O
+lake B-LOC
+havasu I-LOC
+city I-LOC
+arizona O
+? O
+   
+which O
+states O
+share O
+borders O
+with O
+virginia B-LOC
+? O
+   
+what O
+time O
+zone O
+is O
+london B-LOC
+in O
+right O
+now O
+? O
+   
+who O
+did O
+the O
+voice O
+of O
+kitt B-LOC
+in O
+knight O
+rider O
+? O
+   
+what O
+teams O
+did O
+jim B-LOC
+harbaugh I-LOC
+play O
+for O
+? O
+   
+what O
+year O
+did O
+johnny B-LOC
+cash I-LOC
+die O
+and O
+how O
+old O
+was O
+he O
+? O
+   
+who O
+is O
+the O
+voice O
+actor O
+for O
+eric B-LOC
+cartman I-LOC
+? O
+   
+what O
+illness O
+does O
+michael B-LOC
+j I-LOC
+fox I-LOC
+have O
+? O
+   
+what O
+movie O
+queen B-LOC
+latifah I-LOC
+play O
+in O
+? O
+   
+what O
+language O
+does O
+egyptians B-LOC
+use O
+? O
+   
+what O
+is O
+afghanistan B-LOC
+money O
+called O
+? O
+   
+what O
+is O
+atlanta B-LOC
+ga O
+famous O
+for O
+? O
+   
+where O
+is O
+the O
+best O
+place O
+to O
+stay O
+in O
+aruba B-LOC
+? O
+   
+who O
+is O
+the O
+seattle B-LOC
+seahawks I-LOC
+starting O
+quarterback O
+? O
+   
+what O
+province O
+is O
+toronto B-LOC
+canada O
+located O
+in O
+? O
+   
+what O
+political O
+system O
+is O
+in O
+china B-LOC
+? O
+   
+what O
+is O
+a O
+famous O
+person O
+from O
+massachusetts B-LOC
+? O
+   
+where O
+does O
+jeb B-LOC
+bush I-LOC
+live O
+? O
+   
+what O
+country O
+does O
+japan B-LOC
+export O
+to O
+? O
+   
+who O
+is O
+aidan B-LOC
+quinn I-LOC
+? O
+   
+what O
+timezone O
+is O
+virginia B-LOC
+in O
+? O
+   
+where O
+does O
+spencer B-LOC
+pratt I-LOC
+go O
+to O
+school O
+? O
+   
+what O
+colleges O
+did O
+alice B-LOC
+walker I-LOC
+attend O
+? O
+   
+what O
+is O
+the O
+hawaii B-LOC
+time O
+zone O
+? O
+   
+who O
+was O
+gregor B-LOC
+mendel I-LOC
+and O
+what O
+did O
+he O
+contribute O
+to O
+science O
+? O
+   
+where O
+to O
+stay O
+near O
+asheville B-LOC
+? O
+   
+what O
+is O
+the O
+political O
+system O
+in O
+argentina B-LOC
+? O
+   
+what O
+continent O
+is O
+mexico B-LOC
+located O
+on O
+? O
+   
+where O
+did O
+andrew B-LOC
+young I-LOC
+go O
+to O
+school O
+? O
+   
+what O
+county O
+is O
+duluth B-LOC
+in O
+? O
+   
+where O
+did O
+martin B-LOC
+luther I-LOC
+king I-LOC
+jr I-LOC
+get O
+shot O
+? O
+   
+what O
+countries O
+does O
+germany B-LOC
+share O
+borders O
+with O
+? O
+   
+what O
+county O
+is O
+clearwater B-LOC
+fl O
+in O
+? O
+   
+what O
+was O
+the O
+cause O
+of O
+death O
+for O
+edgar B-LOC
+allan I-LOC
+poe I-LOC
+? O
+   
+what O
+is O
+the O
+capital O
+city O
+of O
+west B-LOC
+germany I-LOC
+? O
+   
+where O
+does O
+president O
+barack B-LOC
+obama I-LOC
+live O
+? O
+   
+what O
+highschool O
+did O
+khloe B-LOC
+kardashian I-LOC
+go O
+to O
+? O
+   
+what O
+countries O
+make O
+up O
+great B-LOC
+britain I-LOC
+and O
+what O
+are O
+their O
+capitals O
+? O
+   
+where O
+was O
+george B-LOC
+washington I-LOC
+originally O
+from O
+? O
+   
+what O
+is O
+father O
+name O
+of O
+salman B-LOC
+khan I-LOC
+? O
+   
+what O
+do O
+egyptians B-LOC
+speak O
+? O
+   
+what O
+type O
+of O
+monarchy O
+did O
+england B-LOC
+have O
+during O
+the O
+glorious O
+revolution O
+? O
+   
+what O
+currency O
+is O
+used O
+in O
+germany B-LOC
+2012 O
+? O
+   
+who O
+coached O
+the O
+dallas B-LOC
+cowboys I-LOC
+in O
+1996 O
+? O
+   
+what O
+show O
+does O
+tamera B-LOC
+mowry I-LOC
+play O
+on O
+? O
+   
+what O
+religion O
+are O
+most O
+people O
+in O
+pakistan B-LOC
+? O
+   
+what O
+team O
+did O
+kobe B-LOC
+bryant I-LOC
+play O
+for O
+first O
+? O
+   
+what O
+inventions O
+did O
+leonardo B-LOC
+da I-LOC
+vinci I-LOC
+made O
+? O
+   
+where O
+did O
+tim B-LOC
+mcgraw I-LOC
+grew O
+up O
+? O
+   
+who O
+does O
+sonny B-LOC
+bill I-LOC
+williams I-LOC
+play O
+for O
+2012 O
+? O
+   
+what O
+type O
+of O
+government O
+did O
+egypt B-LOC
+have O
+? O
+   
+what O
+type O
+of O
+government O
+does O
+the O
+former O
+soviet B-LOC
+union I-LOC
+have O
+? O
+   
+who O
+plays O
+jim B-LOC
+halpert I-LOC
+? O
+   
+where O
+does O
+jamie B-LOC
+chung I-LOC
+live O
+? O
+   
+who O
+plays O
+lola B-LOC
+bunny I-LOC
+on O
+the O
+looney O
+tunes O
+show O
+? O
+   
+where O
+the O
+latin B-LOC
+language O
+come O
+from O
+? O
+   
+where O
+did O
+michael B-LOC
+jackson I-LOC
+went O
+to O
+school O
+? O
+   
+what O
+did O
+martin B-LOC
+luther I-LOC
+king I-LOC
+jr I-LOC
+do O
+in O
+his O
+life O
+? O
+   
+what O
+children's O
+books O
+did O
+suzanne B-LOC
+collins I-LOC
+wrote O
+? O
+   
+who O
+does O
+paul B-LOC
+walker I-LOC
+play O
+in O
+fast O
+and O
+furious O
+? O
+   
+what O
+language O
+does O
+people O
+from O
+denmark B-LOC
+speak O
+? O
+   
+what O
+country O
+did O
+marco B-LOC
+polo I-LOC
+come O
+from O
+? O
+   
+where O
+did O
+patrick B-LOC
+henry I-LOC
+live O
+? O
+   
+what O
+form O
+of O
+government O
+is O
+the O
+philippines B-LOC
+? O
+   
+what O
+food O
+is O
+from O
+china B-LOC
+? O
+   
+what O
+is O
+south B-LOC
+america I-LOC
+made O
+up O
+of O
+? O
+   
+what O
+type O
+of O
+government O
+does O
+fiji B-LOC
+have O
+2010 O
+? O
+   
+where O
+to O
+stay O
+in O
+bermuda B-LOC
+tripadvisor O
+? O
+   
+what O
+can O
+you O
+visit O
+in O
+london B-LOC
+? O
+   
+what O
+year O
+did O
+michael B-LOC
+jordan I-LOC
+get O
+drafted O
+? O
+   
+what O
+movies O
+have O
+gerard B-LOC
+butler I-LOC
+been O
+in O
+? O
+   
+when O
+did O
+michael B-LOC
+jordan I-LOC
+started O
+playing O
+basketball O
+in O
+the O
+nba O
+? O
+   
+what O
+type O
+of O
+money O
+does O
+brazil B-LOC
+have O
+? O
+   
+what O
+present O
+day O
+countries O
+use O
+english B-LOC
+as O
+their O
+national O
+language O
+? O
+   
+what O
+is O
+the O
+australian B-LOC
+open I-LOC
+called O
+? O
+   
+when O
+did O
+maria B-LOC
+sharapova I-LOC
+start O
+playing O
+tennis O
+? O
+   
+where O
+did O
+harriet B-LOC
+tubman I-LOC
+live O
+after O
+the O
+civil O
+war O
+? O
+   
+what O
+happened O
+after O
+the O
+invasion O
+of O
+normandy B-LOC
+? O
+   
+what O
+is O
+the O
+currency O
+of O
+mexico B-LOC
+called O
+? O
+   
+where O
+did O
+andreas O
+vesalius B-LOC
+die O
+? O
+   
+where O
+was O
+emperor O
+qin B-LOC
+shi I-LOC
+huang I-LOC
+born O
+? O
+   
+what O
+movies O
+gerard B-LOC
+butler I-LOC
+in O
+? O
+   
+what O
+other O
+movies O
+is O
+liam B-LOC
+hemsworth I-LOC
+in O
+? O
+   
+who O
+was O
+the O
+secretary O
+of O
+state O
+when O
+richard B-LOC
+nixon I-LOC
+was O
+president O
+? O
+   
+what O
+sports O
+do O
+they O
+have O
+in O
+china B-LOC
+? O
+   
+what O
+season O
+did O
+jason B-LOC
+priestley I-LOC
+leave O
+90210 O
+? O
+   
+what O
+team O
+does O
+derek B-LOC
+fisher I-LOC
+play O
+for O
+2012 O
+? O
+   
+where O
+are O
+you O
+if O
+you're O
+in O
+khartoum B-LOC
+? O
+   
+what O
+year O
+did O
+mitt B-LOC
+romney I-LOC
+first O
+run O
+for O
+president O
+? O
+   
+what O
+kind O
+of O
+government O
+does O
+iran B-LOC
+have O
+today O
+? O
+   
+what O
+games O
+do O
+japanese B-LOC
+people O
+play O
+? O
+   
+what O
+to O
+see O
+near O
+austin B-LOC
+? O
+   
+who O
+is O
+kristen B-LOC
+stewart I-LOC
+parents O
+? O
+   
+what O
+team O
+does O
+lamar B-LOC
+odom I-LOC
+play O
+for O
+2013 O
+? O
+   
+where O
+did O
+will B-LOC
+smith I-LOC
+go O
+to O
+high O
+school O
+? O
+   
+who O
+does O
+christine B-LOC
+gregoire I-LOC
+represent O
+? O
+   
+who O
+did O
+heidi B-LOC
+klum I-LOC
+date O
+before O
+seal O
+? O
+   
+where O
+the O
+murray B-LOC
+river I-LOC
+located O
+? O
+   
+what O
+year O
+did O
+reggie B-LOC
+bush I-LOC
+get O
+drafted O
+? O
+   
+where O
+are O
+the O
+libyan B-LOC
+refugees O
+going O
+? O
+   
+where O
+is O
+the O
+spratly B-LOC
+islands I-LOC
+located O
+? O
+   
+what O
+did O
+charles B-LOC
+dickens I-LOC
+writer O
+? O
+   
+into O
+what O
+language O
+family O
+does O
+english B-LOC
+fall O
+? O
+   
+what O
+was O
+karl B-LOC
+marx I-LOC
+beliefs O
+? O
+   
+what O
+type O
+of O
+money O
+do O
+you O
+use O
+in O
+cuba B-LOC
+? O
+   
+who O
+plays O
+riley B-LOC
+finn I-LOC
+on O
+buffy O
+the O
+vampire O
+slayer O
+? O
+   
+what O
+is O
+the O
+holy O
+book O
+in O
+taoism B-LOC
+? O
+   
+what O
+professional O
+baseball O
+team O
+did O
+michael B-LOC
+jordan I-LOC
+play O
+for O
+? O
+   
+where O
+is O
+mount B-LOC
+vernon I-LOC
+texas I-LOC
+? O
+   
+who O
+is O
+timothy B-LOC
+hutton I-LOC
+married O
+to O
+? O
+   
+what O
+happened O
+to O
+mike B-LOC
+tyson I-LOC
+? O
+   
+what O
+party O
+did O
+paul B-LOC
+keating I-LOC
+belong O
+to O
+? O
+   
+what O
+time O
+does O
+arkansas B-LOC
+play O
+football O
+today O
+? O
+   
+what O
+college O
+did O
+russell B-LOC
+wilson I-LOC
+go O
+to O
+? O
+   
+what O
+type O
+of O
+government O
+does O
+mexico B-LOC
+use O
+? O
+   
+where O
+is O
+texas B-LOC
+rangers I-LOC
+home O
+stadium O
+? O
+   
+what O
+county O
+is O
+orlando B-LOC
+fl O
+in O
+? O
+   
+what O
+is O
+the O
+name O
+of O
+justin B-LOC
+bieber I-LOC
+brother O
+? O
+   
+where O
+to O
+fly O
+into O
+bali B-LOC
+? O
+   
+what O
+is O
+cher's B-LOC
+son's O
+name O
+? O
+   
+what O
+countries O
+do O
+people O
+speak O
+portuguese B-LOC
+? O
+   
+who O
+was O
+vincent B-LOC
+van I-LOC
+gogh I-LOC
+inspired O
+by O
+? O
+   
+when O
+will O
+oscar B-LOC
+pistorius I-LOC
+compete O
+? O
+   
+which O
+countries O
+are O
+part O
+of O
+the O
+united B-LOC
+kingdom I-LOC
+? O
+   
+what O
+college O
+did O
+kevjumba B-LOC
+? O
+   
+what O
+sort O
+of O
+government O
+does O
+brazil B-LOC
+have O
+? O
+   
+what O
+year O
+was O
+the O
+great O
+san B-LOC
+francisco I-LOC
+fire O
+? O
+   
+where O
+is O
+the O
+kakadu B-LOC
+national I-LOC
+park I-LOC
+located O
+? O
+   
+where O
+is O
+the O
+ottoman B-LOC
+empire I-LOC
+located O
+? O
+   
+where O
+is O
+tom B-LOC
+cruise I-LOC
+from O
+? O
+   
+what O
+should O
+you O
+see O
+in O
+london B-LOC
+? O
+   
+what O
+did O
+kate B-LOC
+winslet I-LOC
+get O
+an O
+oscar O
+for O
+? O
+   
+where O
+did O
+pavlova B-LOC
+originate O
+? O
+   
+what O
+state O
+is O
+harvard B-LOC
+college I-LOC
+located O
+? O
+   
+what O
+state O
+did O
+al B-LOC
+gore I-LOC
+represent O
+? O
+   
+what O
+was O
+the O
+first O
+name O
+of O
+the O
+washington B-LOC
+redskins I-LOC
+? O
+   
+what O
+made O
+ancient O
+rome B-LOC
+fall O
+? O
+   
+who O
+does O
+kris B-LOC
+humphries I-LOC
+play O
+for O
+in O
+the O
+nba O
+? O
+   
+where O
+did O
+sir O
+ernest B-LOC
+shackleton I-LOC
+come O
+from O
+? O
+   
+who O
+does O
+the O
+islamic B-LOC
+worship O
+? O
+   
+what O
+does O
+pixar B-LOC
+produce O
+? O
+   
+what O
+movies O
+has O
+taylor B-LOC
+lautner I-LOC
+? O
+   
+who O
+does O
+kurt B-LOC
+busch I-LOC
+drive O
+for O
+now O
+? O
+   
+what O
+team O
+is O
+chris B-LOC
+paul I-LOC
+on O
+? O
+   
+what O
+happened O
+to O
+justin B-LOC
+bieber I-LOC
+2012 O
+? O
+   
+what O
+are O
+the O
+major O
+imports O
+of O
+the O
+united B-LOC
+states I-LOC
+? O
+   
+what O
+legal O
+system O
+does O
+germany B-LOC
+use O
+? O
+   
+where O
+is O
+lake B-LOC
+waynoka I-LOC
+ohio O
+? O
+   
+what O
+is O
+the O
+zip O
+code O
+for O
+moorpark B-LOC
+ca O
+? O
+   
+what O
+did O
+richard B-LOC
+nixon I-LOC
+do O
+for O
+a O
+living O
+before O
+he O
+became O
+president O
+? O
+   
+where O
+did O
+henry B-LOC
+hudson I-LOC
+travel O
+? O
+   
+what O
+did O
+egyptians B-LOC
+speak O
+? O
+   
+where O
+did O
+barack B-LOC
+obama I-LOC
+attend O
+school O
+? O
+   
+where O
+north B-LOC
+dakota I-LOC
+located O
+? O
+   
+who O
+played O
+todd B-LOC
+manning I-LOC
+on O
+one O
+life O
+to O
+live O
+? O
+   
+where O
+is O
+isthmus O
+of O
+panama B-LOC
+located O
+? O
+   
+what O
+states O
+does O
+the O
+connecticut B-LOC
+river I-LOC
+flow O
+through O
+? O
+   
+what O
+cancer O
+did O
+audrey B-LOC
+hepburn I-LOC
+died O
+of O
+? O
+   
+who O
+was O
+the O
+leader O
+of O
+germany B-LOC
+in O
+wwii O
+? O
+   
+when O
+did O
+george B-LOC
+w I-LOC
+bush I-LOC
+take O
+office O
+? O
+   
+where O
+is O
+wellsville B-LOC
+missouri I-LOC
+? O
+   
+where O
+great B-LOC
+britain I-LOC
+located O
+? O
+   
+when O
+is O
+the O
+last O
+time O
+the O
+chicago B-LOC
+bulls I-LOC
+won O
+a O
+championship O
+? O
+   
+where O
+is O
+mallorca B-LOC
+? O
+   
+what O
+is O
+the O
+closest O
+airport O
+to O
+naples B-LOC
+florida I-LOC
+? O
+   
+what O
+language O
+do O
+they O
+speak O
+in O
+argentina B-LOC
+yahoo O
+? O
+   
+what O
+type O
+of O
+planes O
+does O
+virgin B-LOC
+america I-LOC
+fly O
+? O
+   
+what O
+all O
+does O
+google B-LOC
+have O
+? O
+   
+what O
+to O
+see O
+outside O
+of O
+paris B-LOC
+? O
+   
+what O
+is O
+julia B-LOC
+gillard I-LOC
+famous O
+for O
+? O
+   
+who O
+played O
+jacob B-LOC
+black I-LOC
+? O
+   
+what O
+currency O
+does O
+thailand B-LOC
+use O
+? O
+   
+what O
+tourist O
+attractions O
+are O
+in O
+houston B-LOC
+texas O
+? O
+   
+what O
+does O
+annie B-LOC
+leibovitz I-LOC
+do O
+? O
+   
+what O
+is O
+the O
+zip O
+code O
+for O
+trenton B-LOC
+ohio I-LOC
+? O
+   
+who O
+is O
+kobe B-LOC
+bryant I-LOC
+wife O
+bio O
+? O
+   
+who O
+was O
+charles B-LOC
+darwin I-LOC
+married O
+to O
+? O
+   
+where O
+did O
+jane B-LOC
+austen I-LOC
+grow O
+up O
+? O
+   
+what O
+time O
+does O
+target O
+in O
+alhambra B-LOC
+close O
+? O
+   
+what O
+are O
+the O
+best O
+places O
+to O
+go O
+in O
+germany B-LOC
+? O
+   
+what O
+were O
+marco B-LOC
+polo's I-LOC
+goals O
+? O
+   
+what O
+language O
+brazil B-LOC
+use O
+? O
+   
+when O
+will O
+muharram B-LOC
+start O
+2011 O
+? O
+   
+what O
+currency O
+do O
+mexico B-LOC
+use O
+? O
+   
+where O
+does O
+kirk B-LOC
+cameron I-LOC
+live O
+now O
+? O
+   
+what O
+going O
+on O
+in O
+afghanistan B-LOC
+right O
+now O
+? O
+   
+where O
+is O
+chowchilla B-LOC
+located O
+? O
+   
+where O
+does O
+brian B-LOC
+williams I-LOC
+live O
+? O
+   
+what O
+was O
+the O
+cause O
+of O
+death O
+for O
+sage B-LOC
+stallone I-LOC
+? O
+   
+what O
+has O
+been O
+discovered O
+on O
+mars B-LOC
+so O
+far O
+? O
+   
+who O
+is O
+president O
+of O
+france B-LOC
+? O
+   
+what O
+was O
+eli B-LOC
+whitney I-LOC
+education O
+? O
+   
+what O
+kind O
+of O
+government O
+does O
+spain B-LOC
+have O
+now O
+? O
+   
+what O
+art O
+movement O
+was O
+vincent B-LOC
+van I-LOC
+gogh I-LOC
+apart O
+of O
+? O
+   
+where O
+are O
+brembo B-LOC
+brakes O
+from O
+? O
+   
+what O
+did O
+brittany B-LOC
+murphy I-LOC
+died O
+of O
+? O
+   
+what O
+was O
+robert B-LOC
+hooke's I-LOC
+contributions O
+to O
+science O
+? O
+   
+what O
+was O
+sir O
+arthur B-LOC
+conan I-LOC
+doyle I-LOC
+famous O
+for O
+? O
+   
+what O
+school O
+did O
+burne B-LOC
+hogarth I-LOC
+establish O
+? O
+   
+who O
+is O
+the O
+current O
+president O
+of O
+dominican B-LOC
+republic I-LOC
+2011 O
+? O
+   
+where O
+did O
+william B-LOC
+howard I-LOC
+taft I-LOC
+go O
+to O
+high O
+school O
+? O
+   
+who O
+was O
+dr B-LOC
+seuss I-LOC
+? O
+   
+who O
+won O
+2001 O
+fa B-LOC
+cup I-LOC
+? O
+   
+what O
+was O
+eli B-LOC
+whitney I-LOC
+job O
+? O
+   
+what O
+football O
+teams O
+did O
+emmitt B-LOC
+smith I-LOC
+play O
+for O
+? O
+   
+where O
+was O
+karl B-LOC
+marx I-LOC
+buried O
+? O
+   
+who O
+portrayed O
+indiana B-LOC
+jones I-LOC
+in O
+raiders O
+of O
+the O
+lost O
+ark O
+? O
+   
+where O
+do O
+islamic B-LOC
+people O
+go O
+to O
+worship O
+? O
+   
+who O
+the O
+voice O
+of O
+peter B-LOC
+griffin I-LOC
+? O
+   
+what O
+was O
+the O
+capital O
+of O
+ancient O
+israel B-LOC
+? O
+   
+what O
+time O
+zone O
+is O
+ontario O
+toronto B-LOC
+? O
+   
+who O
+does O
+zach B-LOC
+galifianakis I-LOC
+play O
+in O
+the O
+hangover O
+? O
+   
+what O
+was O
+gregor B-LOC
+mendel I-LOC
+known O
+for O
+? O
+   
+what O
+drugs O
+were O
+in O
+whitney B-LOC
+houston I-LOC
+when O
+she O
+died O
+? O
+   
+what O
+type O
+of O
+poetry O
+does O
+john B-LOC
+donne I-LOC
+write O
+? O
+   
+what O
+does O
+a O
+american O
+rottweiler B-LOC
+look O
+like O
+? O
+   
+what O
+is O
+president O
+abraham B-LOC
+lincoln I-LOC
+known O
+for O
+? O
+   
+what O
+currency O
+is O
+used O
+in O
+hungary B-LOC
+? O
+   
+what O
+college O
+did O
+joe B-LOC
+montana I-LOC
+play O
+for O
+? O
+   
+where O
+did O
+the O
+arizona B-LOC
+diamondbacks I-LOC
+play O
+? O
+   
+where O
+are O
+riddell B-LOC
+helmets O
+manufactured O
+? O
+   
+what O
+did O
+roger B-LOC
+sherman I-LOC
+do O
+for O
+a O
+living O
+? O
+   
+where O
+is O
+christina B-LOC
+aguilera I-LOC
+from O
+? O
+   
+what O
+is O
+the O
+dominant O
+language O
+of O
+jamaica B-LOC
+? O
+   
+where O
+was O
+anne B-LOC
+frank I-LOC
+born O
+? O
+   
+what O
+timezone O
+is O
+minnesota B-LOC
+in O
+? O
+   
+where O
+does O
+frida B-LOC
+kahlo I-LOC
+live O
+now O
+? O
+   
+where O
+does O
+the O
+jordan B-LOC
+river I-LOC
+end O
+? O
+   
+where O
+do O
+most O
+earthquakes O
+happen O
+in O
+japan B-LOC
+? O
+   
+what O
+kind O
+of O
+language O
+do O
+china B-LOC
+speak O
+? O
+   
+what O
+language O
+do O
+irish B-LOC
+people I-LOC
+speak O
+? O
+   
+where O
+does O
+the O
+band O
+metallica B-LOC
+live O
+? O
+   
+what O
+is O
+the O
+dominican B-LOC
+republic I-LOC
+part O
+of O
+? O
+   
+what O
+kind O
+of O
+political O
+system O
+does O
+iran B-LOC
+have O
+? O
+   
+what O
+language O
+do O
+brazil B-LOC
+speak O
+? O
+   
+what O
+type O
+of O
+political O
+system O
+is O
+spain B-LOC
+? O
+   
+who O
+is O
+the O
+2011 O
+heisman B-LOC
+trophy I-LOC
+winner O
+? O
+   
+what O
+is O
+michael B-LOC
+buble's I-LOC
+style O
+of O
+music O
+? O
+   
+what O
+kind O
+of O
+government O
+does O
+vietnam B-LOC
+have O
+? O
+   
+who O
+was O
+the O
+owner O
+of O
+kfc B-LOC
+? O
+   
+what O
+to O
+do O
+in O
+chicago B-LOC
+this O
+weekend O
+with O
+kids O
+? O
+   
+what O
+currency O
+do O
+the O
+ukraine B-LOC
+use O
+? O
+   
+who O
+plays O
+stewie B-LOC
+griffin I-LOC
+on O
+family O
+guy O
+? O
+   
+which O
+airport O
+is O
+closest O
+to O
+barcelona B-LOC
+port O
+? O
+   
+what O
+should O
+i O
+visit O
+in O
+venice B-LOC
+? O
+   
+what O
+country O
+is O
+beside O
+france B-LOC
+? O
+   
+who O
+started O
+mary B-LOC
+kay I-LOC
+? O
+   
+who O
+was O
+the O
+voice O
+of O
+simba B-LOC
+? O
+   
+where O
+was O
+the O
+first O
+ford B-LOC
+motor I-LOC
+company I-LOC
+located O
+? O
+   
+who O
+wrote O
+2 O
+timothy B-LOC
+4 O
+? O
+   
+where O
+did O
+fred B-LOC
+west I-LOC
+work O
+? O
+   
+what O
+city O
+was O
+nelson B-LOC
+mandela I-LOC
+born O
+in O
+? O
+   
+what O
+is O
+currency O
+in O
+panama B-LOC
+? O
+   
+who O
+started O
+southwest B-LOC
+airlines I-LOC
+? O
+   
+who O
+does O
+new B-LOC
+zealand I-LOC
+import O
+from O
+? O
+   
+what O
+kind O
+of O
+political O
+system O
+is O
+canada B-LOC
+? O
+   
+what O
+countries O
+are O
+included O
+in O
+the O
+netherlands B-LOC
+? O
+   
+what O
+are O
+the O
+major O
+imports O
+and O
+exports O
+of O
+canada B-LOC
+? O
+   
+what O
+movie O
+is O
+angelina B-LOC
+jolie I-LOC
+directing O
+? O
+   

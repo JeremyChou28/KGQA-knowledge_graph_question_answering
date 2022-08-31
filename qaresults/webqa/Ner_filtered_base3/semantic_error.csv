@@ -1,0 +1,490 @@
+question,entity,relation,answer,predict_answer
+who did mozart write his four horn concertos for?,wolfgang amadeus mozart,wolfgang amadeus mozart,wolfgang amadeus mozart used story by pierre beaumarchais,Rheumatic fever
+what country did germany invade first in ww1?,germany,/location/location/adjoin_s,Belgium,Berlin
+what countries are part of the uk?,united kingdom,/location/country/administrative_divisions,Scotland,Wales
+what things did martin luther king do?,martin luther king jr,martin luther king jr,Civil rights movement,Preacher
+what kind government does egypt have?,egypt,egypt,Semi-presidential system,Government of Egypt
+who did france surrender to in ww2?,france,/location/location/adjoin_s,Germany,Battle of Landshut
+what are some of the traditions of islam?,islam,/religion/religion/practices,Zakāt,Quran
+who did cam newton sign with?,cameron newton,/sports/pro_athlete/teams,Carolina Panthers,Quarterback
+what highschool did harper lee go to?,harper lee,/people/person/education,Monroe County High School,Huntingdon College
+who did george w. bush run against for the second term?,george w bush,george w bush,Al Gore,"George W. Bush presidential campaign, 2000"
+what is the state flower of arizona?,arizona,/government/governmental_jurisdiction/official_symbols,Saguaro,Black
+what did the islamic people believe in?,islam,/religion/religion/practices,Zakāt,Monotheism
+who will play mr gray in the film?,grey,grey,Karen Mulder,Dr. Derek Shepherd
+who won the battle of gettysburg union or confederate?,battle of gettysburg,/military/military_conflict/combatants,Union,Confederate States of America
+what country did adolf hitler control?,adolf hitler,adolf hitler,Germany,Austria
+who did jackie robinson first play for?,jackie robinson,/baseball/baseball_player/batting_stats,Montreal Royals,Brooklyn Dodgers
+who was vp for lincoln?,abraham lincoln,/government/us_president/vice_president,Andrew Johnson,Statesman
+what works of art did leonardo da vinci produce?,leonardo da vinci,/visual_art/visual_artist/artworks,Ginevra de' Benci,lorenzo de' medici patron of leonardo da vinci
+what country did buddha come from?,gautama buddha,gautama buddha,India,Lumbini
+where is the ellen degenerous show filmed?,ellen degeneres,/people/person/places_lived,Beverly Hills,Dory
+which countries speak german officially?,german language,/language/human_language/countries_spoken_in,Canada,German Democratic Republic
+which country does greenland belong to?,greenland,/location/administrative_division/country,Denmark,North America
+what do you call the chinese writing system?,chinese language,chinese language,Standard Mandarin,Traditional Chinese characters
+what made the soviet union fall?,soviet union,/location/location/events,Cold War,Alexei Negmatov
+what was the title of the book charles darwin wrote?,charles darwin,/book/author/works_written,The Structure and Distribution of Coral Reefs,On evolution
+what are the names of the city states in ancient greece?,greece,/location/country/capital,Athens,Europe
+what basketball teams has shaq played for?,shaquille oneal,/basketball/basketball_player/player_statistics,Boston Celtics,1992–93 NBA season
+what was thomas jefferson role in the declaration of independence?,thomas jefferson,/people/person/profession,Writer,Virginia
+who did the voice of darth vader in episode 3?,darth vader,/award/award_nominated_work/award_nominations,Hayden Christensen,David Prowse
+which country was justin bieber born in?,justin bieber,/people/person/nationality,Canada,London
+what was the ancient chinese writing system?,chinese language,/language/human_language/language_family,Sino-Tibetan languages,Traditional Chinese characters
+what team did david beckham play for in 2011?,david beckham,/soccer/football_player/loans,LA Galaxy,Midfielder
+what all does google now do?,google,/business/consumer_company/products,Google Maps,Stanford University
+what language does egyptian people speak?,egypt,/location/country/languages_spoken,Modern Standard Arabic,Arabic Language
+where did dolly parton grow up?,dolly parton,/people/person/places_lived,Tennessee,Sevierville
+what is jimi hendrix purple haze about?,jimi hendrix,/people/deceased_person/cause_of_death,Drug overdose,guitar
+where can i go running in sacramento?,sacramento,/location/location/contains,Boulevard Park,Sacramento Zoo
+what are the four main languages spoken in spain?,spain,/location/country/languages_spoken,Basque Language,Spanish Language
+what team does jordan own?,jordan,/sports/sports_team_location/teams,Jordan national football team,North Carolina Tar Heels men's basketball
+who is eli whitney and what did he invent?,eli whitney,/law/inventor/inventions,Cotton gin,Engineer
+what do portuguese people speak?,portuguese,/common/topic/alias,Portuguese,Brazil
+where herman cain stance on the issues?,herman cain,/film/person_or_entity_appearing_in_film/films,Évocateur: The Morton Downey Jr. Movie,"Herman Cain presidential campaign, 2012"
+what year was george w bush elected?,george w bush,/government/politician/election_campaigns,"George W. Bush presidential campaign, 2000",President of the United States
+where did rudolf virchow conduct his research?,rudolf virchow,/people/person/employment_history,Humboldt University of Berlin,Physician
+who was the leader of the us during wwii?,united states,/military/military_combatant/military_commanders,Gerald Ford,New York
+what years did romney serve as governor?,mitt romney,mitt romney,1/2/2003,Bain Capital
+what state does romney live in?,mitt romney,/government/politician/government_positions_held,Massachusetts,Detroit
+what type of government does france use?,france,/location/country/form_of_government,Semi-presidential system,Constitutional republic
+what did dr. seuss do?,dr seuss,/common/topic/notable_for,Writer,Fox in Socks
+what are republicans views on health care?,republican party,/organization/organization/headquarters,20003,Zachariah Chandler
+what are the landlocked countries in latin america?,latin america,/location/location/contains,Bolivia,Western Hemisphere
+what does janelle brown work?,janelle corlass brown,/common/topic/notable_for,Actor,Singer
+what is the average temperature in phoenix az in december?,phoenix,phoenix,Phoenix should not be contained in Maricopa County.,Mountain Time Zone
+what state is mount st. helens in?,mount st helens,/location/location/containedby,Washington,Skamania County
+what is william taft known for?,william howard taft,/government/politician/government_positions_held,President of the United States,Theodore Roosevelt
+what state is washington d.c. located?,washington united states,/book/book_subject/works,Washington,Maryland
+where to exchange euros in new york city?,new york,/location/location/nearby_airports,John F. Kennedy International Airport,New York
+what countries have spanish as the national language?,spanish,/language/human_language/main_country,Spain,Honduras
+what countries does the panama canal go through?,panama,panama,Panama Canal Zone,Costa Rica
+what colleges did albert einstein teach at?,albert einstein,/education/academic/departments_old,"School of Mathematics, Institute for Advanced Study",University of Zurich
+what year was the first miss america pageant held?,miss america,/time/recurring_event/instances,1930 Miss America,Miss America 1921
+what state new york city belong to?,new york,/book/book_subject/works,New York,Johann Williams Farm
+what type of government does usa follow?,united states,/location/country/form_of_government,Federal republic,Presidential system
+what countries included in the uk?,united kingdom,/location/country/administrative_divisions,Scotland,Wales
+what countries in the world speak chinese?,chinese language,/language/human_language/countries_spoken_in,Canada,Standard Mandarin
+where obama went to school?,barack obama,/people/person/education,Occidental College,Political Science
+what is the primary language of china?,china,china,Standard Mandarin,Chinese language
+who was the soviet leader during world war ii?,soviet union,soviet union,Alexei Negmatov,Joseph Stalin
+where was the city of david?,david,/people/person/place_of_birth,Bethlehem,Milwaukee
+what kind of monarchy does japan have?,japan,/location/country/form_of_government,Constitutional monarchy,Parliamentary system
+where did mitt romney's parents come from?,mitt romney,/people/person/places_lived,Bloomfield Hills,Detroit
+what places in japan were bombed?,japan,/location/country/administrative_divisions,Hiroshima Prefecture,Yellow Sea
+who was esther's husband?,esther,/people/person/place_of_birth,Susa,Writer
+what produce does florida export?,florida,/government/governmental_jurisdiction/official_symbols,Orange juice,North American Eastern Time Zone
+when does the mayan calendar end exactly?,maya civilization,/book/book_subject/works,2012,The End Of Time
+who is sir francis bacon?,francis bacon,/common/topic/notable_for,Philosopher,Spy
+where does the shannon river start and end?,river shannon,/geography/river/origin,Shannon Pot,Shannon Estuary
+who plays captain kirk in star trek?,james t kirk,/film/film_character/portrayed_in_films,William Shatner,Jimmy Bennett
+what to see near grand canyon?,grand canyon,/location/location/contains,Grand Canyon National Park Superintendent's Residence,Phoenix
+what has ian somerhalder acted in?,ian somerhalder,/award/award_nominee/award_nominations,Smallville,The Rules of Attraction
+what movies did ron howard director?,ron howard,ron howard,How the Grinch Stole Christmas!,Return to Mayberry
+what type of government was formed when italy unified?,italy,/location/country/form_of_government,Parliamentary republic,Constitutional republic
+who did john kennedy have affairs with?,john f kennedy,john f kennedy,william averell harriman appointed by john fitzgerald kennedy,Jacqueline Kennedy Onassis
+what time does american horror story air?,american people of the united states,/people/ethnicity/people,Tom Selleck,Why Race Mattered in Barack Obama's Re-election
+when did the lakers 3 peat?,minneapolis lakers,/award/award_nominee/award_nominations,2000,Dwight Howard
+what are the major languages spoken in greece?,greece,/location/country/languages_spoken,Albanian language,Greek Language
+what was the first book charles dickens wrote?,charles dickens,/film/film_story_contributor/film_story_credits,Oliver Twist,The Chimes
+what books did agatha christie wrote?,agatha christie,/film/film_story_contributor/film_story_credits,And Then There Were None,Crime writer
+what year does hitler die?,adolf hitler,/book/book_subject/works,Hitler and His Generals: Military Conferences 1942-1945,Gunshot
+where is mount st helens volcano?,mount st helens,/location/location/containedby,Skamania County,Stratovolcano
+what disease does robin roberts have?,robin roberts,/medicine/notable_person_with_medical_condition/condition,Breast cancer,Myelodysplastic syndrome
+what was lebron james first team?,lebron james,/basketball/basketball_player/player_statistics,Cleveland Cavaliers,2003–04 NBA season
+where can you go on eco holidays in the uk?,united kingdom,/location/statistical_region/life_expectancy,"World Bank, World Development Indicators, Life Expectancy",Urbis
+what movies did tupac star in?,tupac shakur,/film/actor/film,Nothing but Trouble,Bishop
+when's the last time the steelers won the superbowl?,pittsburgh steelers,/award/award_nominee/award_nominations,Super Bowl XLIII,Super Bowl IX
+where english is spoken?,english,/language/human_language/countries_spoken_in,Canada,the Federation of Free States
+where is giza pyramids located?,giza,/location/location/containedby,Egypt,Giza Plateau
+where do the florida marlins play spring training?,florida marlins,/sports/professional_sports_team/draft_picks,University of Florida,Marlins Park
+who has played lex luthor?,lex luthor,/film/film_character/portrayed_in_films,Anthony LaPaglia,Gene Hackman
+where does the zambezi river start?,zambezi,/geography/river/origin,Mwinilunga,Indian Ocean
+where will tebow go in 2013?,tim tebow,/sports/pro_athlete/teams,New York Jets,Manila
+what university did romney graduated from?,mitt romney,/people/person/education,Stanford University,Cranbrook Schools
+what country was slovakia?,slovakia,slovakia,Czechoslovakia,Ukraine
+what did laura ingalls wilder wrote?,laura ingalls wilder,/book/author/works_written,On the Banks of Plum Creek,South Dakota
+what did alice paul accomplish?,alice paul,/organization/organization_founder/organizations_founded,Silent Sentinels,Mount Laurel Township
+what war did hitler lose?,adolf hitler,/military/military_commander/military_commands,World War II,Hitler and His Generals: Military Conferences 1942-1945
+who is princess leia in star wars?,princess leia organa,/film/film_character/portrayed_in_films,Carrie Fisher,Padmé Amidala
+what is the political structure of china?,china,/location/country/form_of_government,Single-party state,Socialist state
+where does the zambezi river originate?,zambezi,/geography/river/basin_countries,Tanzania,Indian Ocean
+what team did ronaldo play for in 2003?,ronaldo,/sports/pro_athlete/teams,Real Madrid C.F.,Sport Club Corinthians Paulista
+when was president john adams elected?,john adams,/government/politician/election_campaigns,"John Adams Presidential Campaign, 1796",Massachusetts
+what language does australia use?,austraila,/location/country/languages_spoken,English Language,Lojban
+what flower is on the oklahoma quarter?,oklahoma,oklahoma,Scissor-tailed Flycatcher,Chesapeake Energy Arena
+what islands did darwin study finches on?,charles darwin,charles darwin,"The purpose of the expedition, which lasted for nearly four years, was to survey the east and west coasts of South America, but it also took in the Cape Verde Islands, the Galapagos, Tahiti, New Zealand, Australia, Mauritius and South Africa.",Evolution
+what the time zone in england?,england,england,Greenwich Mean Time,UK £
+what system of government is practiced in nigeria?,nigeria,/location/country/form_of_government,Federal republic,Presidential system
+what else did alexander graham bell invent other than the telephone?,alexander graham bell,alexander graham bell,Graphaphone,Telephone
+what does the sun in the philippine flag represent?,philippines,philippines,Province of the Philippines,Flag of the Philippines
+who was anakin skywalker?,darth vader,/type/object/name,Darth Vader,Hayden Christensen
+what is the largest nation in europe?,europe,/location/location/partially_contains,Russia,Belarus
+where was the first gulf war fought?,gulf war,/military/military_conflict/locations,Israel,Kuwait
+what style of music does michael jackson perform?,michael jackson,/music/artist/genre,Pop music,Soul music
+what is the second biggest state in the united states?,united states,/location/country/administrative_divisions,Hawaii,Florida
+what has charlie hunnam been in?,charlie hunnam,/film/actor/film,Deadfall,Green Street
+what college did martin luther king jr go to?,martin luther king jr,/people/person/education,Morehouse College,Bachelor of Divinity
+where is harley davidson made?,harley-davidson,/organization/organization/phone_number,United States of America,Milwaukee
+what are the official languages of the eu?,european union,european union,English Language,Czech Republic
+what did african americans do during the revolutionary war?,african american,african american,Continental Army Regiment,Black Like Me
+what broncos are in the pro bowl?,denver broncos,denver broncos,Peyton Manning,Wesley Woodyard
+what money do they use in spain?,spain,/location/statistical_region/minimum_wage,Euro,Peseta
+what government did the roman empire have?,roman empire,/location/country/form_of_government,Family dictatorship,Autocracy
+who voiced darth vader?,darth vader,/film/film_character/portrayed_in_films,James Earl Jones,Hayden Christensen
+when was abe lincoln president?,abraham lincoln,abraham lincoln,Abraham Lincoln 1865 presidential inauguration,Abraham Lincoln 1861 presidential inauguration
+what did andrew johnson accomplish as president?,andrew johnson,/book/book_subject/works,Reconstruction after the Civil War,United States Representative
+what is the best tour to egypt?,egypt,/location/country/internet_tld,eg,The Great Pyramid of Giza
+where to go in vietnam beaches?,vietnam,vietnam,Đắk Nông Province,Vietnam
+when did michael vick start playing for the eagles?,michael vick,/american_football/football_player/games,2009 NFL season,"United States Penitentiary, Leavenworth"
+what is william taft famous for?,william howard taft,/government/politician/government_positions_held,President of the United States,Theodore Roosevelt
+who was jesse james killed by?,jesse james,/film/film_subject/films,The Assassination of Jesse James by the Coward Robert Ford,Assassination
+what school did martin luther king jr received his doctorate degree from?,martin luther king jr,/people/person/education,Boston University,Bachelor of Divinity
+who is the arizona cardinals backup quarterback?,arizona cardinals,arizona cardinals,John Skelton,Bruce Arians
+what degrees did obama get in college?,barack obama,/people/person/education,Juris Doctor,Political Science
+when tupac was shot?,tupac shakur,tupac shakur,Tupac 1994 assault,Bishop
+what was queen elizabeth ii childhood nickname?,elizabeth ii of the united kingdom,/fictional_universe/person_in_fiction/representations_in_fiction,Lillibet,Queen Elizabeth The Queen Mother
+who played victoria barkley?,the big valley,/award/award_nominated_work/award_nominations,Barbara Stanwyck,Lee Majors
+where did kennedy's inaugural address take place?,john f kennedy,john f kennedy,John F. Kennedy 1961 presidential inauguration,Boston
+what countries have german as the official language?,german language,/language/human_language/countries_spoken_in,Canada,German Democratic Republic
+what does the missouri river bisect?,missouri river,/geography/river/mouth,Mississippi River,South Dakota
+what animal represents california?,california,/government/governmental_jurisdiction/official_symbols,California grizzly bear,Olallieberry
+what year did ray allen join the nba?,ray allen,/sports/pro_athlete/career_start,1996,Shooting guard
+what hemisphere is africa located in?,africa,/location/location/partially_contained_by,Northern Hemisphere,Africa
+where does princess leia live?,princess leia organa,/fictional_universe/fictional_character/places_lived,Alderaan,Polis Massa
+what type of art did leonardo da vinci make?,leonardo da vinci,/visual_art/visual_artist/art_forms,Sculpture,lorenzo de' medici patron of leonardo da vinci
+what countries don need a visa for usa?,united states,/location/country/internet_tld,us,United States dollar
+where is isthmus of panama located on the map?,panama,/location/location/adjoin_s,Costa Rica,Central America
+what has kristen stewart acted in?,kristen stewart,/award/award_winner/awards_won,New Moon,Panic Room
+what kind of language does egypt speak?,egypt,/location/country/languages_spoken,Modern Standard Arabic,Arabic Language
+what form of government does north korea have?,north korea,/location/country/form_of_government,Single-party state,Juche
+what team did aguero play for?,sergio aguero,/soccer/football_player/matches_played,Argentina national football team,Atlético Madrid
+what sort of government does nigeria have?,nigeria,/location/country/form_of_government,Federal republic,Presidential system
+what is lamar odom doing now july 2012?,lamar odom,/basketball/basketball_player/player_statistics,Los Angeles Clippers,Los Angeles Lakers
+which hemingway book to read?,ernest hemingway,/film/film_story_contributor/film_story_credits,A Farewell to Arms,Toronto Star
+where is french spoken most?,french,/language/human_language/main_country,France,jansegers
+what team is reggie bush on 2011?,reggie bush,/american_football/football_player/games,New Orleans Saints,Miami Dolphins
+what area of science did leonardo da vinci study?,leonardo da vinci,/people/person/profession,Writer,lorenzo de' medici patron of leonardo da vinci
+who won fa cup 1976?,fa cup,/sports/sports_award_type/winners,Manchester United F.C.,Portsmouth F.C.
+what style of art did henri matisse do?,henri matisse,/visual_art/visual_artist/associated_periods_or_movements,Impressionism,Fauvism
+what countries have territories in oceania?,oceania,/location/location/contains,Northern Mariana Islands,Pacific Ocean
+what is the political system of south africa?,south africa,/location/country/form_of_government,Federation,Parliamentary republic
+what is the name of the book hitler wrote in jail?,adolf hitler,/film/person_or_entity_appearing_in_film/films,Mein Kampf,Hitler and His Generals: Military Conferences 1942-1945
+what caused the embargo against cuba?,cuba,/government/governmental_jurisdiction/governing_officials,Fulgencio Batista,Ten Years' War
+who was tupac signed to?,tupac shakur,/music/artist/label,Death Row Records,Tupac 1994 assault
+what kind of tennis racquet does serena williams use?,serena williams,/people/person/sibling_s,Yetunde Price,2010 Australian Open
+who was president in 1988 in the united states?,united states,/government/government_office_or_title/office_holders,Ronald Reagan,Richard Nixon
+where can you find wind turbines in canada?,canada,/location/country/administrative_divisions,Alberta,Ottawa
+what type of government does brazil have 2011?,brazil,/organization/organization_scope/organizations_with_this_scope,Brazilian Labour Renewal Party,Constitutional republic
+what do people in france like to do for fun?,france,/olympics/olympic_participating_country/athletes,Cycling,French Language
+who are china's neighbors?,china,/location/location/adjoin_s,Pakistan,Standard Mandarin
+which is the main train station in rome?,rome,/travel/travel_destination/how_to_get_here,Roma Termini railway station,Civitavecchia Ferry Terminal
+what other books did louis sachar write?,louis sachar,/book/author/works_written,Dogs Don't Tell Jokes,Sixth Grade Secrets
+what is the best zelda game to start with?,the legend of zelda series,/cvg/game_series/games_in_series,The Legend of Zelda: Ocarina of Time,The Legend of Zelda
+who does the voice for darth vader?,darth vader,/film/film_character/portrayed_in_films,James Earl Jones,David Prowse
+what is the dominant religion in the us?,united states,/location/statistical_region/religions,Christianity,Unitarian Universalism
+what war did the us lose the most soldiers?,united states,/military/military_combatant/military_commanders,Vietnam War,War in Afghanistan
+what kind of government is egypt?,egypt,egypt,Semi-presidential system,Government of Egypt
+what musical instruments does justin bieber play?,justin bieber,/interests/collection_category/collectors,guitar,Catching Feelings
+who is james madison and what did he do?,james madison,/government/politician/government_positions_held,United States Representative,The Invasion of Canada
+what did obama do before he was elected president?,barack obama,/government/politician/government_positions_held,Illinois State Senator,Dreams from My Father
+what was herbert hoover best known for?,herbert hoover,/government/politician/government_positions_held,President of the United States,8/10/1874
+what language do people from greece speak?,greece,/location/country/languages_spoken,Albanian language,Greek Language
+who was john f kennedy's family?,john f kennedy,/people/person/children,"John F. Kennedy, Jr.",Lee Harvey Oswald
+where is belgium germany?,belgium,/location/location/containedby,Western Europe,Europe
+where was the ottoman empire based?,ottoman empire,/military/military_combatant/military_conflicts,Austria-Hungary,Constantinople
+what are the names of harry potter movies in order?,harry potter,/book/literary_series/works_in_this_series,Harry Potter and the Half-Blood Prince,The gospel according to Harry Potter
+what did dr jack kevorkian do?,jack kevorkian,jack kevorkian,Assisted suicide,Physician
+what is the head judge of the supreme court called?,supreme court of the united states,/law/court/judges,Chief Justice of the United States,John Roberts
+who was frida kahlo influenced by?,frida kahlo,/people/person/spouse_s,Diego Rivera,Surrealism
+what spain brought to the new world?,spain,/location/country/languages_spoken,Spanish Language,Madrid
+what year did the baltimore ravens win superbowl?,baltimore ravens,/sports/sports_team/season_record,2000 NFL season,Super Bowl XLVII
+what team does cristiano ronaldo play for 2011?,cristiano ronaldo,/soccer/football_player/goals_scored,Real Madrid C.F.,Portugal national football team
+what are physical features of egypt?,egypt,/location/location/partially_contains,Sahara,The Great Pyramid of Giza
+what was dr seuss's real name?,dr seuss,/people/person/parents,Theodor Robert Geisel,Writer
+what country sponsored ferdinand magellan?,ferdinand magellan,ferdinand magellan,Portugal,Explorer
+where do most illegal immigrants in the us come from?,united states,/location/location/adjoin_s,Mexico,Tom Selleck
+who will plaxico burress play for in 2011?,plaxico burress,/sports/pro_athlete/teams,New York Jets,Pittsburgh Steelers
+what types of art did andy warhol do?,andy warhol,/visual_art/visual_artist/associated_periods_or_movements,Pop art,Film Director
+what countries were part of the spanish empire?,spanish,/language/human_language/countries_spoken_in,Honduras,Europe
+what else has jennifer lawrence played in?,jennifer lawrence,/award/award_nominee/award_nominations,The Poker House,Mystique
+who do islamic people pray to?,islam,/religion/religion/deities,Allah,Muslims
+where did charles darwin die?,charles darwin,/architecture/architectural_structure_owner/structures_owned,Down House,"Downe, Kent"
+who voiced darth vader in the original star wars movies?,darth vader,/film/film_character/portrayed_in_films,James Earl Jones,David Prowse
+when did the detroit pistons last win the championship?,detroit pistons,/sports/sports_team/championships,2004 NBA Finals,1990 NBA Finals
+where is olympic national park wa?,olympic national park,/location/location/containedby,Jefferson County,Washington
+what state is barack obama from?,barack obama,barack obama,Hawaii,Illinois State Senator
+what years did joe montana win super bowl?,joe montana,/tv/tv_actor/guest_roles,Super Bowl XIX,Notre Dame Fighting Irish football
+what countries are in the uk yahoo?,united kingdom,/location/country/administrative_divisions,Scotland,Wales
+what superbowl did the baltimore ravens win?,baltimore ravens,/sports/sports_team/championships,Super Bowl XXXV,Super Bowl XLVII
+what jobs did john adams have before he was president?,john adams,/government/politician/government_positions_held,Vice President of the United States,Massachusetts
+where did joseph's family live?,joseph,joseph,Canaan,Boston
+where are people who speak arabic from?,arabic language,/language/human_language/countries_spoken_in,Bahrain,Saudi Arabia
+what political system did spain have?,spain,/location/country/form_of_government,Parliamentary system,Constitutional monarchy
+what country does alaska belong to?,alaska,/government/political_district/representatives,United States of America,Wildest Alaska
+where is kansas city?,kansas city,/location/hud_county_place/county,Platte County,Kansas City
+what type of government did thomas jefferson prefer?,thomas jefferson,/people/person/religion,Unitarianism,Virginia
+who is the miami dolphins quarterback?,miami dolphins,miami dolphins,Pat Devlin,Reshad Jones
+what team did jackie robinson?,jackie robinson,/baseball/baseball_player/batting_stats,Montreal Royals,Brooklyn Dodgers
+what book did benjamin franklin published?,benjamin franklin,/book/author/works_written,"A Dissertation on Liberty and Necessity, Pleasure and Pain",Poor Richard's Almanac of 1739
+where did they get the name stanley cup?,stanley cup,/symbols/namesake/named_after,"Frederick Stanley, 16th Earl of Derby",Chicago Blackhawks
+what is the space needle in toronto?,toronto,/travel/travel_destination/tourist_attractions,CN Tower,Ashbridges Bay Wastewater Treatment Plant
+what was scottie pippen good at?,scottie pippen,/sports/pro_athlete/sports_played_professionally,Basketball,1987
+where do ireland play rugby union?,ireland,ireland,Zarathustra,Manchester City F.C.
+what countries included in oceania?,oceania,/location/location/contains,Northern Mariana Islands,Pacific Ocean
+what country is nicki minaj from?,nicki minaj,nicki minaj,Trinidad and Tobago,"Saint James, Trinidad and Tobago"
+who played harry potter dumbledore actor?,albus dumbledore,/film/film_character/portrayed_in_films,Dane Farwell,Richard Harris
+who was the prime minister of pakistan in 1999?,pakistan,/government/governmental_jurisdiction/governing_officials,Nawaz Sharif,Muhammad Zia-ul-Haq
+what movies is omar epps in?,omar epps,/film/actor/film,Daybreak,Juice
+what did bruce jenner win gold medal for?,bruce jenner,/book/author/works_written,Decathlon challenge,Athletics at the 1976 Summer Olympics - Men's Decathlon
+where do they speak tibetan?,tibetan people,/language/human_language/main_country,Tibet,Nepali Language
+who ran against abraham lincoln for president in 1860?,abraham lincoln,/event/public_speaker/speeches_or_presentations,Stephen A. Douglas,President of the United States
+where does the expression excuse my french come from?,french,/education/field_of_study/students_majoring,English Literature,jansegers
+what is the only colony on the south america continent?,south america,/location/location/contains,French Guiana,Carrasco
+what has angelina jolie accomplished?,angelina jolie,/award/award_winner/awards_won,"Golden Globe Award for Best Supporting Actress - Series, Miniseries or Television Film",Academy Award for Actress in a Supporting Role
+who played captain kirk in star trek movie?,james t kirk,/film/film_character/portrayed_in_films,William Shatner,Jimmy Bennett
+what is the dominant language spoken in jamaica?,jamaica,/location/country/languages_spoken,Jamaican English,Jamaican Creole English Language
+what currency does england use now?,england,england,UK £,North American Eastern Time Zone
+who was the original voice of meg griffin on family guy?,meg griffin,/tv/tv_character/appeared_in_tv_program,Lacey Chabert,Mila Kunis
+what kind of government is mali?,mali,/location/country/form_of_government,Semi-presidential system,Republic
+who did cristiano ronaldo play for in 2010?,cristiano ronaldo,/soccer/football_player/goals_scored,Real Madrid C.F.,Portugal national football team
+who plays mary jane in the spiderman movies?,mary jane watson,/film/film_character/portrayed_in_films,Sara Ballantine,Kirsten Dunst
+what athlete am i olympics?,olympic games,/book/book_subject/works,The complete book of the Winter Olympics,Once every two years
+what to do with kids in essex?,essex,/travel/travel_destination/tourist_attractions,"RHS Garden, Hyde Hall","Gregory Cromwell, 1st Baron Cromwell"
+who did the cleveland cavaliers draft?,cleveland cavaliers,/sports/professional_sports_team/draft_picks,J. J. Hickson,Dion Waiters
+where did the australian floods take place?,austraila,/location/country/administrative_divisions,Queensland,Canberra
+who does darth vaders voice?,darth vader,/film/film_character/portrayed_in_films,James Earl Jones,David Prowse
+when was the most recent earthquake in haiti?,haiti,haiti,2010 Haiti Earthquake,Haiti
+who is lamar odom playing for this year?,lamar odom,/basketball/basketball_player/player_statistics,Los Angeles Clippers,Los Angeles Lakers
+who designed national flag of italy?,italy,/periodicals/newspaper_circulation_area/newspapers,Corriere della Sera,Italy
+where did abraham and his descendants live?,ibrahim,/people/deceased_person/place_of_death,Canaan,Utrecht
+where did george washington carver go to collage?,george washington carver,/people/person/education,Tuskegee University,Peanut butter
+who originally voiced meg on family guy?,meg griffin,/film/film_character/portrayed_in_films,Mila Kunis,Lacey Chabert
+what lands did henry hudson discover?,henry hudson,/people/deceased_person/place_of_death,Hudson Bay,Hudson River
+what kind of music did franz liszt compose?,listz,/music/artist/genre,Opera,La lugubre gondola
+where do scottish people originate from?,scottish,/people/ethnicity/included_in_group,Celts,Jamie MacDonald
+what team does david beckham play for in 2012?,david beckham,/soccer/football_player/loans,LA Galaxy,Midfielder
+what countries makes up the uk?,united kingdom,/location/country/administrative_divisions,Scotland,Wales
+where do they speak german?,german language,/language/human_language/countries_spoken_in,Canada,German Democratic Republic
+what type of government does russia have 2010?,russia,/location/country/form_of_government,Semi-presidential system,Constitutional republic
+which country in north america is divided into provinces?,north america,north america,Canada,Northern Hemisphere
+where is the scottish house in skyfall?,scottish,/people/ethnicity/included_in_group,Celts,Jamie MacDonald
+what galileo galilei was famous for?,galileo galilei,/symbols/name_source/namesakes,Solar System,Astronomer
+where did romney graduated college?,mitt romney,/people/person/education,Stanford University,Cranbrook Schools
+who was juan ponce de leon family?,juan ponce de leon,juan ponce de leon,Leonor de Guzmán de Silva,Santervás de Campos
+who is the voice of kitt?,kitt,/tv/tv_character/appeared_in_tv_program,Val Kilmer,William Daniels
+what is eminem's real full name?,eminem,/people/person/parents,"Marshall Bruce Mathers, Jr.",Dr. Dre
+who did australia fight in the first world war?,austraila,/military/military_combatant/military_conflicts,United Kingdom,Robert Menzies
+what countries does canada have trade agreements with?,canada,/military/military_combatant/military_conflicts,United Kingdom,Iron Ore Mining
+what rainforest is in south america?,south america,south america,Amazon Basin,Carrasco
+when did we start war with iraq?,iraq,/location/statistical_region/gdp_growth_rate,2001,2003 invasion of Iraq
+who did darth vaders voice?,darth vader,/film/film_character/portrayed_in_films,James Earl Jones,David Prowse
+what does lauren conrad major in?,lauren conrad,/people/person/education,Fashion design,San Francisco
+what did dmitri mendeleev discover in 1869?,dmitri mendeleev,/law/inventor/inventions,Periodic Table,Russia
+what are the colonies of great britain?,great britain,/geography/island/island_group,British Isles,Principality of Wales
+what is the capital of italy today?,italy,/common/topic/image,Rome,Italian Peninsula
+what club does cristiano ronaldo play for in 2010?,cristiano ronaldo,/soccer/football_player/goals_scored,Real Madrid C.F.,Portugal national football team
+what language do people speak in brazil?,brazil,/location/country/languages_spoken,Portuguese Language,Brazilian Portuguese
+what was francis bacon contributions?,francis bacon,francis bacon,Scientific method,Spy
+what percent of people are overweight in the uk?,united kingdom,/location/country/internet_tld,uk,Greenwich Mean Time
+who is ruling libya?,libya,/government/governmental_jurisdiction/governing_officials,Mohammed Magariaf,President of the General National Congress of Libya
+what did mark zuckerberg study?,mark zuckerberg,/people/person/education,Harvard University,Phillips Exeter Academy
+which country was michael jackson born?,michael jackson,/people/person/nationality,United States of America,Gary
+what countries require travel visas for us citizens?,united states,/location/country/internet_tld,us,United States dollar
+what is monta ellis career high points?,monta ellis,/award/award_winner/awards_won,NBA Most Improved Player Award,Sidney Lanier High School
+what nationality is rihanna?,riannah,/music/artist/origin,Barbados,Saint Michael Parish
+when was the last time the red sox won 100 games?,boston red sox,boston red sox,1912 Major League Baseball Season,1918 World Series
+where did the greek alphabet come from?,greek language,/language/human_language/language_family,Indo-European languages,Greek Language
+where is chris paul from?,chris paul,/olympics/olympic_athlete/country,United States of America,Christopher Emmanuel Paul II
+what year was albert pujols rookie year?,albert pujols,/baseball/baseball_player/batting_stats,2001 Major League Baseball Season,Los Angeles Angels of Anaheim
+who did shaq first play for?,shaquille oneal,/basketball/basketball_player/player_statistics,Orlando Magic,1992–93 NBA season
+who was the artist of mickey mouse?,mickey mouse,/film/film_character/portrayed_in_films,Ub Iwerks,Wayne Allwine
+where does the columbia river start?,columbia river,/geography/river/origin,Columbia Lake,British Columbia
+what are all the names of the harry potter books?,harry potter,/book/literary_series/works_in_this_series,Harry Potter and the Half-Blood Prince,Harry Potter and the Philosopher's Stone
+who did terrell owens play for in 2010?,terrell owens,/sports/pro_athlete/teams,Cincinnati Bengals,Philadelphia Eagles
+when will the world end mayans?,maya civilization,/book/book_subject/works,2012,The End Of Time
+what year did baltimore ravens win super bowl?,baltimore ravens,/sports/sports_team/championships,Super Bowl XXXV,Super Bowl XLVII
+what team is cristiano ronaldo play for?,cristiano ronaldo,/soccer/football_player/goals_scored,Real Madrid C.F.,Portugal national football team
+what is michael kors real name?,michael kors,/people/person/parents,Karl Anderson,Fashion Designer
+how many kids were there in the kennedy family?,john f kennedy,/people/person/sibling_s,Robert F. Kennedy,"John F. Kennedy, Jr."
+where has the english language evolved from?,english,/language/human_language/language_family,West Germanic languages,Latin alphabet
+what country did hitler invade that started ww2?,adolf hitler,/music/artist/track,Hitler Declares War on Poland,Hitler and His Generals: Military Conferences 1942-1945
+what was scottie pippen known for?,scottie pippen,/award/hall_of_fame_inductee/hall_of_fame_inductions,Basketball player,1987
+what other movies is josh hutcherson in?,josh hutcherson,/award/award_nominee/award_nominations,The Hunger Games,Cirque du Freak: The Vampire's Assistant
+what was hitler the leader of?,adolf hitler,/government/political_appointer/appointees,Nazi Germany,German Workers' Party
+where did harper lee attend high school?,harper lee,/people/person/education,Monroe County High School,Huntingdon College
+what led to stalin rise in power?,joseph stalin,joseph stalin,"In 1912, Lenin, who was forced to flee the country, chose him to serve on the first Central Committee of the Bolshevik party, which had now broken from the Social Democrats.",Soviet Union
+what to visit in atlanta?,atlanta,/location/location/contains,Philips Arena,Atlanta History Center
+what college did john nash go to?,john forbes nash,/people/person/education,Carnegie Mellon University,Princeton University
+what did thomas edison do for the world?,thomas edison,/law/inventor/inventions,Phonograph,Inventor
+where is shakira from?,shakira,/music/artist/origin,Colombia,Barranquilla
+who played bilbo in the fellowship of the ring?,bilbo baggins,/film/film_character/portrayed_in_films,Ian Holm,Norman Bird
+what is the most populated state in united states?,united states,/government/governmental_jurisdiction/governing_officials,California,Florida
+when does the vietnam war end?,vietnam war,/time/event/included_in_event,1970s,Vietnam
+where does the tennessee river go?,tennessee river,/geography/river/cities,Lenoir City,Tennessee
+what language do they in ghana?,ghana,/location/country/languages_spoken,English Language,Akan Language
+what all did ben franklin invent?,benjamin franklin,/law/inventor/inventions,Lightning rod,Poor Richard's Almanac of 1739
+what city in florida has the lowest crime rate?,florida,/government/political_district/representatives,Melquíades Rafael Martinez,North American Eastern Time Zone
+what degree did martin luther king earn?,martin luther king jr,/people/person/education,Bachelor of Divinity,Preacher
+who were wright brothers?,wright brothers,/organization/organization/founders,Orville Wright,1900 Wright Glider
+what team did peyton manning's dad play for?,peyton manning,/people/person/place_of_birth,New Orleans,Denver Broncos
+who is on the board of facebook?,facebook,/internet/website/owner,Mark Zuckerberg,California
+what type of government does italy have 2011?,italy,/location/country/form_of_government,Parliamentary republic,Constitutional republic
+who has coached the carolina panthers?,carolina panthers,/american_football/football_team/historical_coaching_staff,George Seifert,Ron Rivera
+what are the eight stages of erikson's theory?,erik erikson,/book/author/works_written,Youth and the life cycle,Developmental psychology
+what time zone is toronto gmt?,toronto,toronto,North American Eastern Time Zone,Ashbridges Bay Wastewater Treatment Plant
+who is the leader of libya 2011?,libya,libya,Muammar al-Gaddafi,President of the General National Congress of Libya
+who played darth vader at the end of return of the jedi?,darth vader,/film/film_character/portrayed_in_films,James Earl Jones,David Prowse
+what did james polk do before he was president?,james k polk,/organization/organization_founder/organizations_founded,United States Naval Academy,Lawyer
+what is the kentucky state bird?,kentucky,/government/governmental_jurisdiction/official_symbols,Cardinal,"United we stand, divided we fall"
+which country invented nike?,nike inc,/organization/organization/headquarters,United States of America,Athletic Shoes & Apparel
+what is the state of montana known for?,montana,/location/location/events,"United States Senate elections, 2006",Helena
+what percentage of cases does the us supreme court take?,supreme court of the united states,/location/location/containedby,United States of America,Hayburn's Case
+when was christopher columbus first expedition?,christopher columbus,/film/film_subject/films,1492 Conquest of Paradise,Portugal
+what form of government do we have in the philippines?,philippines,/location/country/form_of_government,Constitutional republic,Republic
+what colleges did mitt romney attend?,mitt romney,/people/person/education,Stanford University,Cranbrook Schools
+what to do with kids in asheville nc?,asheville,/sports/sports_team_location/teams,Asheville Aces,Asheville Art Museum
+what did the ancient mayans predict?,maya civilization,/book/book_subject/works,The Hero Twins,The End Of Time
+where is spanish spoken most?,spanish,/language/human_language/main_country,Spain,Honduras
+what currency shall i take to croatia?,croatia,/location/country/currency_formerly_used,Croatian dinar,Croatian kuna
+what are the beliefs of the roman catholic?,roman catholic church,/organization/organization/founders,Jesus Christ,Catholicism
+who plays anakin skywalker in star wars 1?,darth vader,/award/award_nominated_work/award_nominations,Jake Lloyd,David Prowse
+which country did nike originate from?,nike inc,/organization/organization/headquarters,United States of America,Converse
+where is dwight howard now?,dwight howard,/sports/pro_athlete/teams,Los Angeles Lakers,Atlanta
+what kind of currency does mexico use?,mexico,mexico,United States dollar,Mexican peso
+who owns chrysler corporation 2011?,chrysler,/organization/organization/acquired_by,Chrysler Group LLC,Steven J. Harris
+what was gregor mendel contribution?,gregor mendel,/symbols/name_source/namesakes,Mendelian inheritance,Scientist
+what kind of government is south korea?,south korea,/type/object/type,Sovereign state,Constitutional republic
+what famous people came from delaware?,delaware,/government/governmental_jurisdiction/governing_officials,Ruth Ann Minner,West Branch Delaware River
+when did romney become governor?,mitt romney,mitt romney,1/2/2003,Governor of Massachusetts
+who was with president lincoln when he was assassinated?,abraham lincoln,abraham lincoln,Ford's Theatre,Nancy Lincoln
+who did cher have a son with?,cher,/people/person/spouse_s,Sonny,Elijah Blue Allman
+what city is the university of oregon state in?,university of oregon,/location/location/containedby,Eugene,Oregon
+what school did mark zuckerberg attend?,mark zuckerberg,/people/person/education,Mercy College,Phillips Exeter Academy
+what did isaac newton explain?,isaac newton,/symbols/name_source/namesakes,Newton fractal,He assumed that the rate of fall is proportional to the force of gravity and that this force is inversely proportional to the square of the distance from the center of the Earth.
+where does the city of paris get its name?,paris,/symbols/namesake/named_after,Parisii,Stade de France
+where is the home stadium of the new england patriots?,england,/location/country/internet_tld,uk,North American Eastern Time Zone
+when did bill clinton go to college?,bill clinton,/people/person/education,"University College, Oxford",Hot Springs High School
+who helped eminem started his career?,eminem,/award/award_nominee/award_nominations,Dr. Dre,"Marshall Bruce Mathers, Jr."
+what victory was andrew jackson most famous for?,andrew jackson,/military/military_commander/military_commands,Battle of Horseshoe Bend,3/4/1829
+what to do downtown sacramento?,sacramento,sacramento,Zac Hill,Sacramento Zoo
+what makes the film so popular back in london?,london,london,Cambridge,Brenda Song
+what team did brandon roy go to?,brandon roy,/sports/drafted_athlete/drafted,Minnesota Timberwolves,Point guard
+when is the last time the pittsburgh steelers won a superbowl?,pittsburgh steelers,/award/award_nominee/award_nominations,Super Bowl XLIII,Super Bowl IX
+who invented islamic religion?,islam,/religion/religion/founding_figures,Muhammad,Muslims
+who were we fighting in the gulf war?,gulf war,/military/military_conflict/combatants,Iraq,Saudi Arabia
+what school does james franco go to?,james franco,/people/person/education,Yale University,Columbia University School of the Arts
+what is the title of george bush's new book?,george w bush,george w bush,National Strategy for Homeland Security,George W. Bush 2001 presidential inauguration
+what year did seattle seahawks go to the super bowl?,seattle seahawks,/sports/sports_team/season_record,2005 NFL season,2006 NFL season
+who did richard nixon run against?,richard nixon,richard nixon,richard milhous nixon lost election to john fitzgerald kennedy,Henry Kissinger
+what is the official language of brazil now?,brazil,/location/country/languages_spoken,Portuguese Language,Brazilian Portuguese
+when's the last time the mets won the world series?,new york mets,/sports/sports_team/championships,1986 World Series,1969 World Series
+what university did obama graduated from?,barack obama,/people/person/education,Columbia University,Political Science
+what jamaican money called?,jamaica,jamaica,United States dollar,Jamaican dollar
+where is the arizona cardinals stadium located?,arizona cardinals,/location/location/containedby,Glendale,University of Phoenix Stadium
+what is sir isaac newton theory?,isaac newton,/symbols/name_source/namesakes,Newton's laws of motion,He assumed that the rate of fall is proportional to the force of gravity and that this force is inversely proportional to the square of the distance from the center of the Earth.
+what should i do today in san francisco?,san francisco,/travel/travel_destination/tourist_attractions,Golden Gate Park,Fisherman's Wharf
+who killed martin luther king jr video?,martin luther king jr,/people/deceased_person/cause_of_death,Assassination by firearm,Civil rights movement
+what type of democracy is the united states?,united states,/location/country/form_of_government,Federal republic,Presidential system
+when was the last time the toronto maple leafs made the playoffs?,toronto maple leafs,/sports/sports_team/championships,1949 Stanley Cup Finals,1967 Stanley Cup Finals
+who was france allied with in ww2?,france,/military/military_conflict/casualties,Allies of World War II,Battle of Landshut
+what was obama's former occupation?,barack obama,/government/politician/government_positions_held,Illinois State Senator,University of Chicago
+where is the thames river source?,river thames,/geography/river/origin,Thames Head,London
+what language do they use in pakistan?,pakistan,/location/country/languages_spoken,Seraiki Language,English Language
+what honor did agatha christie receive in 1971?,agatha christie,/royalty/chivalric_order_member/belongs_to_order,Dame Commander of the Order of the British Empire,Crime writer
+who ran against bill clinton in the presidential election?,bill clinton,bill clinton,George Bush,Al Gore
+what counties in florida have the lowest property taxes?,florida,/fictional_universe/fictional_setting/universe,Xanth,North American Eastern Time Zone
+when was president wilson in office?,woodrow wilson,/book/book_subject/works,1920,United States Secretary of Agriculture
+what ocean is around hawaii?,hawaii,/location/location/containedby,Pacific Ocean,Hawaii–Aleutian Time Zone
+what type government does mexico have?,mexico,/government/governmental_jurisdiction/government,Federal government of Mexico,Federal republic
+what was dr seuss real name?,dr seuss,/people/person/parents,Theodor Robert Geisel,Writer
+when did shaq come into the nba?,shaquille oneal,shaquille oneal,1992 NBA Draft,1992–93 NBA season
+where do they speak turkish?,turkish language,/language/human_language/countries_spoken_in,Turkey,Altaic languages
+who was the voice of darth vader in the original star wars movie?,darth vader,/film/film_character/portrayed_in_films,James Earl Jones,David Prowse
+where is english spoken around the world?,english,/language/human_language/main_country,Canada,the Federation of Free States
+what money does spain use?,spain,/location/statistical_region/minimum_wage,Euro,Peseta
+what kind of government does the united states have currently?,united states,/location/country/form_of_government,Federal republic,Presidential system
+what did shakespeare learn in grammar school?,william shakespeare,william shakespeare,william shakespeare performed play by thomas dekker,"King Edward VI School, Stratford-upon-Avon"
+what is the most common language in norway?,norway,/location/country/languages_spoken,Norwegian Language,Nynorsk
+where do italy people live?,italy,/common/topic/image,Italy,/g/124x8gxxd
+when did truman become president?,harry s truman,harry s truman,4/12/1945,United States of America
+where do burmese cats originate from?,burmese language,/language/human_language/region,Asia,Myanmar
+who does david beckham play for?,david beckham,/soccer/football_player/statistics,Paris Saint-Germain F.C.,Midfielder
+who won the battle of gettysburg?,battle of gettysburg,/military/military_conflict/combatants,United States of America,Confederate States of America
+who plays lex luthor on smallville?,lex luthor,/award/award_nominated_work/award_nominations,Michael Rosenbaum,Gene Hackman
+what did thomas jefferson do before he became president?,thomas jefferson,/people/person/profession,Statesman,Writer
+who played mickey in the rocky movies?,mickey mouse,/tv/tv_character/appeared_in_tv_episodes,Wayne Allwine,Ub Iwerks
+where is english spoken in the world map?,english,/language/human_language/main_country,Canada,the Federation of Free States
+what countries speak french as a first language?,french,/language/human_language/countries_spoken_in,Chad,jansegers
+what is president nixon's first name?,richard nixon,/film/film_subject/films,Richard,richard milhous nixon lost election to john fitzgerald kennedy
+where do most of the people live in russia?,russia,/location/country/capital,Moscow,East Slavs
+where is holy roman empire located?,roman empire,/location/location/partially_contained_by,Europe,Rome
+when does the world end according to the mayans time?,maya civilization,/book/book_subject/works,2012,The End Of Time
+what countries does tomtom western europe include?,europe,/location/location/contains,Belarus,Russia
+what is the national language of iran?,iran,/location/country/languages_spoken,Persian Language,Turkmen Language
+what did michael crabtree do?,michael crabtree,/sports/pro_athlete/teams,Wide receiver,Texas Tech University
+who plays ziva david on ncis?,ziva david,/tv/tv_character/appeared_in_tv_episodes,Cote de Pablo,NCIS - Season 3
+who ruled after king henry viii died?,henry viii of england,/people/person/children,Edward VI of England,England
+what are some ancient egypt names?,egypt,/military/military_combatant/military_commanders,Abdel Hakim Amer,Ancient Egypt
+what region is turkey considered?,turkey,turkey,Southeastern Anatolia Region,Europe
+where was martin luther king jr buried?,martin luther king jr,martin luther king jr,"Martin Luther King, Jr., National Historic Site",Memphis
+what are the official languages of argentina?,argentina,/location/country/languages_spoken,Yiddish Language,Spanish Language
+what is the islamic belief?,islam,/religion/religion/beliefs,God in Islam,Monotheism
+how many languages do they speak in spain?,spain,/location/country/languages_spoken,Basque Language,Spanish Language
+what county is san francisco?,san francisco,/common/topic/image,San Francisco,Libertarian Party of San Francisco
+when did president theodore roosevelt take office?,theodore roosevelt,theodore roosevelt,9/14/1901,President of the United States
+where does egypt export to?,egypt,/location/location/adjoin_s,Sudan,Sahara
+what ship did darwin sail around the world?,charles darwin,charles darwin,HMS Beagle,Evolution
+where are the timezones in the usa?,united states,/location/location/time_zones,Pacific Time Zone,North American Eastern Time Zone
+what does gm make?,general motors,general motors,Automobile,Hummer
+what type of art leonardo da vinci do?,leonardo da vinci,/visual_art/visual_artist/art_forms,Sculpture,Writer
+who are the senators of new jersey now?,new jersey,/government/political_district/representatives,Bob Menendez,Joseph S. Frelinghuysen
+what team does messi play for 2011?,lionel messi,/soccer/football_player/goals_scored,FC Barcelona,Argentina national football team
+who is moira in x men?,moira mactaggert,/film/film_character/portrayed_in_films,Olivia Williams,Mutant
+where does lil wayne go to school?,d carter,/people/person/education,University of Houston,Mcmain Magnet Secondary School
+what factors led to the rise of the roman empire?,roman empire,/location/location/people_born_here,Ulpian,Vitellius
+which countries have spanish as their main language?,spanish,/language/human_language/countries_spoken_in,Honduras,Spain
+what government does iraq use?,iraq,/government/governmental_jurisdiction/governing_officials,Prime Minister of Iraq,Parliamentary system
+what type of currency do they use in spain?,spain,/location/statistical_region/minimum_wage,Euro,Peseta
+what can do in new york?,new york,/travel/travel_destination/tourist_attractions,Central Park,Chelsea Art Museum
+what currency does france accept?,france,/location/statistical_region/minimum_wage,CFP franc,French franc
+what language do they speak in colombia south america?,colombia,/location/country/languages_spoken,Spanish Language,Wiwa language
+what do they speak in norway?,norway,/location/country/official_language,Nynorsk,Norwegian Language
+what does ss stand for in hitler's army?,adolf hitler,/organization/organization_founder/organizations_founded,Schutzstaffel,World War II
+what standard time is texas?,texas,/location/location/time_zones,Central Time Zone,Mountain Time Zone
+what city is the south rim of the grand canyon near?,grand canyon,/travel/tourist_attraction/near_travel_destination,Phoenix,Grand Canyon National Park Superintendent's Residence
+what instrument does louis armstrong?,louis armstrong,/people/person/profession,Trumpeter,trumpet
+when was michael jordan at his best?,michael jordan,/sports/sports_award_winner/awards,1995–96 NBA season,1984 NBA Draft
+what airport do you fly into in paris?,paris,/travel/travel_destination/how_to_get_here,Gare du Nord,Paris Orly Airport
+what was the japanese war called?,japan,/military/military_combatant/military_commanders,World War II,Japan
+what is the state name of new york city?,new york,/common/topic/alias,New York,New York City blackout of 1977
+what is the stanley cup named after?,stanley cup,/symbols/namesake/named_after,"Frederick Stanley, 16th Earl of Derby",Chicago Blackhawks
+where is traditional chinese used?,chinese language,/language/human_language/countries_spoken_in,Canada,Standard Mandarin
+who is my representative in illinois house?,illinois,/government/governmental_jurisdiction/governing_officials,Richard B. Ogilvie,Dick Durbin
+what degrees did barack obama get?,barack obama,/people/person/education,Juris Doctor,Political Science
+what year did the milwaukee brewers go to the world series?,milwaukee brewers,/baseball/baseball_team/team_stats,1974 Major League Baseball Season,Seattle Pilots
+what year was hitler was born?,adolf hitler,adolf hitler,"Adolf Hitler was born in 1889 at Braunau am Inn, Austria, the son of a 52- year-old Habsburg customs official, Alois Schickelgruber Hitler, and his third wife, a young peasant girl named Klara Poelzl.",Austria
+what did canada get gold medals in?,canada,canada,Diving at the 1984 Summer Olympics - Women's 3 metre springboard,Émilie Heymans
+where was shakespeare born at?,william shakespeare,/people/deceased_person/place_of_death,Stratford-upon-Avon,United Kingdom
+what are members of the house of representatives called?,united states house of representatives,/business/employer/employees,Representative,Congress
+what offices did theodore roosevelt hold?,theodore roosevelt,/government/politician/government_positions_held,President,President of the United States
+who did james franco play in milk?,james franco,/film/person_or_entity_appearing_in_film/films,Him/Herself,Tristan & Isolde
+when did the libyan conflict start?,libya,/location/country/national_anthem,2011,Muammar al-Gaddafi
+what other organisms did mendel use in experiments?,gregor mendel,/book/author/works_written,Experiments in plant hybridisation,"He continued teaching part-time, and began his experiments with cross-breeding garden peas."
+who made the laws in canada?,canada,/law/court_jurisdiction_area/courts,Supreme Court of Canada,Brian Mulroney
+who do islamic people follow?,islam,/religion/religion/deities,Allah,Monotheism
+when olympic games 2012 opening ceremony?,olympic games,/book/book_subject/works,The Olympic Odyssey,Once every two years
+what events lead to the battle of antietam?,battle of antietam,/time/event/included_in_event,Maryland Campaign,9/17/1862
+what kind of language do egyptian speak?,egypt,/location/country/languages_spoken,Modern Standard Arabic,Arabic Language
+what book did charles darwin wrote in 1859?,charles darwin,charles darwin,The Origin of Species,On evolution
+what language do bosnian muslims speak?,bosnians,/people/ethnicity/languages_spoken,Bosnian language,Serbo-Croatian
+who were jesus siblings?,jesus,jesus,Jude the Apostle,Church of the Holy Sepulchre
+what language do speak in argentina?,argentina,/location/country/languages_spoken,Yiddish Language,Spanish Language
+who won the 2000 fa cup final?,fa cup,/sports/sports_award_type/winners,Liverpool F.C.,Portsmouth F.C.
+what do people in czech republic speak?,czech republic,/location/country/languages_spoken,Croatian language,Greek Language
+which countries speak arabic language?,arabic language,/language/human_language/countries_spoken_in,Bahrain,Saudi Arabia
+what degrees does romney have?,mitt romney,/people/person/education,Juris Doctor,Cranbrook Schools
+what is london uk time zone?,london,london,Greenwich Mean Time,2012 Summer Olympics
+what are the mountains in northern italy called?,italy,/location/location/partially_contains,Alps,Italian Peninsula
+which ocean does the zambezi river flow into?,zambezi,/geography/river/mouth,Indian Ocean,Tanzania
+what are the 7 sacraments of the catholic church?,catholicism,/religion/religion/practices,Holy Orders,Book of Nehemiah
+what team did david beckham play for before la galaxy?,david beckham,/soccer/football_player/loans,Preston North End F.C.,Midfielder

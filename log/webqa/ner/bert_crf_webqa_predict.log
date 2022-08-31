@@ -1,0 +1,65 @@
+2022-08-12 00:25:59.460739: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-08-12 00:26:00.358116: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2732bd0 executing computations on platform CUDA. Devices:
+2022-08-12 00:26:00.358172: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): NVIDIA GeForce GTX 1080 Ti, Compute Capability 6.1
+2022-08-12 00:26:00.358187: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): NVIDIA GeForce GTX 1080 Ti, Compute Capability 6.1
+2022-08-12 00:26:00.358199: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): NVIDIA GeForce GTX 1080 Ti, Compute Capability 6.1
+2022-08-12 00:26:00.358210: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): NVIDIA GeForce GTX 1080 Ti, Compute Capability 6.1
+2022-08-12 00:26:00.364694: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2397410000 Hz
+2022-08-12 00:26:00.367100: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x27a5d70 executing computations on platform Host. Devices:
+2022-08-12 00:26:00.367141: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2022-08-12 00:26:00.367350: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+name: NVIDIA GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:02:00.0
+totalMemory: 10.92GiB freeMemory: 5.90GiB
+2022-08-12 00:26:00.367427: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 1 with properties: 
+name: NVIDIA GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:04:00.0
+totalMemory: 10.92GiB freeMemory: 9.88GiB
+2022-08-12 00:26:00.367487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 2 with properties: 
+name: NVIDIA GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:83:00.0
+totalMemory: 10.92GiB freeMemory: 9.88GiB
+2022-08-12 00:26:00.367544: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 3 with properties: 
+name: NVIDIA GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:84:00.0
+totalMemory: 10.92GiB freeMemory: 2.24GiB
+2022-08-12 00:26:00.374644: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0, 1, 2, 3
+2022-08-12 00:26:00.379576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-08-12 00:26:00.379597: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 1 2 3 
+2022-08-12 00:26:00.379604: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N Y N N 
+2022-08-12 00:26:00.379609: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 1:   Y N N N 
+2022-08-12 00:26:00.379613: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 2:   N N N Y 
+2022-08-12 00:26:00.379618: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 3:   N N Y N 
+2022-08-12 00:26:00.379736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5742 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2022-08-12 00:26:00.380082: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 9606 MB memory) -> physical GPU (device: 1, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+2022-08-12 00:26:00.380510: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 9608 MB memory) -> physical GPU (device: 2, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:83:00.0, compute capability: 6.1)
+2022-08-12 00:26:00.380969: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 1989 MB memory) -> physical GPU (device: 3, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:84:00.0, compute capability: 6.1)
+WARNING:tensorflow:From /home/zhoujianping/miniconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/zhoujianping/QA_basedKG/bert/modeling.py:674: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/zhoujianping/miniconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/contrib/crf/python/ops/crf.py:213: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+WARNING:tensorflow:From /home/zhoujianping/miniconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /home/zhoujianping/miniconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2022-08-12 00:26:06.393710: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+../checkpoints/webqa/ner/bert_crf
+checkpoint path:../checkpoints/webqa/ner/bert_crf/checkpoint
+{1: 'O', 2: 'B-PER', 3: 'I-PER', 4: 'B-ORG', 5: 'I-ORG', 6: 'B-LOC', 7: 'I-LOC', 8: 'X', 9: '[CLS]', 10: '[SEP]'}
+going to restore checkpoint
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+accuracy: 88.68110236220473%, correct: 1802, total: 2032
+Time used: 0 sec

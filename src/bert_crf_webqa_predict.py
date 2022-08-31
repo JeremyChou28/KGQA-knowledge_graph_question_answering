@@ -1,0 +1,569 @@
+# @description:
+# @author:Jianping Zhou
+# @company:Shandong University
+# @Time:2022/3/30 22:12
+
+"""
+基于BERT+BiLSTM+CRF模型的NER训练模型后的预测
+分为在线预测和离线预测两种
+在线预测可以在线输入序列，进行NER识别，输出预测结果
+离线预测对 q_t_a_df_test.csv 中的数据进行预测，输出预测结果
+"""
+import pandas as pd
+import tensorflow as tf
+import numpy as np
+import codecs
+import pickle
+import os
+import re
+from datetime import time, timedelta, datetime
+
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
+
+from bert_crf import create_model, InputFeatures, InputExample
+from bert import tokenization  # 导入分词
+from bert import modeling  # 导入bert模型
+from bert_crf import flags
+from global_config import Logger
+
+flags.DEFINE_bool(
+    "do_predict_outline", False,
+    "Whether to do predict outline."
+)
+flags.DEFINE_bool(
+    "do_predict_online", False,
+    "Whether to do predict online."
+)
+FLAGS = flags.FLAGS
+
+# init mode and session
+# move something codes outside of function, so that this code will run only once during online prediction when predict_online is invoked.
+is_training = False
+use_one_hot_embeddings = False
+batch_size = 1
+
+# 动态申请显存
+gpu_config = tf.ConfigProto()
+gpu_config.gpu_options.allow_growth = True
+sess = tf.Session(config=gpu_config)
+model = None
+
+global graph
+input_ids_p, input_mask_p, label_ids_p, segment_ids_p = None, None, None, None
+
+
+def predict_online():
+    """
+    在线预测
+    do online prediction. each time make prediction for one instance.
+    you can change to a batch if you want.
+
+    :param line: a list. element is: [dummy_label,text_a,text_b]
+    :return:
+    """
+
+    def convert(line):
+        feature = convert_single_example(0, line, label_list, FLAGS.max_seq_length, tokenizer, 'p')
+        input_ids = np.reshape([feature.input_ids], (batch_size, FLAGS.max_seq_length))
+        input_mask = np.reshape([feature.input_mask], (batch_size, FLAGS.max_seq_length))
+        segment_ids = np.reshape([feature.segment_ids], (batch_size, FLAGS.max_seq_length))
+        label_ids = np.reshape([feature.label_ids], (batch_size, FLAGS.max_seq_length))
+        return input_ids, input_mask, segment_ids, label_ids
+
+    global graph
+    with graph.as_default():
+        print(id2label)
+        while True:
+            print('input the test sentence:(exit/退出)')
+            sentence = input()
+            if sentence == "exit" or sentence == "退出":
+                break
+            start = datetime.now()
+            if len(sentence) < 2:
+                print(sentence)
+                continue
+            sentence = tokenizer.tokenize(sentence)
+            # print('your input is:{}'.format(sentence))
+            input_ids, input_mask, segment_ids, label_ids = convert(sentence)
+
+            feed_dict = {input_ids_p: input_ids,
+                         input_mask_p: input_mask,
+                         segment_ids_p: segment_ids,
+                         label_ids_p: label_ids}
+            # run session get current feed_dict result
+            pred_ids_result = sess.run([pred_ids], feed_dict)
+            pred_label_result = convert_id_to_label(pred_ids_result, id2label)
+            print(pred_label_result)
+            # todo: 组合策略
+            result = strage_combined_link_org_loc(sentence, pred_label_result[0], True)
+            print(result)
+            print('识别的实体有：{}'.format(''.join(result)))
+            print('Time used: {} sec'.format((datetime.now() - start).seconds))
+
+
+def predict_outline(input_file, ner_predict_error_file, ner_predict_true_file, q_t_a_testing_predict_file):
+    """
+    离线预测
+    do outline prediction. each time make prediction for one instance.
+    you can change to a batch if you want.
+
+    :param line: a list. element is: [dummy_label,text_a,text_b]
+    :return:
+    """
+
+    def convert(line):
+        feature = convert_single_example(0, line, label_list, FLAGS.max_seq_length, tokenizer, 'p')
+        input_ids = np.reshape([feature.input_ids], (batch_size, FLAGS.max_seq_length))
+        input_mask = np.reshape([feature.input_mask], (batch_size, FLAGS.max_seq_length))
+        segment_ids = np.reshape([feature.segment_ids], (batch_size, FLAGS.max_seq_length))
+        label_ids = np.reshape([feature.label_ids], (batch_size, FLAGS.max_seq_length))
+        return input_ids, input_mask, segment_ids, label_ids
+
+    global graph
+    with graph.as_default():
+        start = datetime.now()
+        nlpcc_test_data = pd.read_csv(input_file)
+        correct = 0
+        test_size = nlpcc_test_data.shape[0]
+        nlpcc_test_result = []
+        nlpcc_true_ner = []
+        nlpcc_error_ner = []
+        for row in nlpcc_test_data.index:
+            question = nlpcc_test_data.loc[row, "question"]
+            entity = str(nlpcc_test_data.loc[row, "entity"])
+            attribute = str(nlpcc_test_data.loc[row, "relation"])
+            answer = str(nlpcc_test_data.loc[row, "answer"])
+
+            sentence = str(question)
+            start = datetime.now()
+            if len(sentence) < 2:
+                print(sentence)
+                continue
+            sentence = tokenizer.tokenize(sentence)
+            input_ids, input_mask, segment_ids, label_ids = convert(sentence)
+
+            feed_dict = {input_ids_p: input_ids,
+                         input_mask_p: input_mask,
+                         segment_ids_p: segment_ids,
+                         label_ids_p: label_ids}
+            # run session get current feed_dict result
+            pred_ids_result = sess.run([pred_ids], feed_dict)
+            pred_label_result = convert_id_to_label(pred_ids_result, id2label)
+            # print(pred_label_result)
+            # todo: 组合策略
+            for i in range(len(sentence)):
+                if sentence[i] == '[UNK]':
+                    sentence[i] = question[i]
+                elif sentence[i][0:2] == '##':
+                    sentence[i] = sentence[i][2:]
+            result = strage_combined_link_org_loc(sentence, pred_label_result[0], False)
+            entity1 = entity.replace(' ', '')
+            if ''.join(result) in entity or ''.join(result) in entity1:
+                correct += 1
+                nlpcc_true_ner.append(
+                    question + "\t" + entity + "\t" + attribute + "\t" + answer + "\t" + ','.join(result))
+            else:
+                nlpcc_error_ner.append(
+                    question + "\t" + entity + "\t" + attribute + "\t" + answer + "\t" + ','.join(result))
+            nlpcc_test_result.append(
+                question + "\t" + entity + "\t" + attribute + "\t" + answer + "\t" + ','.join(result))
+        # 把预测结果输出
+        with open(ner_predict_error_file, "w", encoding='utf-8') as f:
+            f.write("\n".join(nlpcc_error_ner))
+            f.close()
+        with open(ner_predict_true_file, "w", encoding='utf-8') as f:
+            f.write("\n".join(nlpcc_true_ner))
+            f.close()
+        with open(q_t_a_testing_predict_file, "w", encoding='utf-8') as f:
+            f.write("\n".join(nlpcc_test_result))
+            f.close()
+        print("accuracy: {}%, correct: {}, total: {}".format(correct * 100.0 / float(test_size), correct, test_size))
+        print('Time used: {} sec'.format((datetime.now() - start).seconds))
+
+
+def convert_id_to_label(pred_ids_result, idx2label):
+    """
+    将id形式的结果转化为真实序列结果
+    :param pred_ids_result:
+    :param idx2label:
+    :return:
+    """
+    result = []
+    for row in range(batch_size):
+        curr_seq = []
+        for ids in pred_ids_result[row][0]:
+            if ids == 0:
+                break
+            curr_label = idx2label[ids]
+            if curr_label in ['[CLS]', '[SEP]']:
+                continue
+            curr_seq.append(curr_label)
+        result.append(curr_seq)
+    return result
+
+
+def strage_combined_link_org_loc(tokens, tags, flag):
+    """
+    组合策略
+    :param pred_label_result:
+    :param types:
+    :return:
+    """
+
+    def print_output(data, type):
+        line = []
+        for i in data:
+            line.append(i.word)
+        print('{}: {}'.format(type, ', '.join(line)))
+
+    def string_output(data):
+        line = []
+        for i in data:
+            line.append(i.word)
+        return line
+
+    params = None
+    eval = Result(params)
+    if len(tokens) > len(tags):
+        tokens = tokens[:len(tags)]
+    person, loc, org = eval.get_result(tokens, tags)
+    if flag:
+        if len(loc) != 0:
+            print_output(loc, 'LOC')
+        if len(person) != 0:
+            print_output(person, 'PER')
+        if len(org) != 0:
+            print_output(org, 'ORG')
+    person_list = string_output(person)
+    person_list.extend(string_output(loc))
+    person_list.extend(string_output(org))
+    return person_list
+
+
+def convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer, mode):
+    """
+    将一个样本进行分析，然后将字转化为id, 标签转化为id,然后结构化到InputFeatures对象中
+    :param ex_index: index
+    :param example: 一个样本
+    :param label_list: 标签列表
+    :param max_seq_length:
+    :param tokenizer:
+    :param mode:
+    :return:
+    """
+    label_map = {}
+    # 1表示从1开始对label进行index化
+    for (i, label) in enumerate(label_list, 1):
+        label_map[label] = i
+    # 保存label->index 的map
+    if not os.path.exists(os.path.join(FLAGS.output_dir, 'label2id.pkl')):
+        with codecs.open(os.path.join(FLAGS.output_dir, 'label2id.pkl'), 'wb') as w:
+            pickle.dump(label_map, w)
+
+    tokens = example
+    # tokens = tokenizer.tokenize(example.text)
+    # 序列截断
+    if len(tokens) >= max_seq_length - 1:
+        tokens = tokens[0:(max_seq_length - 2)]  # -2 的原因是因为序列需要加一个句首和句尾标志
+    ntokens = []
+    segment_ids = []
+    label_ids = []
+    ntokens.append("[CLS]")  # 句子开始设置CLS 标志
+    segment_ids.append(0)
+    # append("O") or append("[CLS]") not sure!
+    label_ids.append(label_map["[CLS]"])  # O OR CLS 没有任何影响，不过我觉得O 会减少标签个数,不过拒收和句尾使用不同的标志来标注，使用LCS 也没毛病
+    for i, token in enumerate(tokens):
+        ntokens.append(token)
+        segment_ids.append(0)
+        label_ids.append(0)
+    ntokens.append("[SEP]")  # 句尾添加[SEP] 标志
+    segment_ids.append(0)
+    # append("O") or append("[SEP]") not sure!
+    label_ids.append(label_map["[SEP]"])
+    input_ids = tokenizer.convert_tokens_to_ids(ntokens)  # 将序列中的字(ntokens)转化为ID形式
+    input_mask = [1] * len(input_ids)
+
+    # padding, 使用
+    while len(input_ids) < max_seq_length:
+        input_ids.append(0)
+        input_mask.append(0)
+        segment_ids.append(0)
+        # we don't concerned about it!
+        label_ids.append(0)
+        ntokens.append("**NULL**")
+        # label_mask.append(0)
+    # print(len(input_ids))
+    assert len(input_ids) == max_seq_length
+    assert len(input_mask) == max_seq_length
+    assert len(segment_ids) == max_seq_length
+    assert len(label_ids) == max_seq_length
+    # assert len(label_mask) == max_seq_length
+
+    # 结构化为一个类
+    feature = InputFeatures(
+        input_ids=input_ids,
+        input_mask=input_mask,
+        segment_ids=segment_ids,
+        label_ids=label_ids,
+        # label_mask = label_mask
+    )
+    return feature
+
+
+class Pair(object):
+    def __init__(self, word, start, end, type, merge=False):
+        self.__word = word
+        self.__start = start
+        self.__end = end
+        self.__merge = merge
+        self.__types = type
+
+    @property
+    def start(self):
+        return self.__start
+
+    @property
+    def end(self):
+        return self.__end
+
+    @property
+    def merge(self):
+        return self.__merge
+
+    @property
+    def word(self):
+        return self.__word
+
+    @property
+    def types(self):
+        return self.__types
+
+    @word.setter
+    def word(self, word):
+        self.__word = word
+
+    @start.setter
+    def start(self, start):
+        self.__start = start
+
+    @end.setter
+    def end(self, end):
+        self.__end = end
+
+    @merge.setter
+    def merge(self, merge):
+        self.__merge = merge
+
+    @types.setter
+    def types(self, type):
+        self.__types = type
+
+    def __str__(self) -> str:
+        line = []
+        line.append('entity:{}'.format(self.__word))
+        line.append('start:{}'.format(self.__start))
+        line.append('end:{}'.format(self.__end))
+        line.append('merge:{}'.format(self.__merge))
+        line.append('types:{}'.format(self.__types))
+        return '\t'.join(line)
+
+
+class Result(object):
+    def __init__(self, config):
+        self.config = config
+        self.person = []
+        self.loc = []
+        self.org = []
+        self.others = []
+
+    def get_result(self, tokens, tags, config=None):
+        # 先获取标注结果
+        self.result_to_json(tokens, tags)
+        return self.person, self.loc, self.org
+
+    def result_to_json(self, string, tags):
+        """
+        将模型标注序列和输入序列结合 转化为结果
+        :param string: 输入序列
+        :param tags: 标注结果
+        :return:
+        """
+        item = {"entities": []}
+        entity_name = ""
+        entity_start = 0
+        idx = 0
+        last_tag = ''
+
+        for char, tag in zip(string, tags):
+            if tag[0] == "S":
+                self.append(char, idx, idx + 1, tag[2:])
+                item["entities"].append({"word": char, "start": idx, "end": idx + 1, "type": tag[2:]})
+            elif tag[0] == "B":
+                if entity_name != '':
+                    self.append(entity_name, entity_start, idx, last_tag[2:])
+                    item["entities"].append(
+                        {"word": entity_name, "start": entity_start, "end": idx, "type": last_tag[2:]})
+                    entity_name = ""
+                entity_name += char
+                entity_start = idx
+            elif tag[0] == "I":
+                entity_name += char
+            elif tag[0] == "O":
+                if entity_name != '':
+                    self.append(entity_name, entity_start, idx, last_tag[2:])
+                    item["entities"].append(
+                        {"word": entity_name, "start": entity_start, "end": idx, "type": last_tag[2:]})
+                    entity_name = ""
+            else:
+                entity_name = ""
+                entity_start = idx
+            idx += 1
+            last_tag = tag
+        if entity_name != '':
+            self.append(entity_name, entity_start, idx, last_tag[2:])
+            item["entities"].append({"word": entity_name, "start": entity_start, "end": idx, "type": last_tag[2:]})
+        return item
+
+    def append(self, word, start, end, tag):
+        if tag == 'LOC':
+            self.loc.append(Pair(word, start, end, 'LOC'))
+        elif tag == 'PER':
+            self.person.append(Pair(word, start, end, 'PER'))
+        elif tag == 'ORG':
+            self.org.append(Pair(word, start, end, 'ORG'))
+        else:
+            self.others.append(Pair(word, start, end, tag))
+
+
+def read_error(file):
+    with open(file, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+        line_list = []
+        for i in range(1, len(lines)):
+            line = lines[i]
+            line_list.append(line.split('\t'))
+        f.close()
+    return line_list
+
+
+def read_test(file):
+    with open(file, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+        line_list = []
+        for line in lines:
+            line_list.append(line.split('\t'))
+        f.close()
+    return line_list
+
+
+def question_parse(question):
+    """
+    单个question的实体预测
+    """
+
+    def convert(line):
+        feature = convert_single_example(0, line, label_list, FLAGS.max_seq_length, tokenizer, 'p')
+        input_ids = np.reshape([feature.input_ids], (batch_size, FLAGS.max_seq_length))
+        input_mask = np.reshape([feature.input_mask], (batch_size, FLAGS.max_seq_length))
+        segment_ids = np.reshape([feature.segment_ids], (batch_size, FLAGS.max_seq_length))
+        label_ids = np.reshape([feature.label_ids], (batch_size, FLAGS.max_seq_length))
+        return input_ids, input_mask, segment_ids, label_ids
+
+    global graph
+    with graph.as_default():
+        # print(id2label)
+        sentence = tokenizer.tokenize(question)
+        # print('your input is:{}'.format(sentence))
+        input_ids, input_mask, segment_ids, label_ids = convert(sentence)
+
+        feed_dict = {input_ids_p: input_ids,
+                     input_mask_p: input_mask,
+                     segment_ids_p: segment_ids,
+                     label_ids_p: label_ids}
+        # run session get current feed_dict result
+        pred_ids_result = sess.run([pred_ids], feed_dict)
+        pred_label_result = convert_id_to_label(pred_ids_result, id2label)
+        # loginfo.logger.info(pred_label_result)
+        for i in range(len(sentence)):
+            if sentence[i] == '[UNK]':
+                sentence[i] = question[i]
+            elif sentence[i][0:2] == '##':
+                sentence[i] = sentence[i][2:]
+        result = strage_combined_link_org_loc(sentence, pred_label_result[0], False)
+        print(sentence, pred_label_result[0], result)
+        # loginfo.logger.info('识别的实体有：' + ''.join(result))
+        if result == []:
+            return 'None'
+        else:
+            return result[0]
+
+
+if __name__ == "__main__":
+    os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+    # NER训练后的checkpoint保存地址
+    print(FLAGS.output_dir)
+    print('checkpoint path:{}'.format(os.path.join(FLAGS.output_dir, "checkpoint")))
+    if not os.path.exists(os.path.join(FLAGS.output_dir, "checkpoint")):
+        raise Exception("failed to get checkpoint. going to return ")
+
+    # label2id.pkl和label_list.pkl是NER训练保存的文件
+    # 加载label->id的词典
+    with codecs.open(os.path.join(FLAGS.output_dir, 'label2id.pkl'), 'rb') as rf:
+        label2id = pickle.load(rf)
+        id2label = {value: key for key, value in label2id.items()}
+        print(id2label)
+
+    with codecs.open(os.path.join(FLAGS.output_dir, 'label_list.pkl'), 'rb') as rf:
+        label_list = pickle.load(rf)
+    num_labels = len(label_list) + 1
+
+    graph = tf.get_default_graph()
+    with graph.as_default():
+        print("going to restore checkpoint")
+        # sess.run(tf.global_variables_initializer())
+        input_ids_p = tf.placeholder(tf.int32, [batch_size, FLAGS.max_seq_length], name="input_ids")
+        input_mask_p = tf.placeholder(tf.int32, [batch_size, FLAGS.max_seq_length], name="input_mask")
+        label_ids_p = tf.placeholder(tf.int32, [batch_size, FLAGS.max_seq_length], name="label_ids")
+        segment_ids_p = tf.placeholder(tf.int32, [batch_size, FLAGS.max_seq_length], name="segment_ids")
+
+        bert_config = modeling.BertConfig.from_json_file(FLAGS.bert_config_file)
+        (total_loss, logits, pred_ids) = create_model(
+            bert_config, is_training, input_ids_p, input_mask_p, segment_ids_p,
+            label_ids_p, num_labels, use_one_hot_embeddings)
+
+        saver = tf.train.Saver()
+        saver.restore(sess, tf.train.latest_checkpoint(FLAGS.output_dir))
+
+    tokenizer = tokenization.FullTokenizer(
+        vocab_file=FLAGS.vocab_file, do_lower_case=FLAGS.do_lower_case)
+    # 判断是否在线预测/离线预测
+    if FLAGS.do_predict_outline:
+        input_file = "../data/webqa/test.csv"
+        ner_predict_error_file = "../nerpredict/webqanerpredict/bert_crf/ner_predict_error.txt"
+        ner_predict_true_file = "../nerpredict/webqanerpredict/bert_crf/ner_predict_true.txt"
+        q_t_a_testing_predict_file = "../nerpredict/webqanerpredict/bert_crf/q_t_a_testing_predict.txt"
+        predict_outline(input_file, ner_predict_error_file, ner_predict_true_file, q_t_a_testing_predict_file)  # 离线预测
+    if FLAGS.do_predict_online:
+        predict_online()  # 在线预测
+
+    """
+    # 单个question实体识别
+    question = "请用得出造句？"
+    print(question_parse(question))
+    """
+
+    """
+    questions = pd.read_csv('./output_bert_bilstm_crf/semantic_false.csv')
+    new_semantic_list = []
+    for i in range(len(questions)):
+        question_sentence = questions.loc[i]['question']
+        predict_ner = question_parse(question_sentence)
+        new_semantic_list.append(
+            [questions.loc[i]['question'], questions.loc[i]['entity'], questions.loc[i]['attribute'],
+             questions.loc[i]['answer'], predict_ner])
+    df = pd.DataFrame(new_semantic_list, columns=["question", "entity", "attribute", "answer", "predict_ner"])
+    df.to_csv("./output_bert_bilstm_crf/new_semantic_false.csv", encoding='utf-8', index=False)
+    """
