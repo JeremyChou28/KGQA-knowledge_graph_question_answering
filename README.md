@@ -1,4 +1,4 @@
-# QA_basedKG：基于知识图谱的问答系统
+# KGQA：question answering based on knowledge graph
 
 ## Introduction
 
